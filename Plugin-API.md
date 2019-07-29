@@ -1,4 +1,4 @@
-# Plugins
+# Plugin API
 If you're familiar with the Bukkit API, Geyser's API will feel very similar. This is because Geyser was written in a way that most developers would understand. 
 
 ### Basics
