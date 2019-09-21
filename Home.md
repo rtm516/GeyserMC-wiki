@@ -17,11 +17,16 @@ The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Ja
   - [ ] Team-based scoreboards
 - [ ] Inventory support
   - [x] Inventory viewing
-  - [x] NBT data (experimental)
+  - [x] NBT data
   - [ ] Inventory movement (transactions)
-- [ ] Player movement support
-- [x] Entity support (experimental)
-- [ ] Chunks
+- [x] Player movement support
+- [x] Entity support
+- [ ] Chunks (Experimental)
+  - [x] Block translation (may be missing mappings)
+  - [x] Block updates
+  - [ ] Block entities
+  - [ ] Extra data
+  - [ ] Biome colors
 - [ ] Block break/place support
 
 ## Setup
