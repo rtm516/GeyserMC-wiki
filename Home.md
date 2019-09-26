@@ -37,7 +37,7 @@ Geyser is a **standalone** proxy, meaning you DO NOT install it as if it were a 
 2. Create a new folder for Geyser, and drop the jar in there.
 3. Create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](https://github.com/GeyserMC/Geyser/wiki/Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
-5. Open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there.
+5. Open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
 For more information, take a look at the [Setting up the Config]() page, and the [How Geyser Works]() page.
 
