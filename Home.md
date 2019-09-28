@@ -27,7 +27,7 @@ The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Ja
   - [ ] Block entities
   - [ ] Extra data
   - [ ] Biome colors
-- [ ] Block break/place support
+- [x] Block break/place support
 
 ## Setup
 Geyser is a **standalone** proxy, meaning you DO NOT install it as if it were a plugin. It simply works as a proxy, and needs its own directory/configuration files. Bedrock clients will join through Geyser and it will handle all the packet translations.
