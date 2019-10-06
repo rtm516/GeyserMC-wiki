@@ -36,6 +36,8 @@ TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer
 
 [![YouTube Video](https://img.youtube.com/vi/OmLxwl7_UzQ/0.jpg)](https://www.youtube.com/watch?v=OmLxwl7_UzQ)
 
+(If you speak another language, [this page](https://github.com/GeyserMC/Geyser/wiki/Setup-Tutorials) may be helpful as it contains setup videos in different languages)
+
 ### Installing
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
