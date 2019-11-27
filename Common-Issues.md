@@ -3,7 +3,7 @@
 Commonly, people have issues with Geyser not showing up in their server list or run into similar issues. This page contains a few common issues people may encounter that you might have as well.
 
 ## Geyser Not Showing Up in Server List
-This is a _very_ common issue and is usually one of a few problems nearly every time.
+This is a _very_ common occurence and is usually one of a few problems nearly every time.
 
 ### Loopback Restrictions Not Lifted
 
