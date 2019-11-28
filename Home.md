@@ -9,27 +9,6 @@ _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 
 The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Java Edition by allowing Bedrock clients to join Java Edition servers. This project is still in development and not complete yet, so expect bugs.
 
-## What's Completed
-- [x] Server recognized in server list 
-- [x] Join detection from remote
-- [x] Online mode/auth support
-- [x] Chat/command support
-- [x] Scoreboard
-- [ ] Inventory support
-  - [x] Inventory viewing
-  - [x] NBT data
-  - [ ] Inventory movement (transactions)
-- [x] Player movement support
-- [x] Entity support
-- [x] Player support
-- [ ] Chunks
-  - [x] Block translation (may be missing mappings)
-  - [x] Block updates
-  - [ ] Block entities
-  - [x] Extra data
-  - [ ] Biome colors
-- [x] Block break/place support
-
 ## Setup
 Geyser is a **standalone** program, meaning you DO NOT install it as if it were a plugin. It simply works as a proxy, and needs its own directory/configuration files. Bedrock clients will join through Geyser and it will handle all the packet translations.
 
