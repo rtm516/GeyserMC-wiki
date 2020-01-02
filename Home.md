@@ -5,7 +5,7 @@
 
 _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 
-**Currently supporting MC Bedrock v1.14.X and MC Java v1.15.X.**
+**Currently supporting MC Bedrock v1.14.X and MC Java v1.15.1.**
 
 The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Java Edition by allowing Bedrock clients to join Java Edition servers. This project is still in development and not complete yet, so expect bugs.
 
@@ -26,9 +26,6 @@ TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer
 5. Open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
 For more information, take a look at the [Setting up the Config]() page, and the [How Geyser Works]() page.
-
-### Plugins
-**Please note, Geyser will NOT run any Bukkit, Spigot, BungeeCord or Nukkit plugins!** Geyser has its own plugin API, and if you're interested in developing plugins, take a look at the [Plugin API](https://github.com/GeyserMC/Geyser/wiki/Plugin-API) page.
 
 ## Compiling
 Geyser uses Maven, so in order to compile it, you will need to install it. Clone the repo, and run `mvn clean install`. Upon compiling, in the **target** folder, you should see a file called `Geyser.jar`. Follow the instructions above if you want to use this rather than the one from the build server.
