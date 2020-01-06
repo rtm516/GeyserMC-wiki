@@ -27,6 +27,9 @@ TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer
 
 For more information, take a look at the [Setting up the Config]() page, and the [How Geyser Works]() page.
 
+## How Does it Work?
+Geyser works as a translator, translating both the incoming and outgoing packets to a format both the client and server can understand. With this being said, it emulates a Minecraft: Java Edition client, so the server actually thinks you're joining from Java Edition. Regardless of the server or what plugins it has installed, you can join it with Geyser (as long as the server supports the latest Minecraft version).
+
 ## Compiling
 Geyser uses Maven, so in order to compile it, you will need to install it. Clone the repo, and run `mvn clean install`. Upon compiling, in the **target** folder, you should see a file called `Geyser.jar`. Follow the instructions above if you want to use this rather than the one from the build server.
 
