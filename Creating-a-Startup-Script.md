@@ -13,7 +13,8 @@ java -Xms512M -jar Geyser.jar
 ### macOS
 * Create a text file called **run.command**, and open it with a text editor such as TextEdit or TextMate. Type the text below into the **run.command** file:
 ```sh
-#!/bin/bash cd "$( dirname "$0" )" java -Xms512M -jar Geyser.jar
+#!/bin/bash 
+cd "$( dirname "$0" )" java -Xms512M -jar Geyser.jar
 ```
 * Open Terminal, and type in `chmod a+x` **(Do NOT press return!)**, and drag your *run.command* file into the Terminal.
 * Press return on your keyboard, and Geyser will start up. Geyser will generate all the needed files.
