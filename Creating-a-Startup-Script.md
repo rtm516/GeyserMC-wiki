@@ -24,7 +24,10 @@ java -Xms512M -jar Geyser.jar
 ### Linux
 * Create a file called *run.sh*, and open it with a text editor. Type the text below into your `run.sh` file:
 ```sh
-#!/bin/sh BINDIR=$(dirname "$(readlink -fn "$0")") cd "$BINDIR" java -jar Geyser.jar
+#!/bin/sh 
+BINDIR=$(dirname"$(readlink -fn "$0")") 
+cd "$BINDIR" 
+java -jar Geyser.jar
 ```
 * In your default terminal application, make the file executable by running `chmod +x ~(dir)/run.sh` where `dir` is the name of the folder Geyser is in, or by changing the file permissions;
 * Open your default terminal application, and type `chmod +x ~/(dir)/run.sh` to run Geyser. Geyser will generate all the needed files.
