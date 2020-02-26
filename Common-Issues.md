@@ -21,9 +21,9 @@ This is also a common one, Geyser won't always show up in your friends tab and y
 
 Bedrock edition does not support SRV records, so this option won't work at all.
 
-### Using TCP in DNS Options Instead of UDP
+### Using TCP in DNS Options or Portforwarding Instead of UDP
 
-Bedrock uses UDP instead of TCP, so you will have to update your DNS accordingly if you are using TCP.
+Bedrock uses UDP instead of TCP, so you will have to update your DNS or port forward accordingly if you are using TCP instead.
 
 # Login Failed
 
