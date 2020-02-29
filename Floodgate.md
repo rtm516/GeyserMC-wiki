@@ -13,4 +13,9 @@ Once you find your **public-key.pem**, copy it into the root directory of Geyser
 In the Geyser config.yml, set `auth-type` to `floodgate`, and restart Geyser. Bedrock clients should now be able to join your Java Edition server without a Java Edition account :D.
 
 ## Known Issues/Caveats
+
+## Skins
 Due to how Minecraft: Java Edition handles skins, all Bedrock players will appear as Steve or Alex to other Java players. 
+
+## Access token can not be null or empty
+This may be because you forgot to set the auth-type in the config to `floodgate`. If that isn't it, check to make sure your config contains the line `floodgate-key-file: public-key.pem`. If not, just copy that in directly.
