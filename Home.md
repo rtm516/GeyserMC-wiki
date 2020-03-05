@@ -10,7 +10,7 @@ _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Java Edition by allowing Bedrock clients to join Java Edition servers. This project is still in development and not complete yet, so expect bugs.
 
 ## Setup
-Geyser is a **standalone** program, meaning you DO NOT install it as if it were a plugin. It simply works as a proxy, and needs its own directory/configuration files. Bedrock clients will join through Geyser and it will handle all the packet translations.
+These instructions are for the **standalone** program, meaning these instructions cover how to install it as if it weren’t a plugin. It simply works as a proxy, and needs its own directory/configuration files. Bedrock clients will join through Geyser and it will handle all the packet translations. However, if you want to run it as a plugin, just download the plugin version and run it as if it were one.
 
 TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer to read through it yourself, the installation instructions are right below.
 
