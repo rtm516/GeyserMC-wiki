@@ -1,5 +1,3 @@
-# Common Issues
-
 Commonly, people have issues with Geyser not showing up in their server list or run into similar issues. This page contains a few common issues people may encounter that you might have as well.
 
 # Geyser Not Showing Up in Server List
