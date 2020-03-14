@@ -25,7 +25,7 @@ TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
 5. Open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
-For more information, take a look at the [Setting up the Config]() page, and the [How Geyser Works]() page.
+For more information, take a look at the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page, and the [How Geyser Works](https://geysermc.org/#howitworks) page.
 
 ## How Does it Work?
 Geyser works as a translator, translating both the incoming and outgoing packets to a format both the client and server can understand. With this being said, it emulates a Minecraft: Java Edition client, so the server actually thinks you're joining from Java Edition. Regardless of the server or what plugins it has installed, you can join it with Geyser (as long as the server supports the latest Minecraft version).
