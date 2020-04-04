@@ -10,20 +10,25 @@ _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 The goal of Geyser is to bridge the Minecraft: Bedrock Edition and Minecraft: Java Edition by allowing Bedrock clients to join Java Edition servers. This project is still in development and not complete yet, so expect bugs.
 
 ## Setup
-These instructions are for the **standalone** program, meaning these instructions cover how to install it as if it weren’t a plugin. It simply works as a proxy, and needs its own directory/configuration files. Bedrock clients will join through Geyser and it will handle all the packet translations. However, if you want to run it as a plugin, just download the plugin version and install it like you do any other plugin.
+Bedrock clients will join through Geyser and it will handle all the packet translations. There are four different versions of Geyser: Geyser for Bukkit (works on derivatives such as Spigot and Paper), Geyser for BungeeCord (also works on Waterfall), Geyser for Velocity, and Geyser Standalone. The first three versions run as plugins, and can be installed directly onto the server. The standalone version can be used in a similar way, except you run it separately. 
 
-TehPiggeh does a great job of explaining how to set up Geyser, but if you prefer to read through it yourself, the installation instructions are right below.
+If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version. 
 
-[![YouTube Video](https://img.youtube.com/vi/OmLxwl7_UzQ/0.jpg)](https://www.youtube.com/watch?v=OmLxwl7_UzQ)
-
-(If you speak another language, [this page](https://github.com/GeyserMC/Geyser/wiki/Setup-Tutorials) may be helpful as it contains setup videos in different languages)
-
-### Installing
+## Installing
+### Standalone
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
 3. Create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](https://github.com/GeyserMC/Geyser/wiki/Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
-5. Open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
+### Plugin
+1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
+2. Put Geyser in your plugins folder and start up the server.
+3. Configure any needed options in the Geyser config. In most scenarios this file should not need to be touched unless you intend to use [Floodgate](https://github.com/GeyserMC/Geyser/wiki/Floodgate), or you're running your Java on a port that is not 25565.
+4. Restart your server if needed.
+
+Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server. 
+
+If you're still having problems with Geyser not working or giving you an "Unable to connect to world" error, see the [Common Issues](https://github.com/GeyserMC/Geyser/wiki/Common-Issues) page.
 
 For more information, take a look at the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page, and the [How Geyser Works](https://geysermc.org/#howitworks) page.
 
@@ -32,9 +37,3 @@ Geyser works as a translator, translating both the incoming and outgoing packets
 
 ## Compiling
 Geyser uses Maven, so in order to compile it, you will need to install it. Clone the repo, and run `mvn clean install`. Upon compiling, in the **target** folder, you should see a file called `Geyser.jar`. Follow the instructions above if you want to use this rather than the one from the build server.
-
-## Libraries Used
-- [NukkitX Bedrock Protocol Library](https://github.com/NukkitX/Protocol)
-- [Steveice10's Java Protocol Library](https://github.com/Steveice10/MCProtocolLib)
-- [TerminalConsoleAppender](https://github.com/Minecrell/TerminalConsoleAppender)
-- [Simple Logging Facade for Java (slf4j)](https://github.com/qos-ch/slf4j)
