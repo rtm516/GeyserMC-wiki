@@ -5,12 +5,14 @@ This is a _very_ common occurence and is usually one of a few problems nearly ev
 
 ### Loopback Restrictions Not Lifted
 
-_This only affects people trying to join Geyser from the same computer it's hosted on_
+_This only affects people trying to join Geyser from the same computer it's hosted on._
 
 This is an issue caused by Loopback restrictions not being lifted. By default, Microsoft Apps have this restriction on all their apps for local connections. You can lift it by typing the following in Windows PowerShell in administrator mode:
 ```powershell
 CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 ```
+
+In most cases, Geyser should resolve this issue automatically, but in some events where you may not be an administrator, this will not automatically be resolved.
 
 ### Geyser Not Showing Up in Friends Tab
 This is also a common one, Geyser won't always show up in your friends tab and you will have to manually add it through the servers tab. Start off by just using `localhost` or `0.0.0.0` as the IP address. If that does not work, use your **local** IPv4 address.
@@ -22,6 +24,11 @@ Bedrock edition does not support SRV records, so this option won't work at all.
 ### Using TCP in DNS Options or Portforwarding Instead of UDP
 
 Bedrock uses UDP instead of TCP, so you will have to update your DNS or port forward accordingly if you are using TCP instead.
+
+### Server on External Host Can't Be Connected to Despite Java Players Being able to Connect
+This usually has something to do on your host's end. Most commonly, it's because they do not open up ports over the UDP protocol, which is what Minecraft: Bedrock Edition uses, opposed to Minecraft: Java Edition using TCP. One way to get around this (if you're using an online host) is to shut down your server, and when asking for a server jar, select Nukkit (you won't actually be switching to Nukkit). Afterward, open up your FTP file manager and find the Nukkit jar. Then, replace this jar with the server software you're using. Upon starting up the server, it should open up ports over UDP whilst still allowing you to use the server jar you desire.
+
+**PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
 # Login Failed
 
