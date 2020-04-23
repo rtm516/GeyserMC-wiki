@@ -16,6 +16,8 @@ If you are running a server, it is highly recommended you use one of the plugin 
 
 ## Installing
 ### Standalone
+Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk.
+
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
 3. Create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](https://github.com/GeyserMC/Geyser/wiki/Creating-a-Startup-Script) page for what to put into it.
