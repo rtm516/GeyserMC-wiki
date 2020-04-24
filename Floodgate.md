@@ -17,3 +17,6 @@ Due to how Minecraft: Java Edition handles skins, all Bedrock players will appea
 
 ## Access token can not be null or empty
 This may be because you forgot to set the auth-type in the config to `floodgate`. If that isn't it, check to make sure your config contains the line `floodgate-key-file: public-key.pem`. If not, just copy that in directly.
+
+## Invalid packet id: 27
+This usually means that you did not follow the Floodgate instructions properly. However, in an unlikely scenario, this could also be an error related to uploading through FTP. Using ascii will not work here, and you need to make sure you're on binary when uploading.
