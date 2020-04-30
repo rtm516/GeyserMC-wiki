@@ -4,6 +4,8 @@ If you are running a server, it is highly recommended you use one of the plugin 
 
 If you're still having problems with Geyser not working or giving you an "Unable to connect to world" error, see the [Common Issues](Common-Issues) page.
 
+For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [FAQ](FAQ) page.
+
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
@@ -11,8 +13,6 @@ If you're still having problems with Geyser not working or giving you an "Unable
 4. Restart your server if needed.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
-
-For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [How Geyser Works](https://geysermc.org/#howitworks) page.
 
 ## Standalone Setup
 Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk.
