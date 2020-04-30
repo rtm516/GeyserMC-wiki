@@ -4,7 +4,8 @@ Once you have downloaded and placed Geyser into its own folder, you will need to
 
 ### Windows
 * Create a new text file, and call it `run.bat`. Open this with a text editor (preferably Notepad++), and insert the text below:
-```bash
+```batch
+@echo off
 java -Xms1024M -jar Geyser.jar
 ```
 * Double-click the **run.bat**, and Geyser should start up. Geyser will generate all the needed files.
