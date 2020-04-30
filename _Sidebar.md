@@ -9,7 +9,8 @@ User Guide
   - [Videos](Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
+- [Understanding the Config](Understanding-the-Config.md)
 
 Other
-- [Developer Guide](Developer-Guide)
 - [Floodgate](Floodgate)
+- [Developer Guide](Developer-Guide)
