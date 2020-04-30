@@ -1,4 +1,3 @@
-# Developer Guide
 ## Compiling
 1. Clone the repo to your computer
 2. [Install Maven](https://maven.apache.org/install.html)
