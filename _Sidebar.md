@@ -2,8 +2,8 @@
 
 User Guide
 - [Setup](Setup)
-  - [Plugin](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Plugin)
-  - [Standalone](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Standalone)
+  - [Plugin](https://github.com/GeyserMC/Geyser/wiki/Setup#Plugin-Setup)
+  - [Standalone](https://github.com/GeyserMC/Geyser/wiki/Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
   - [Videos](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Videos)
 - [FAQ](FAQ)
