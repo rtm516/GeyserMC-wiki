@@ -9,7 +9,7 @@ User Guide
   - [Videos](Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
-- [Understanding the Config](Understanding-the-Config.md)
+- [Understanding the Config](Understanding-the-Config)
 
 Other
 - [Floodgate](Floodgate)
