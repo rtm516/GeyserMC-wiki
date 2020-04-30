@@ -1,0 +1,2 @@
+## Compiling
+Geyser uses Maven, so in order to compile it, you will need to install it. Clone the repo, and run `mvn clean install`. Upon compiling, in the **target** folder, you should see a file called `Geyser.jar`. Follow the instructions above if you want to use this rather than the one from the build server.
