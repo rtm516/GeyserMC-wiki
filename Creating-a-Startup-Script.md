@@ -26,8 +26,7 @@ java -Xms1024M -jar Geyser.jar
 * Create a file called *run.sh*, and open it with a text editor. Type the text below into your `run.sh` file:
 ```sh
 #!/bin/sh 
-BINDIR=$(dirname"$(readlink -fn "$0")") 
-cd "$BINDIR" 
+cd "$( dirname "$0" )" 
 java -Xms1024M -jar Geyser.jar
 ```
 * In your default terminal application, make the file executable by running `chmod +x ~(dir)/run.sh` where `dir` is the name of the folder Geyser is in, or by changing the file permissions;
