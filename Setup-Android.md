@@ -1,5 +1,4 @@
-# Standalone for Android
-## Setup
+**This covers setting up Geyser Standalone for Android using Termux. If you are just wanting Android support then use any of the gides as Geyser supports Android regardless on how it runs**
 1. Go to [here](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/) and access the latest build. Copy the download address of the jar that fits your server and `wget` it into your `plugins` folder on the server. 
 2. Go to [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and access the latest build. Copy the download address of the download that fits your server and `wget` it into your `plugins` folder as well.  
 3. Start the server and wait for it to finish loading. 

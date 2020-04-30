@@ -1,4 +1,4 @@
-# Setup Videos
+Setup tutorials in a variety of languages.
 
 ## English
 ### Join Minecraft Java Servers From Bedrock Edition by [TehPiggeh](https://www.youtube.com/channel/UC-JJdyImQzJoRi1pcy654lQ)

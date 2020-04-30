@@ -1,5 +1,3 @@
-# Plugin version
-## Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
 3. Configure any needed options in the Geyser config. In most scenarios this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your Java on a port that is not 25565.
