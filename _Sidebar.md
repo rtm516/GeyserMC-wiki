@@ -2,11 +2,10 @@
 
 User Guide
 - [Setup](Setup)
-  - [Standalone](Setup-Standalone)
-  	- [Android](Setup-Android)
+  - [Plugin](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Plugin)
+  - [Standalone](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Standalone)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
-  - [Plugin](Setup-Plugin)
-  - [Videos](Setup-Videos)
+  - [Videos](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
 - [Understanding the Config](Understanding-the-Config)
