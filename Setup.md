@@ -15,7 +15,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
 ## Standalone Setup
-Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](https://github.com/GeyserMC/Geyser/wiki/Setup#termux).
+Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux).
 
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
@@ -24,6 +24,13 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
+## Termux (Android)
+Please read the disclaimer [here](Setup#standalone-setup) before continuing.
+1. Download Termux
+2. Then do [this](https://wiki.termux.com/wiki/Ubuntu)
+3. Do `apt install default-jre`
+4. Do `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
+5. Do `java -jar Geyser.jar`
 
 ## Setup Videos
 Setup tutorials in a variety of languages.
@@ -48,11 +55,3 @@ Setup tutorials in a variety of languages.
 ### Russian
 **ЗАШЕЛ НА ХАЙПИКСЕЛЬ С МКПЕ? ЧИТЕРСКИЙ КОНФИГ!** by [TOWUK](https://www.youtube.com/channel/UCK8v-rGsfCOkpbi0slIpAng)
 [![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
-
-## Termux
-Please read the disclaimer [here](Setup#standalone-setup) before continuing.
-1. Download Termux
-2. Then do [this](https://wiki.termux.com/wiki/Ubuntu)
-3. Do `apt install default-jre`
-4. Do `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
-5. Do `java -jar Geyser.jar`
