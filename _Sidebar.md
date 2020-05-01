@@ -5,7 +5,7 @@ User Guide
   - [Plugin](Setup#Plugin-Setup)
   - [Standalone](Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
-  - [Termux (Android)](Setup#Termux)
+  - [Termux (Android)](Setup#Termux-Android)
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
