@@ -6,6 +6,7 @@ User Guide
   - [Standalone](https://github.com/GeyserMC/Geyser/wiki/Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
   - [Videos](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Videos)
+  - [Termux](https://github.com/GeyserMC/Geyser/wiki/Setup#Termux)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
 - [Understanding the Config](Understanding-the-Config)
