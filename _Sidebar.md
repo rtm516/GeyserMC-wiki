@@ -2,11 +2,11 @@
 
 User Guide
 - [Setup](Setup)
-  - [Plugin](https://github.com/GeyserMC/Geyser/wiki/Setup#Plugin-Setup)
-  - [Standalone](https://github.com/GeyserMC/Geyser/wiki/Setup#Standalone-Setup)
+  - [Plugin](Setup#Plugin-Setup)
+  - [Standalone](Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
-  - [Videos](https://github.com/GeyserMC/Geyser/wiki/Setup#Setup-Videos)
-  - [Termux](https://github.com/GeyserMC/Geyser/wiki/Setup#Termux)
+  - [Videos](Setup#Setup-Videos)
+  - [Termux](Setup#Termux)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
 - [Understanding the Config](Understanding-the-Config)
