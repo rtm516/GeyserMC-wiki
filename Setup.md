@@ -50,7 +50,7 @@ Setup tutorials in a variety of languages.
 [![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
 
 ## Termux
-Please read the disclaimer [here](https://github.com/GeyserMC/Geyser/wiki/Setup/_edit#standalone-setup) before continuing.
+Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 1. Download Termux
 2. Then do [this](https://wiki.termux.com/wiki/Ubuntu)
 3. Do `apt install default-jre`
