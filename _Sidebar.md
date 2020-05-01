@@ -2,11 +2,11 @@
 
 User Guide
 - [Setup](Setup)
-  - [Standalone](Setup-Standalone)
-  	- [Android](Setup-Android)
+  - [Plugin](Setup#Plugin-Setup)
+  - [Standalone](Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
-  - [Plugin](Setup-Plugin)
-  - [Videos](Setup-Videos)
+  - [Termux (Android)](Setup#Termux)
+  - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
 - [Understanding the Config](Understanding-the-Config)
