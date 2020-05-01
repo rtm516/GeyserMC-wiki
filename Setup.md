@@ -15,7 +15,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
 ## Standalone Setup
-Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux).
+Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux-android).
 
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
