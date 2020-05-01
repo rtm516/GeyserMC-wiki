@@ -21,10 +21,11 @@ This may be because you forgot to set the auth-type in the config to `floodgate`
 ## Invalid packet id: 27
 This usually means that you did not follow the Floodgate instructions properly. However, in an unlikely scenario, this could also be an error related to uploading through FTP. Using ascii will not work here, and you need to make sure you're on binary when uploading.
 
-## Using the PlaceHolders
-If using the Bukkit version of Geyser, download the placeholder [here](https://github.com/rtm516/FloodgatePlaceholders/) And using the placeholders should be fine
-If using BungeeCord version of Geyser, you need to follow these steps
+## Using the Placeholders
+If you're using the Bukkit version of Geyser, download the placeholder [here](https://github.com/rtm516/FloodgatePlaceholders/), using the placeholders should't require additional setup.
+
+If you're using the BungeeCord version of Geyser, then you'll need to follow these steps:
 + Edit the floodgate config in your bungeecord server and enable `send-floodgate-data` in it
-+ Then make sure you enabled `ip_forwarding` in your bungeecord config.yml and `bungeecord` in your spigot.yml
++ Then make sure you've enabled `ip_forwarding` in your bungeecord config.yml and `bungeecord` in your spigot.yml
 + Add floodgate to spigot server and restart it, then close the server and copy the key file in your bungeecord server to spigot server.
-+ Then put the placeholder in your spigot server and it should work
++ Then put the placeholder in your spigot server and it should work.
