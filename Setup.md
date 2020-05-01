@@ -48,3 +48,9 @@ Setup tutorials in a variety of languages.
 ### Russian
 **ЗАШЕЛ НА ХАЙПИКСЕЛЬ С МКПЕ? ЧИТЕРСКИЙ КОНФИГ!** by [TOWUK](https://www.youtube.com/channel/UCK8v-rGsfCOkpbi0slIpAng)
 [![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
+## Termux
+1. Download Termux
+2. Then do [this](https://wiki.termux.com/wiki/Ubuntu)
+3. Do `apt install default-jre`
+4. Do `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
+5. Do `java -jar Geyser.jar`
