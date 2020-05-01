@@ -28,10 +28,10 @@ See [this page](https://github.com/GeyserMC/Geyser/wiki/FAQ#how-do-i-add-players
 Check the server log for their UUIDs, or use [this method](https://github.com/GeyserMC/Geyser/wiki/FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
 
 ## Using the Placeholders
-If you're using the Bukkit version of Geyser, download the placeholder [here](https://github.com/rtm516/FloodgatePlaceholders/), using the placeholders should't require additional setup.
+If you're using the Bukkit version of Geyser, download the placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/), using the placeholders should't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed.
 
 If you're using the BungeeCord version of Geyser, then you'll need to follow these steps:
-+ Edit the floodgate config in your bungeecord server and enable `send-floodgate-data` in it
-+ Then make sure you've enabled `ip_forwarding` in your bungeecord config.yml and `bungeecord` in your spigot.yml
-+ Add floodgate to spigot server and restart it, then close the server and copy the key file in your bungeecord server to spigot server.
-+ Then put the placeholder in your spigot server and it should work.
++ Edit the floodgate config in your BungeeCord server and enable `send-floodgate-data` in it
++ Then make sure you've enabled `ip_forwarding` in your BungeeCord config.yml and `bungeecord` in your `spigot.yml`
++ Add Floodgate to Spigot server and restart it, then close the server and copy the key file in your BungeeCord server to Spigot server.
++ Then put the placeholder plugin and PlaceholdersAPI in your Spigot server and it should work.
