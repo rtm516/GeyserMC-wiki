@@ -21,6 +21,12 @@ This may be because you forgot to set the auth-type in the config to `floodgate`
 ## Invalid packet id: 27
 This usually means that you did not follow the Floodgate instructions properly. However, in an unlikely scenario, this could also be an error related to uploading through FTP. Using ascii will not work here, and you need to make sure you're on binary when uploading.
 
+## Whitelist command not working
+See [this page](https://github.com/GeyserMC/Geyser/wiki/FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
+
+## Obtaining UUIDs for Floodgate players
+Check the server log for their UUIDs, or use [this method](https://github.com/GeyserMC/Geyser/wiki/FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
+
 ## Using the Placeholders
 If you're using the Bukkit version of Geyser, download the placeholder [here](https://github.com/rtm516/FloodgatePlaceholders/), using the placeholders should't require additional setup.
 
