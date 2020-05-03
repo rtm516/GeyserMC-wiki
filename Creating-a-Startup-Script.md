@@ -3,7 +3,7 @@
 Once you have downloaded and placed Geyser into its own folder, you will need to create a startup script; similar to how you'd run a Bukkit server.
 
 ### Windows
-* Create a new text file, and call it `run.bat`. Open this with a text editor (preferably Notepad++), and insert the text below:
+* Create a new text file in the same location as the Geyser jar file, and call it `run.bat`. Open this with a text editor (preferably Notepad++), and insert the text below:
 ```batch
 @echo off
 java -Xms1024M -jar Geyser.jar
