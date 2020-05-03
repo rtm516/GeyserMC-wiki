@@ -29,8 +29,8 @@ See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 ## Obtaining UUIDs for Floodgate players
 Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
 
-## Using the Placeholders
-If you're using the Bukkit version of Floodgate, download the placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/), using the placeholders should't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed.
+## Using PlaceholderAPI
+If you're using the Bukkit version of Floodgate, download the Placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/). Using the placeholders shouldn't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed.
 
 If you're using the BungeeCord version of Geyser, then you'll need to follow these steps:
 + Edit the floodgate config in your BungeeCord server and enable `send-floodgate-data` in it
