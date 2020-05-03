@@ -17,6 +17,10 @@ In most cases, Geyser should resolve this issue automatically, but in some event
 ## Geyser Not Showing Up in Friends Tab
 This is also a common one, Geyser won't always show up in your friends tab and you will have to manually add it through the servers tab. Start off by just using `localhost` or `0.0.0.0` as the IP address. If that does not work, use your **local** IPv4 address.
 
+## Geyser Showing Up On Local Computer But Not Anywhere Else
+
+Check your firewall settings and make sure that Java is allowed.
+
 ## SRV Records Not Properly Working
 
 Bedrock edition does not support SRV records, so this option won't work at all.
