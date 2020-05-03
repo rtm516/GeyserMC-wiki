@@ -1,6 +1,6 @@
-Bedrock clients will join through Geyser and it will handle all the packet translations. There are four different versions of Geyser: Geyser for Bukkit (works on derivatives such as Spigot and Paper), Geyser for BungeeCord (also works on Waterfall), Geyser for Velocity, and Geyser Standalone. The first three versions run as plugins, and can be installed directly onto the server. The standalone version can be used in a similar way, except you run it separately. 
+Bedrock clients will join through Geyser and it will handle all the packet translations. There are four different versions of Geyser: Geyser for Bukkit (works on derivatives such as Spigot and Paper), Geyser for BungeeCord (also works on Waterfall), Geyser for Velocity, and Geyser Standalone. The first three versions run as plugins and can be installed directly onto the server. The standalone version can be used in a similar way, except you run it separately. 
 
-If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version.
+If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version. If you use Pterodactyl Panel we have an egg for standalone, please see [here](FAQ#can-i-use-geyser-with-pterodactyl-panel) for more information.
 
 If you're still having problems with Geyser not working or giving you an "Unable to connect to world" error, see the [Common Issues](Common-Issues) page.\
 For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [FAQ](FAQ) page.\
@@ -9,7 +9,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
-3. Configure any needed options in the Geyser config. In most scenarios this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your Java on a port that is not 25565.
+3. Configure any needed options in the Geyser config. In most scenarios, this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your Java on a port that is not 25565.
 4. Restart your server if needed.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
