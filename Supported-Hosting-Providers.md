@@ -5,7 +5,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
 
 # Support for Geyser
 * [Meloncube](https://www.meloncube.net/) (need to ask to open a UDP port)
-* [Google Cloud](https://www.meloncube.net/) (not a dedicated Minecraft provider so you'll need to do some setup but you get 1 year/$300 free trial)
+* [Google Cloud](https://cloud.google.com/) (not a dedicated Minecraft provider so you'll need to do some setup but you get 1 year/$300 free trial)
 
 # Does not support Geyser
 * [Aternos](https://aternos.org/)
