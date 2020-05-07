@@ -39,6 +39,10 @@ This usually has something to do on your host's end. Most commonly, it's because
 ## Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
 If you have your configuration set up like this, put simply, it won't work. If authentication for the Java server is set to online, it is expected Geyser is configured the same way. The server requires a valid Minecraft: Java Edition account, and if you aren't logging into one with Geyser, then you will be unable to join the server. If your configuration is set up properly and you're still getting this issue, it could be that your credentials are invalid.
 
+# Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
+
+Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
+
 ## Floodgate Misconfiguration
 See [this page](Floodgate) for more information.
 
