@@ -1,4 +1,4 @@
-This list is incomplete. Please add a link or contact us on Discord if the information is not incorrect or you want to add a new hosting provider!
+This list is incomplete. Please add a link or contact us on Discord if the information is incorrect or you want to add a new hosting provider!
 
 # Built-in Geyser
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
