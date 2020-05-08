@@ -9,6 +9,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
 * [Meloncube](https://www.meloncube.net/) (need to ask to open a UDP port)
+* [Server.pro](https://server.pro) (See [here](https://server.pro/support/faq/server-issues/where-do-i-find-extra-ports-on-my-server))
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
