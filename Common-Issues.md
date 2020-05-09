@@ -34,6 +34,9 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
+# java.net.BindException: Address already in use: bind
+This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. This is sometimes due to the fact that you doubleclicked the jar instead of running it using a startup script. If you don't recall opening anything, usually restarting your computer fixes this. 
+
 # Login Failed
 
 ## Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
