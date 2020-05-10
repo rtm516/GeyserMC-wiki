@@ -30,4 +30,4 @@ cd "$( dirname "$0" )"
 java -Xms1024M -jar Geyser.jar
 ```
 * In your default terminal application, make the file executable by running `chmod +x ~(dir)/run.sh` where `dir` is the name of the folder Geyser is in, or by changing the file permissions;
-* Open your default terminal application, and type `chmod +x ~/(dir)/run.sh` to run Geyser. Geyser will generate all the needed files.
+* Open your default terminal application, and type `./run.sh` to run Geyser. Geyser will generate all the needed files.
