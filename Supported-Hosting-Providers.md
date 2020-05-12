@@ -10,6 +10,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
 * [Meloncube](https://www.meloncube.net/) (need to ask to open a UDP port)
+* [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/)
