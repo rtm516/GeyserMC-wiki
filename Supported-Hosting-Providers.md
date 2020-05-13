@@ -14,7 +14,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
-* [ZapHosting](https://zap-hosting.com/en/)
+* [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support diffrent port)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
