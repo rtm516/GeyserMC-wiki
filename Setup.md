@@ -31,10 +31,14 @@ Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 3. Do `apt install default-jre`
 4. Do `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
 5. Do `java -jar Geyser.jar`
+
 OR
+
 We have an automated setup script for clean Termux installs, might not work for all users.
 Run this to start the download/install:
-`curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash`
+```
+curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash
+```
 
 ## Setup Videos
 Setup tutorials in a variety of languages.
