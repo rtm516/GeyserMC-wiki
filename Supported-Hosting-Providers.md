@@ -4,6 +4,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
 
 ## Support for Geyser
+* [DedicatedMC](https://dedicatedmc.io/) (need to ask to open a UDP port)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (not a dedicated Minecraft provider)
   - 1 year/$300 free trial
