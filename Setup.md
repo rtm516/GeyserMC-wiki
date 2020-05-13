@@ -33,39 +33,8 @@ Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 5. Do `java -jar Geyser.jar`
 OR
 We have an automated setup script for clean Termux installs, might not work for all users.
-Run this to start the download/install: `pkg install -y proot wget
-mkdir ~/ubuntu_directory
-cd ~/ubuntu_directory
-
-wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh
-sed -i 's/disco/focal/g' ubuntu.sh
-bash ubuntu.sh
-
-sed -i 's/#command+=" -b \/data/command+=" -b \/data/g' start-ubuntu.sh
-
-cd ~
-
-cat >.profile <<EOM
-apt update
-apt install -y default-jre
-exit
-EOM
-
-~/ubuntu_directory/start-ubuntu.sh
-
-rm -rf .profile
-
-mkdir ~/Geyser/
-cd ~/Geyser/
-
-wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar
-
-echo You can now start Geyser at any time using
-echo ./ubuntu_directory/start-ubuntu.sh
-echo java -jar ./Geyser/Geyser.jar
-
-
-curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash`
+Run this to start the download/install:
+`curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash`
 
 ## Setup Videos
 Setup tutorials in a variety of languages.
