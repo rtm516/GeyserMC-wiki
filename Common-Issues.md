@@ -5,7 +5,7 @@ This is a _very_ common occurence and is usually one of a few problems nearly ev
 
 ## Loopback Restrictions Not Lifted
 
-_This only affects people trying to join Geyser from the same computer it's hosted on._
+_This only affects people trying to join Geyser from Windows 10 Edition with Geyser hosted on the same computer._
 
 This is an issue caused by Loopback restrictions not being lifted. By default, Microsoft Apps have this restriction on all their apps for local connections. You can lift it by typing the following in Windows PowerShell in administrator mode:
 ```powershell
@@ -16,6 +16,10 @@ In most cases, Geyser should resolve this issue automatically, but in some event
 
 ## Geyser Not Showing Up in Friends Tab
 This is also a common one, Geyser won't always show up in your friends tab and you will have to manually add it through the servers tab. Start off by just using `localhost` or `0.0.0.0` as the IP address. If that does not work, use your **local** IPv4 address.
+
+## Geyser Showing Up On Local Computer But Not Anywhere Else
+
+Check your firewall settings and make sure that Java is allowed.
 
 ## SRV Records Not Properly Working
 
@@ -30,6 +34,9 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
+# java.net.BindException: Address already in use: bind
+This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. This is sometimes due to the fact that you doubleclicked the jar instead of running it using a startup script. If you don't recall opening anything, usually restarting your computer fixes this. 
+
 # Login Failed
 
 ## Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
@@ -40,3 +47,7 @@ See [this page](Floodgate) for more information.
 
 ## Mojang Resetting Account Credentials
 This is unfortunately something we have no control over, and is most likely the case when you're running Geyser as a plugin on a server host or joining a friend far away from your location. If you're running Geyser locally, this should not happen to you, but what we recommend for servers is a plugin we make called [Floodgate](https://github.com/GeyserMC/Floodgate), which allows for Bedrock clients to join your server without needing a Java Edition account. Take a look [here](Floodgate) for more information. 
+
+# Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
+
+Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
