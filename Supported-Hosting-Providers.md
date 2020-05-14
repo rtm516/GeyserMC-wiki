@@ -6,13 +6,13 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
 
 ## Support for Geyser
-* [DedicatedMC](https://dedicatedmc.io/) (need to ask to open a UDP port)
+* [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open a UDP port)
 * [GGServers](https://ggservers.com/)
-* [Google Cloud](https://cloud.google.com/) (not a dedicated Minecraft provider)
+* [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
-* [Meloncube](https://www.meloncube.net/) (need to ask to open a UDP port)
+* [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
@@ -21,7 +21,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Only geyser standalone can be used
   - Replace the server.jar with the Geyser.jar (from Jenkins)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (Use the same port as your Java server)
-* [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support diffrent port)
+* [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
