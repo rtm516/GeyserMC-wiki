@@ -16,7 +16,10 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
-* [Skynode.pro](https://skynode.pro/) (Use the port provided by skynode, only geyser standalone can be used, not the plugin version)
+* [Skynode.pro](https://skynode.pro/)
+  - Use the port provided by skynode
+  - Only geyser standalone can be used
+  - Replace the server.jar with the Geyser.jar (from Jenkins)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support diffrent port)
 
