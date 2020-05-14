@@ -19,7 +19,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Skynode.pro](https://skynode.pro/)
   - Use the port provided by Skynode
   - Only geyser standalone can be used
-  - Replace the server.jar with the Geyser.jar (from Jenkins)
+  - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 
