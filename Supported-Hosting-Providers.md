@@ -6,6 +6,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
 
 ## Support for Geyser
+* [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open a UDP port)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
