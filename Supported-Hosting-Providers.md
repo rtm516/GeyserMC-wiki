@@ -15,6 +15,7 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support diffrent port)
+* [Skynode.pro] (https://skynode.pro) (Use the same port as your Java server)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
