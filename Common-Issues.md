@@ -1,6 +1,6 @@
 Commonly, people may have issues with Geyser not showing up in their server list or run into similar issues. This page contains a few common issues people may encounter that you might have as well as well as potential fixes for them.
 
-# Geyser Not Showing Up in Server List
+# Geyser Not Showing Up in Server List/"Unable to connect to world"
 This is a _very_ common occurence and is usually one of a few problems nearly every time.
 
 ## Loopback Restrictions Not Lifted
