@@ -28,3 +28,4 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
+* [FreeMC](https://freemc.host/)
