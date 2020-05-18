@@ -2,6 +2,8 @@ This list is incomplete. Please add a link or contact us on Discord if the infor
 
 It should also be noted that these providers may not be verified by the Geyser team, and the server providers below are reported as working by members of the community.
 
+**Warning: The below are all for the plugin versions of Geyser unless otherwise specified**
+
 ## Built-in Geyser
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
 
