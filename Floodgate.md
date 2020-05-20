@@ -1,5 +1,6 @@
 Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts** to join **Minecraft: Java Edition** servers without needing a Minecraft: Java Edition account. This is something you install **in addition** to Geyser. Unlike Geyser, Floodgate can **only** be installed as a plugin, and can only be utilized on servers that have it installed. 
 
+[Download](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/)
 
 ## Setting Up
 **NOTE: Floodgate does not replace the Geyser jar. If you are running a plugin version of Geyser, you still MUST have Geyser installed.**
