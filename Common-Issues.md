@@ -56,3 +56,6 @@ This is unfortunately something we have no control over, and is most likely the 
 # Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
 
 Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
+
+# Bedrock clients freeze when opening up commands for the first time
+Disable `command-suggestions` in the config. This will stop the freezing at the expense of removing command suggestions from Bedrock clients.
