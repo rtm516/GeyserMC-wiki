@@ -41,6 +41,10 @@ General Geyser options that are mostly specific to Geyser itself.
  
 **`allow-third-party-capes`**: If third party (Optifine, 7zig, LabyMod, etc.) capes should be displayed to the bedrock player.
 
+**`chunk-caching`**: Cache chunks and adds support for additional sounds at the expense of more RAM usage.
+
+**`above-nether-bedrock-building`**: Bedrock prevents building and displaying blocks above Y127 in the Nether - enabling this config option works around that by changing the Nether dimension ID to the End ID. The main downside to this is that the sky will resemble that of the End sky in the Nether, but ultimately it's the only way for this feature to work.
+
 Default Geyser Config:
 ```yml
 # --------------------------------
