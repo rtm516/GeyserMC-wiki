@@ -21,6 +21,9 @@ This is a non-complete list of what platform each plugin version of Geyser is fo
 * Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/)
 * Geyser-Sponge works with [SpongeVanilla or SpongeForge](https://www.spongepowered.org/)
 
+## If using BungeeCord or another fork, where do I need to put Geyser/Floodgate?
+You only need Geyser and/or Floodgate on the BungeeCord server.
+
 ## How do I add players to the whitelist when using Floodgate?
 There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
