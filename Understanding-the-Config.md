@@ -51,7 +51,7 @@ General Geyser options that are mostly specific to Geyser itself.
 
 **`default-locale`**: The default locale to send to players if their locale could not be found.
 
-**`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option does nothing on Bukkit as we can use the server's API to get block information.
+**`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option is always on for Bukkit as we can use the server's API to get block information at no expense.
 
 **`above-nether-bedrock-building`**: Bedrock prevents building and displaying blocks above Y127 in the Nether - enabling this config option works around that by changing the Nether dimension ID to the End ID. The main downside to this is that the sky will resemble that of the End sky in the Nether, but ultimately it's the only way for this feature to work.
 
