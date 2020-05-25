@@ -35,7 +35,7 @@ General Geyser options that are mostly specific to Geyser itself.
 
 **`passthrough-players`**: If the current and max player counts should be relayed from the remote server.
 
-**`legacy-ping-passthrough`**: If enabled, manually pings the server by impersonating a Minecraft client instead of using the server's API. This option should only be enabled if your MOTD or player count is not accurate. This option does nothing on standalone.
+**`legacy-ping-passthrough`**: If enabled, manually pings the server by impersonating a Minecraft client instead of using the server's API. **This option should *only* be enabled if your MOTD or player count is not accurate,** as it can cause errors especially on BungeeCord. This option does nothing on standalone.
 
 **`ping-passthrough-interval`**: How often the fake Minecraft client should attempt to ping the remote server to update information. Only relevant for standalone and legacy ping passthrough. Increase if you're getting timeout or BrokenPipe exceptions.
 
