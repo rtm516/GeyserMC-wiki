@@ -10,6 +10,9 @@ If you're using an IDE for editing any of the GeyserMC projects you will most li
 ## wiki.vg
 For a full rundown of the Java Edition protocol, see [here](https://wiki.vg/Protocol).
 
+## wiki.vg (Bedrock)
+The Bedrock Edition protocol is documented [here](https://wiki.vg/Bedrock_Protocol), but it's currently incomplete so only use it as a reference.
+
 ## ProxyPass
 ProxyPass is a tool for intercepting packets between a Bedrock server and client developed by the NukkitX team. It can be found [here](https://github.com/NukkitX/ProxyPass) and the vanilla Bedrock server can be found [here](https://www.minecraft.net/en-us/download/server/bedrock/).
 
