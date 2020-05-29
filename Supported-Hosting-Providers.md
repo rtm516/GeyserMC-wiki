@@ -30,6 +30,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
+* [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
