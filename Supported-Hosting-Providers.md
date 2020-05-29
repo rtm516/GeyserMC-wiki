@@ -12,6 +12,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open a UDP port)
+* [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
@@ -30,8 +31,8 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
+* [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
-* [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
