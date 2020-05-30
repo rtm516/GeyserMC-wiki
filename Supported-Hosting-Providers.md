@@ -27,7 +27,8 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server)
 * [Skynode.pro](https://skynode.pro/)
   - Use the port provided by Skynode
-  - Only geyser standalone can be used
+  - Only Geyser Standalone can be used
+  - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
