@@ -6,7 +6,7 @@ This error means that the Bedrock client cannot find the server. If this occurre
 Otherwise, check the solutions below for potential solutions, make sure you're port forwarded or make sure your hosting provider can support Geyser.
 
 ## Pterodactyl
-If you get this error while using the Pterodactyl Panel, try using another port besides `19132` (e.g. `25566`).
+If you get this error while using the Pterodactyl Panel, try editing the Geyser config and changing the port to something besides `19132` (e.g. `25566`).
 
 # Geyser Not Showing Up in Server List
 This is a _very_ common occurence and is usually one of a few problems nearly every time.
