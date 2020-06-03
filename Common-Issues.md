@@ -50,9 +50,6 @@ This means something (likely another instance of Geyser) is running on the port 
 ## Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
 If you have your configuration set up like this, put simply, it won't work. If authentication for the Java server is set to online, it is expected Geyser is configured the same way. The server requires a valid Minecraft: Java Edition account, and if you aren't logging into one with Geyser, then you will be unable to join the server. If your configuration is set up properly and you're still getting this issue, it could be that your credentials are invalid.
 
-#BungeeCord freezes and crashes after bedrock player joins
-Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
-
 ## Floodgate Misconfiguration
 See [this page](Floodgate) for more information.
 
@@ -65,6 +62,9 @@ Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBuk
 
 # Bedrock clients freeze when opening up commands for the first time
 Disable `command-suggestions` in your Geyser config. This will stop the freezing at the expense of removing command suggestions from Bedrock clients.
+
+#BungeeCord freezes and crashes after bedrock player joins
+Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
 
 # Floodgate
 For most floodgate issues see: [Floodgate: Known Issues/Caveats](Floodgate#known-issuescaveats).
