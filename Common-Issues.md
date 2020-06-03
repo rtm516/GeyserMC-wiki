@@ -63,7 +63,7 @@ Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBuk
 # Bedrock clients freeze when opening up commands for the first time
 Disable `command-suggestions` in your Geyser config. This will stop the freezing at the expense of removing command suggestions from Bedrock clients.
 
-#BungeeCord freezes and crashes after bedrock player joins
+# BungeeCord freezes and crashes after bedrock player joins
 Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
 
 # Floodgate
