@@ -32,3 +32,6 @@ First, you'll need to get the XUID of the player. There are several third-party 
 
 ## Can I use Geyser with Pterodactyl Panel?
 Yes, we have an official egg for the standalone version, it supports auto-updating and has all config options easily editable. You can find it [here](https://github.com/GeyserMC/pterodactyl-stuff), just download the JSON egg and import it into your panel.
+
+## Can I use Geyser with Ngrok?
+Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok.
