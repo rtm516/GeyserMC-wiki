@@ -35,3 +35,18 @@ Yes, we have an official egg for the standalone version, it supports auto-updati
 
 ## Can I use Geyser with Ngrok?
 Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok.
+
+## Can I use Buycraft with Geyser?
+You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
+### Steps to create a store to support both versions
+- Buycraft-> Create Webstore
+- Select Game-> Minecraft Offline
+- Continue-> Click "Create my Webstore"
+- Name your server & Select currency-> Continue
+- Select Game Server-> Continue
+- Download the plugin version that best suits your server.
+- Execute the secret command from your servers console
+
+Your store is now setup to support Bedrock & Java players
+
+**(PLEASE NOTE, BEDROCK PLAYERS MUST INCLUDE THE PREFIX)**
