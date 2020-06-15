@@ -11,7 +11,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Apex Hosting](https://apexminecrafthosting.com/) (Need to listen on the Java IP, default port may not work)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
-* [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open a UDP port)
+* [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
 * [GGServers](https://ggservers.com/)
