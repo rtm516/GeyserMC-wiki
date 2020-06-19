@@ -24,7 +24,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [RamShard](https://ramshard.com/)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
-* [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server. You can also see Standalone instructions [https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html](here).)
+* [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server. You can also see Standalone instructions (https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html)[here].)
 * [Skynode.pro](https://skynode.pro/)
   - Use the port provided by Skynode
   - Only Geyser Standalone can be used
