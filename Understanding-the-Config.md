@@ -45,7 +45,7 @@ General Geyser options that are mostly specific to Geyser itself.
 
 **`general-thread-pool`**: The amount of threads Geyser will be able to use. Higher is not always better :P.
  
-**`allow-third-party-capes`**: If third party (Optifine, 7zig, LabyMod, etc.) capes should be displayed to the bedrock player.
+**`allow-third-party-capes`**: If third party (Optifine, 5zig, LabyMod, etc.) capes should be displayed to the bedrock player.
 
 **`allow-third-party-ears`**: If third party Deadmau5-style ears should be enabled. Currently only supports MinecraftCapes.
 
