@@ -14,6 +14,8 @@ The options for Geyser on the bedrock-facing end. Mostly contains options for ho
 ## Remote Section
 Options for the remote (java) server. 
 
+*The following two configuration options do not generally apply for plugin versions.*
+
 **`address`**: The address of the Minecraft: Java Edition server you want to join.
 
 **`port`**: The port of the Minecraft: Java Edition server you specified in the `address` section.
