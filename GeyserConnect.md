@@ -5,6 +5,9 @@
 3. Start the server as you do with a normal Geyser install. EG: `java -Xms1024M -jar GeyserConnect.jar` (More info on [Creating a Startup Script](Creating-a-Startup-Script))
 4. Connect to it to make sure its all working.
 
+## DNS and Docker
+There are both [DNS](https://github.com/GeyserMC/GeyserConnect/tree/master/bind9) (using bind9) and [Docker](https://github.com/GeyserMC/GeyserConnect/tree/master/docker) configs in the repo if you would like to use them.
+
 ## Config
 * `address` - The IP address that will listen for connections.
 * `remote-address` - The IP address to forward players to, this needs to be accessible by the client. Set it to `auto` to grab your public IP automatically.
