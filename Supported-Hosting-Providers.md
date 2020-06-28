@@ -20,6 +20,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
   - You also don't need an SSD, they're just trying to make you pay more
+* [MC](https://discord.gg/dDx2ZbM)[host](https://mchost.cc/) A **free** host! (Use the same port as your Java server)
 * [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to port forward mapping and connect to the given source port)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
