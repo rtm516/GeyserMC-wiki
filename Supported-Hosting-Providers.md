@@ -36,7 +36,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Titan Nodes](https://titannodes.com/) (Use the Default server port and 0.0.0.0 as the host address.)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
-* [Witherhosting] (https://witherhosting.com/) (Use the Same port as your Java Server on The port that will listen for connections and on the Java Remote config, "Tested Using PaperMC 1.16.1 #3.") By StampyLeSadness#5244 
+[Witherhosting](https://witherhosting.com/) (Use the Same port as your Java Server on The port that will listen for connections and on the Java Remote config, "Tested Using PaperMC 1.16.1 #3.") By StampyLeSadness#5244 
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
