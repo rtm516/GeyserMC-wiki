@@ -13,6 +13,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP adress to support different port)
+[Freemcserver](https://freemcserver.net)
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
