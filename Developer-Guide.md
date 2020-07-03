@@ -19,5 +19,9 @@ ProxyPass is a tool for intercepting packets between a Bedrock server and client
 ## MCC Toolchest
 MCC Toolchest is a tool for viewing and editing NBT data for Bedrock edition, this allows you to see data as it is stored in Bedrock. You can download it from [here](http://mcctoolchest.com/).
 
+## NBTExplorer
+NBTExplorer is a tool for viewing and editing NBT data for Java edition, this allows you to see data as it is stored in Java edition. You can download it from [here](https://github.com/jaquadro/NBTExplorer/releases).
+
+
 ## pakkit
 pakkit is a GUI based tool for intercepting packets between a Java edition server and client developed by our own [circuit10/Heath123](https://github.com/Heath123/) built using Electron. It also has experimental support for Bedrock Edition as a friendlier GUI wrapper for ProxyPass. You can download it from [here](https://github.com/Heath123/pakkit) under releases, or clone from GitHub for the latest version. It's currently WIP, so expect bugs.
