@@ -12,8 +12,8 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
-* [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP adress to support different port)
-* [Freemcserver](https://freemcserver.net)
+* [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
+* [FreeMcServer.net](https://freemcserver.net)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
