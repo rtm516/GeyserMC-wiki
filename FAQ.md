@@ -51,3 +51,37 @@ You sure can! Buycraft supports Java & Bedrock players via the Offline store mod
 Your store is now setup to support Bedrock & Java players
 
 **(PLEASE NOTE, BEDROCK PLAYERS MUST INCLUDE THE PREFIX)**
+
+## What languages does Geyser support?
+We aim to support any of the bedrock languages, see [here](https://translate.geysermc.org/) for our Crowdin page and below is a list of all the language codes.
+|Name                        |Code |
+|----------------------------|-----|
+|Bulgarian                   |bg_bg|
+|Czech                       |cs_cz|
+|Danish                      |da_dk|
+|German                      |de_de|
+|Greek                       |el_gr|
+|British English             |en_gb|
+|American English            |en_us|
+|Spanish                     |es_es|
+|Mexican Spanish             |es_mx|
+|Finnish                     |fi_fi|
+|Canadian French             |fr_ca|
+|French                      |fr_fr|
+|Hungarian                   |hu_hu|
+|Indonesian                  |id_id|
+|Italian                     |it_it|
+|Japanese                    |ja_jp|
+|Korean                      |ko_kr|
+|Dutch                       |nl_nl|
+|Norwegian Bokmål            |nb_no|
+|Polish                      |pl_pl|
+|Brazilian Portuguese        |pt_br|
+|Portuguese                  |pt_pt|
+|Russian                     |ru_ru|
+|Slovak                      |sk_sk|
+|Swedish                     |sv_se|
+|Turkish                     |tr_tr|
+|Ukrainian                   |uk_ua|
+|Chinese Simplified (China)  |zh_cn|
+|Chinese Traditional (Taiwan)|zh_tw|
