@@ -31,7 +31,7 @@ This is only needed when you want to use the Floodgate API on your Spigot server
 - Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and install it on both BungeeCord/Velocity and the Spigot server(s).
 - Enable `ip_forwarding` in your BungeeCord `config.yml` if using BungeeCord
 - Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity
-- Enable `bungeecord` in your `spigot.yml`
+- Set `bungeecord` to `true` in your `spigot.yml`
 - Start the proxy server.
 - Edit the Floodgate config on your proxy server and set `send-floodgate-data` to `true`.
 - *Copy* both key files in the Floodgate config folder to Spigot Floodgate's config folder. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
