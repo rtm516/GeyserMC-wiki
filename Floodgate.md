@@ -5,13 +5,36 @@ Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts
 ## Setting Up
 **NOTE: Floodgate does not replace the Geyser jar. If you are running a plugin version of Geyser, you still MUST have Geyser installed.**
 
-If you are running the plugin versions of Geyser and you have Floodgate installed too, Geyser will automatically detect and load the key, so most of this below should not need to be done. However, if you are running Floodgate on more than one platform (both BungeeCord and Bukkit together for example), you'll need to copy over the keys (as described below) from the platform Geyser is running on. For example, if you are running Geyser on Bukkit, but have Floodgate installed on both BungeeCord and Bukkit, you'll need to copy over the key from the Bukkit version as that's the platform Geyser is running on.
+*Any reference to Spigot here also refers to compatible server softwares such as Paper.*
 
-Floodgate currently only works on Bukkit, BungeeCord, and Velocity (using the legacy transfer system). Downloads can be found [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/). Drag the jar for your platform into the **plugins** folder of your server, and start it up. Upon startup, a file called **public-key.pem** will be generated. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server. It's not public, despite its name. It's also important security-wise, so nobody can fake being a bedrock client and bypass this system.
+### Plugin Setup (You have Geyser and Floodgate on the same server)
 
-Once you find your **public-key.pem**, copy it into the root directory of Geyser, or if you're using the plugin version of Geyser, into your `Geyser` folder found inside of your `plugins` folder (or for Sponge, `config/geyser`). **Make sure** you copy it and don't just drag it. Both Floodgate and Geyser need this file.
+For multi-server setups: you only are required to install Floodgate on the BungeeCord or Velocity instance unless you want to use the Floodgate API on the other servers - see below for the installation process.
+*If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` 
 
-In the Geyser config.yml, set `auth-type` to `floodgate`, and restart Geyser. Bedrock clients should now be able to join your Java Edition server without a Java Edition account :D.
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/).
+- Change the `auth-type` in the Geyser config to `floodgate`.
+- Restart/start up the server.
+
+### Standalone Setup (Geyser and Floodgate are in separate places)
+
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/).
+- Run the server with Floodgate.
+- *Copy* the `public-key.pem` file in the Floodgate config folder to the same directory as Geyser (standalone) or Geyser's config folder (plugin versions). **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
+- Change the `auth-type` in the Geyser config to `floodgate`.
+
+### Running Floodgate on Spigot servers behind BungeeCord or Velocity
+
+This is only needed when you want to use the Floodgate API on your Spigot server(s).
+
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and install it on both BungeeCord/Velocity and the Spigot server(s).
+- Enable `ip_forwarding` in your BungeeCord `config.yml` if using BungeeCord
+- Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity
+- Enable `bungeecord` in your `spigot.yml`
+- Start the proxy server.
+- Edit the Floodgate config on your proxy server and set `send-floodgate-data` to `true`.
+- *Copy* both key files in the Floodgate config folder to Spigot Floodgate's config folder. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
+- Restart the Spigot servers and proxy server.
 
 ## Known Issues/Caveats
 
@@ -34,13 +57,7 @@ See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
 
 ## Using PlaceholderAPI
-If you're using the Bukkit version of Floodgate, download the Placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/). Using the placeholders shouldn't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed.
-
-If you're using the BungeeCord version of Geyser, then you'll need to follow these steps:
-+ Edit the floodgate config in your BungeeCord server and enable `send-floodgate-data` in it
-+ Then make sure you've enabled `ip_forwarding` in your BungeeCord config.yml and `bungeecord` in your `spigot.yml`
-+ Add Floodgate to Spigot server and restart it, then close the server and copy the key file in your BungeeCord server to Spigot server.
-+ Then put the placeholder plugin and PlaceholdersAPI in your Spigot server and it should work.
+If you're using the Bukkit version of Floodgate, download the Placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/). Using the placeholders shouldn't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed. See the section above on installing Floodgate on backend servers if you wish to use this on BungeeCord.
 
 ## Using Skript
 If you're using the Bukkit version of Floodgate, there is an unofficial plugin that adds Skript support [here](https://github.com/DoctorMacc/floodgate-skript). 
