@@ -10,6 +10,7 @@ Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts
 ### Plugin Setup (You have Geyser and Floodgate on the same server)
 
 For multi-server setups: you only are required to install Floodgate on the BungeeCord or Velocity instance unless you want to use the Floodgate API on the other servers - see below for the installation process.
+
 *If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` 
 
 - Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/).
