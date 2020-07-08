@@ -31,6 +31,15 @@ General Geyser options that are mostly specific to Geyser itself.
 
 **`userAuths`**: A section where you can put the authentication information for your Minecraft: Java Edition account for immediate login when joining Geyser. **It is advised you ONLY use this option if you are running Geyser locally and that ONLY you have access to the config as it requires you put your Minecraft: Java Edition credentials in plain text!**
 
+If your Xbox account name was Notch, your Java email was `foobar2000@gmail.com` and your password was `hunter2`, you would fill this into the config:
+
+```
+userAuths:
+  Notch: # MCPE/Xbox username
+    email: foobar2000@gmail.com
+    password: "hunter2"
+```
+
 **`command-suggestions`**: Bedrock clients freeze or crash when opening up the command prompt for the first time with a large amount of command suggestions. This config option disables command suggestions being sent to prevent any freezing.
 
 **`passthrough-motd`**: If the MOTD should be relayed from the remote server. Causes the `motd1` and `motd2` options in the bedrock section to no longer have a use.
