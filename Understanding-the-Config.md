@@ -51,7 +51,7 @@ General Geyser options that are mostly specific to Geyser itself.
 
 **`allow-third-party-ears`**: If third party Deadmau5-style ears should be enabled. Currently only supports MinecraftCapes.
 
-**`default-locale`**: The default locale to send to players if their locale could not be found.
+**`default-locale`**: The default locale to send to players if their locale could not be found. Check this page https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support to find the code corresponding to your language.
 
 **`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option is always on for Bukkit as we can use the server's API to get block information at no expense.
 
