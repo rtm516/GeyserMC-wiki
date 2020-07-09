@@ -56,6 +56,10 @@ See [this page](Floodgate) for more information.
 ## Mojang Resetting Account Credentials
 This is unfortunately something we have no control over, and is most likely the case when you're running Geyser as a plugin on a server host or joining a friend far away from your location. If you're running Geyser locally, this should not happen to you, but what we recommend for servers is a plugin we make called [Floodgate](https://github.com/GeyserMC/Floodgate), which allows for Bedrock clients to join your server without needing a Java Edition account. Take a look [here](Floodgate) for more information. 
 
+# java.lang.AssertionError: Expected AES to be available
+
+Update your Java at https://adoptopenjdk.net/ .
+
 # Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
 
 Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
