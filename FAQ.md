@@ -10,7 +10,7 @@ If you come across any more please let us know via [Discord](http://discord.geys
 
 ## Which plugin version of Geyser do I need?
 This is a non-complete list of what platform each plugin version of Geyser is for, the standalone version can be used for any as it isn't a plugin.
-* Geyser-Bukkit works with:
+* Geyser-Spigot works with:
   * [Spigot](https://www.spigotmc.org/)
   * [Paper](https://papermc.io/downloads) (recommended)
   * Any other forks of the above
