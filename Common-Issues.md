@@ -1,7 +1,12 @@
-Commonly, people may have issues with Geyser not showing up in their server list or run into similar issues. This page contains a few common issues people may encounter that you might have as well as potential fixes for them.
+Commonly, people may have issues with Geyser not showing up in their server list or run into similar issues. This page contains a few common issues people may encounter that you might have as well as potential fixes for them. If you still can't make it work, join [our Discord](https://discord.geysermc.org) for support.
 
 # "Unable to connect to world"
-This error means that the Bedrock client cannot find the server. Check the solutions below for potential solutions, make sure you're port forwarded or make sure your hosting provider can support Geyser.
+This error means that the Bedrock client cannot find the server. If this occurred after updating a plugin version of Geyser, ensure that you shut off your server, swapped the Geyser jar, and then started up your server.
+
+Otherwise, check the solutions below for potential solutions, make sure you're port forwarded or make sure your hosting provider can support Geyser.
+
+## Pterodactyl
+If you get this error while using the Pterodactyl Panel, try editing the Geyser config and changing the port to something besides `19132` (e.g. `25566`).
 
 # Geyser Not Showing Up in Server List
 This is a _very_ common occurence and is usually one of a few problems nearly every time.
@@ -54,3 +59,14 @@ This is unfortunately something we have no control over, and is most likely the 
 # Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
 
 Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
+
+# Bedrock clients freeze when opening up commands for the first time
+Disable `command-suggestions` in your Geyser config. This will stop the freezing at the expense of removing command suggestions from Bedrock clients.
+
+# BungeeCord freezes and crashes after bedrock player joins
+Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
+
+# Floodgate
+For most floodgate issues see: [Floodgate: Known Issues/Caveats](Floodgate#known-issuescaveats).
+## If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+It is likely you have enabled `send-floodgate-data` in your Floodgate config but either Floodgate isn't installed on the target server or you floodgate keys aren't the same between the installs of the plugin, please copy them so they all use the same set.

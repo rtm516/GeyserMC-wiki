@@ -9,7 +9,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
-3. Configure any needed options in the Geyser config. In most scenarios, this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your Java on a port that is not 25565.
+3. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. In most scenarios, this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your Java on a port that is not 25565. This may be the case if you are using a server hosting provider. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page. *You should not need to configure your remote address as the plugin handles this for you.*
 4. Restart your server if needed.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
@@ -27,14 +27,14 @@ Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab,
 ## Termux (Android)
 Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 1. Download Termux
-2. Then do [this](https://wiki.termux.com/wiki/Ubuntu)
-3. Do `apt install default-jre`
-4. Do `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
-5. Do `java -jar Geyser.jar`
+2. Follow [this guide](https://wiki.termux.com/wiki/Ubuntu)
+3. Run `apt install default-jre`
+4. Run `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
+5. Run `java -jar Geyser.jar`
 
 OR
 
-We have an automated setup script for clean Termux installs, might not work for all users.
+We have an automated setup script for clean Termux installs, might not work for all users. If the manual guide above does not work, try this.
 Run this to start the download/install:
 ```
 curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash
