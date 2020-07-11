@@ -8,6 +8,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
 
 ## Support for Geyser
+* [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Need to listen on the Java IP, default port may not work)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
@@ -36,6 +37,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [SlothHost](https://slothhost.com/)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
 * [Titan Nodes](https://titannodes.com/) (Use the Default server port and 0.0.0.0 as the host address.)
+* [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server) added by Chris
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
