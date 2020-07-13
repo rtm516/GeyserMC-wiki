@@ -27,7 +27,7 @@ Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab,
 ## Termux (Android)
 Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 1. Download Termux
-2. Follow [this guide](https://wiki.termux.com/wiki/Ubuntu)
+2. Follow [this guide](https://github.com/Neo-Oli/termux-ubuntu)
 3. Run `apt install default-jre`
 4. Run `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
 5. Run `java -jar Geyser.jar`
