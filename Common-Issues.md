@@ -58,7 +58,7 @@ This is unfortunately something we have no control over, and is most likely the 
 
 # java.lang.AssertionError: Expected AES to be available
 
-Update your Java at https://adoptopenjdk.net/ .
+Update your Java at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
 
 # Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
 
