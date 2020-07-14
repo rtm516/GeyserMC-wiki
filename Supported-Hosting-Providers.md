@@ -23,7 +23,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - You also don't need an SSD, they're just trying to make you pay more
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
 * [MChost](https://mchost.cc/) (Use the same port as your Java server)
-* [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to port forward mapping and connect to the given source port)
+* [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [RamShard](https://ramshard.com/)
