@@ -36,7 +36,6 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
-* [Titan Nodes](https://titannodes.com/) (Use the Default server port and 0.0.0.0 as the host address.)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server) added by Chris
