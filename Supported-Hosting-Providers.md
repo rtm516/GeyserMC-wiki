@@ -41,6 +41,9 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server) added by Chris
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server, note that this provider only provide service in China)
+* [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
+* [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
+* [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
