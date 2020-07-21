@@ -12,9 +12,11 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Apex Hosting](https://apexminecrafthosting.com/) (Need to listen on the Java IP, default port may not work)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
+* [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [FreeMcServer.net](https://freemcserver.net)
+* [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
 * [GGServers](https://ggservers.com/)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
@@ -25,6 +27,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MChost](https://mchost.cc/) (Use the same port as your Java server)
 * [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
+* [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [RamShard](https://ramshard.com/)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
@@ -35,15 +38,12 @@ It should also be noted that these providers may not be verified by the Geyser t
   - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/)
+* [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server; note that this provider only provides service in China)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server) added by Chris
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
-* [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server, note that this provider only provide service in China)
-* [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
-* [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
-* [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
