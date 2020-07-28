@@ -62,6 +62,8 @@ Put two spaces before the username and four spaces before the email and password
 
 **`allow-third-party-ears`**: If third party Deadmau5-style ears should be enabled. Currently only supports MinecraftCapes.
 
+**`show-cooldown`**: Bedrock Edition currently does not have Java Edition 1.9+ combat mechanics. In order to get around this, Geyser sends a fake cooldown by sending a title message. This cooldown should not show if 1.8 combat mechanics are in use.
+
 **`default-locale`**: The default locale to send to players if their locale could not be found. Check this page https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support to find the code corresponding to your language.
 
 **`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option is always on for Bukkit as we can use the server's API to get block information at no expense.
@@ -80,7 +82,8 @@ Default Geyser Config:
 # --------------------------------
 
 bedrock:
-  # The IP address that will listen for connections
+  # The IP address that will listen for connections.
+  # There is no reason to change this unless you want to limit what IPs can connect to your server.
   address: 0.0.0.0
   # The port that will listen for connections
   port: 19132
@@ -146,14 +149,17 @@ allow-third-party-capes: true
 # MinecraftCapes
 allow-third-party-ears: false
 
-# The default locale if we dont have the one the client requested
-default-locale: en_us
+# Allow a fake cooldown indicator to be sent. Bedrock players do not see a cooldown as they still use 1.8 combat
+show-cooldown: true
+
+# The default locale if we dont have the one the client requested. Uncomment to not use the default system language.
+# default-locale: en_us
 
 # Configures if chunk caching should be enabled or not. This keeps an individual
 # record of each block the client loads in. While this feature does allow for a few
 # things such as block break animations to show up in creative mode and among others,
 # it is HIGHLY recommended you disable this on a production environment as it can eat
-# up a lot of RAM. However, when using the Bukkit version of Geyser, support for features
+# up a lot of RAM. However, when using the Spigot version of Geyser, support for features
 # or implementations this allows is automatically enabled without the additional caching as
 # Geyser has direct access to the server itself.
 cache-chunks: false
