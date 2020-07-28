@@ -44,7 +44,16 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 ## Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server)
 
-This is likely a firewall issue on your server. Please contact your server host.
+This is likely a firewall issue on your server. 
+
+Here is how to prevent the issue on SoYouStart (a subsidiary of OVH):
+
+In the SoYouStart control panel:
+1. Click the IP tab.
+2. Click the gear at the right of the public IP address; select "Game mitigation".
+3. Pick "Add a rule".
+4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
+5. Save and wait a few seconds for the changes to come into effect.
 
 # java.net.BindException: Address already in use: bind
 This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. This is sometimes due to the fact that you doubleclicked the jar instead of running it using a startup script. If you don't recall opening anything, usually restarting your computer fixes this. 
