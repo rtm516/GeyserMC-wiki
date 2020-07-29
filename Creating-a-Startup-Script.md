@@ -7,6 +7,7 @@ Once you have downloaded and placed Geyser into its own folder, you will need to
 ```batch
 @echo off
 java -Xms1024M -jar Geyser.jar
+pause
 ```
 * Double-click the **run.bat**, and Geyser should start up. Geyser will generate all the needed files.
 
