@@ -12,7 +12,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 3. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. In most scenarios, this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your server on a port that is not 25565. This may be the case if you are using a server hosting provider. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page. *You should not need to configure the remote address as the plugin handles this for you.*
 4. Restart your server if needed.
 
-Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
+Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up if the server is running in your local network. If it does not show up, just add its IPv4 as an external server.
 
 ## Standalone Setup
 Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux-android).
