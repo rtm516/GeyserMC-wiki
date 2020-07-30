@@ -30,6 +30,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [RamShard](https://ramshard.com/)
+* [Revivenode](https://revivenode.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
 * [Shockbyte](https://shockbyte.com/) (Use the same port as your Java server. You can also see standalone installation instructions [here](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html).)
 * [Skynode.pro](https://skynode.pro/)
@@ -38,6 +39,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/)
+* [Sparked Host](https://sparkedhost.com) (Use the same port as your Java server)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server; note that this provider only provides service in China)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server)
