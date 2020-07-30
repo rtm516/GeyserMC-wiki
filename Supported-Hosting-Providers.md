@@ -42,7 +42,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
-* [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server) added by Chris
+* [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 
 ## Does not support Geyser
