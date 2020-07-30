@@ -3,12 +3,15 @@ Geyser works as a translator, translating both the incoming and outgoing packets
 
 ## What plugins don't work with Geyser?
 
-Geyser should generally work fine with plugins, as we emulate a Java client. However, Floodgate can cause issues with plugins.
+Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
+
+* [TCPShield](https://tcpshield.com/) does not work at this time unless you disable `only-allow-proxy-connections`. 
+
+Floodgate can cause issues with plugins as it modifies the login process.
 
 * [JPremium](https://www.spigotmc.org/resources/%E2%96%A0-jpremium-%E2%96%A0-advanced-authorization-system-with-auto-login-the-premium-players-%E2%96%A0-1-8-1-15-2-%E2%96%A0.27766/) alters the UUID of a player causing Floodgate to not be able to get the Bedrock data from its map.
-* [ProtocolSupport](https://www.spigotmc.org/resources/protocolsupport.7201/) sometimes causes issues with Floodgate saying `Invalid packet id: 27`. Use [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) instead if this keeps occurring.
+* ~~[ProtocolSupport](https://www.spigotmc.org/resources/protocolsupport.7201/) sometimes causes issues with Floodgate saying `Invalid packet id: 27`. Use [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) instead if this keeps occurring~~ ProtocolSupport now works with the latest Floodgate.
 * [SayNoToMcLeaks](https://www.spigotmc.org/resources/saynotomcleaks.40906/) prevents Floodgate from finishing its login system.
-* [TCPShield](https://tcpshield.com/) causes Floodgate not to be able to authenticate.
 
 If you come across any more please let us know via [Discord](http://discord.geysermc.org).
 
