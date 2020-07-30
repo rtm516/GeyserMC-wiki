@@ -1,4 +1,4 @@
-[**HOME**](Home)
+[**pp**](Home)
 
 User Guide
 - [Setup](Setup)
