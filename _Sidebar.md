@@ -1,4 +1,4 @@
-[**I don't know if I'm supposed to be editing this wtf??**](Home)
+[**Home**](Home)
 
 User Guide
 - [Setup](Setup)
