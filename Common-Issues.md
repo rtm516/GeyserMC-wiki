@@ -15,7 +15,11 @@ Commonly, people may have issues with Geyser not showing up in their server list
 
 This error means that the Bedrock client cannot find the server; more than likely, it is a connection problem and not directly a Geyser problem.
 
-### ...I just updated and now it doesn't work!
+### Java players also cannot connect.
+
+This ***should not be*** a Geyser problem. Geyser does not modify server behavior. Floodgate does modify the login structure but only for Bedrock players. Contact your hosting provider or look elsewhere for fixing this connection issue.
+
+### I just updated and now it doesn't work!
 
 If this occurred after updating a plugin version of Geyser, ensure that you shut off your server, swapped the Geyser jar, and then started up your server.
 
