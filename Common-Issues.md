@@ -53,13 +53,13 @@ In most cases, Geyser should resolve this issue automatically, but in some event
 
 Your firewall is likely in the way. Try adding an exception to Java, or disable the firewall for testing purposes.
 
-### I'm trying to connect from Bedrock with an SRV record.
-
-Bedrock edition does not support SRV records, so this option won't work at all.
-
 ## Geyser is not on the same network.
 
 *If you have tried all options down below*, set the Bedrock remote address to your external IP.
+
+### I'm trying to connect from Bedrock with an SRV record.
+
+Bedrock edition does not support SRV records, so this option won't work at all.
 
 ### Pterodactyl
 If you get this error while using the Pterodactyl Panel, try editing the Geyser config and changing the port to something besides `19132` (e.g. `25566`).
