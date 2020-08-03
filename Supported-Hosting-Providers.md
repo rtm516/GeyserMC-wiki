@@ -46,6 +46,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
+* [Ferox Hosting](https://feroxhosting.nl) (Open a ticket to request a UDP port)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
