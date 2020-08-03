@@ -81,7 +81,7 @@ In the SoYouStart control panel:
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
 
-## Server on External Host Can't Be Connected to Despite Java Players Being able to Connect
+### Hosting provider will not immediately open up UDP.
 
 These steps only apply for the standalone version of Geyser.
 
