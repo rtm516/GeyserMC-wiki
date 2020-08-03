@@ -15,6 +15,8 @@ Commonly, people may have issues with Geyser not showing up in their server list
 
 This error means that the Bedrock client cannot find the server; more than likely, it is a connection problem and not directly a Geyser problem.
 
+*Common issues relating to Geyser in general can be found here. See below for options specific to locally hosting Geyser and externally hosting Geyser.
+
 ### Java players also cannot connect.
 
 This ***should not be*** a Geyser problem. Geyser does not modify server behavior. Floodgate does modify the login structure but only for Bedrock players. Contact your hosting provider or look elsewhere for fixing this connection issue.
@@ -22,8 +24,6 @@ This ***should not be*** a Geyser problem. Geyser does not modify server behavio
 ### I just updated and now it doesn't work!
 
 If this occurred after updating a plugin version of Geyser, ensure that you shut off your server, swapped the Geyser jar, and then started up your server.
-
-Otherwise, check the solutions below for potential solutions, make sure you're port forwarded or make sure your hosting provider can support Geyser.
 
 ### `java.net.BindException: Address already in use: bind` on startup.
 This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. If you don't recall opening anything, usually restarting your computer fixes this. 
