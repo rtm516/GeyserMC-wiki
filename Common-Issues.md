@@ -15,7 +15,7 @@ Commonly, people may have issues with Geyser not showing up in their server list
 
 This error means that the Bedrock client cannot find the server; more than likely, it is a connection problem and not directly a Geyser problem.
 
-*Common issues relating to Geyser in general can be found here. See below for options specific to locally hosting Geyser and externally hosting Geyser.
+*Common issues relating to Geyser in general can be found here. See below for options specific to locally hosting Geyser and externally hosting Geyser.*
 
 ### Java players also cannot connect.
 
