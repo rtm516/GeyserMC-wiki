@@ -32,9 +32,13 @@ This means something (likely another instance of Geyser) is running on the port 
 
 Update your Java at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
 
-### Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
+### Geyser Spigot plugin does not load with CraftBukkit/other error with CraftBukkit
 
 Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
+
+### Any error involving a "Geyser-Bukkit" plugin.
+
+You're using an outdated build of Geyser; please remove that Geyser-Bukkit jarfile.
 
 ## I am hosting Geyser on the same network.
 
