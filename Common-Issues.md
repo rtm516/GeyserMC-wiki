@@ -66,7 +66,7 @@ If you get this error while using the Pterodactyl Panel, try editing the Geyser 
 
 ## I'm using a hosting provider.
 
-Please check our Supporting Hosting Providers page and ensure you're following any additional steps.
+Please check our [Supporting Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page and ensure you're following any additional steps specific to your company.
 
 ### Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server)
 
