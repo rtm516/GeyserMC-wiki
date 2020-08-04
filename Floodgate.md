@@ -34,7 +34,7 @@ This is only needed when you want to use the Floodgate API on your Spigot server
 - Set `bungeecord` to `true` in your `spigot.yml`
 - Start the proxy server.
 - Edit the Floodgate config on your proxy server and set `send-floodgate-data` to `true`.
-- *Copy* both key files in the Floodgate config folder to Spigot Floodgate's config folder. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
+- *Copy* both key files and the `encrypted.txt` in the Floodgate config folder to Spigot Floodgate's config folder. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
 - Restart the Spigot servers and proxy server.
 
 ## Known Issues/Caveats
