@@ -27,6 +27,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MChost](https://mchost.cc/) (Use the same port as your Java server)
 * [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
+* [MineStrator](https://minestrator.com/) (Use the same port as your Java server)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
 * [RamShard](https://ramshard.com/)
