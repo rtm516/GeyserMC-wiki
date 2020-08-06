@@ -18,6 +18,9 @@ For a full rundown of the Java Edition protocol, see [here](https://wiki.vg/Prot
 ## wiki.vg (Bedrock)
 The Bedrock Edition protocol is documented [here](https://wiki.vg/Bedrock_Protocol), but it's currently incomplete so only use it as a reference.
 
+## gophertunnel
+[gophertunnel's packets](https://github.com/Sandertv/gophertunnel/tree/master/minecraft/protocol/packet) have very good documentation, so they make a good reference for the Bedrock protocol.
+
 ## ProxyPass
 ProxyPass is a tool for intercepting packets between a Bedrock server and client developed by the NukkitX team. It can be found [here](https://github.com/NukkitX/ProxyPass) and the vanilla Bedrock server can be found [here](https://www.minecraft.net/en-us/download/server/bedrock/).
 
