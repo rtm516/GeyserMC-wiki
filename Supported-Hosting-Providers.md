@@ -17,7 +17,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [FreeMcServer.net](https://freemcserver.net)
 * [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
-* [GGServers](https://ggservers.com/)
+* [GGServers](https://ggservers.com/) (Requires a Bedrock node)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
