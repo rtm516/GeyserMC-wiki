@@ -25,6 +25,10 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
+## Port Forwarding
+
+Unlike Minecraft Java Edition, Bedrock Edition runs on port 19132 on the UDP protocol. When port forwarding, make sure to allocate to 19132 UDP or another UDP port. For many server hosting providers, you will simply need to change your Bedrock listening port (see [here](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) for a list of supported providers).
+
 ## Termux (Android)
 Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 1. ~~Download Termux~~
