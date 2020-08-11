@@ -37,6 +37,10 @@ This is only needed when you want to use the Floodgate API on your Spigot server
 - *Copy* both key files and the `encrypted.txt` in the Floodgate config folder to Spigot Floodgate's config folder. **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
 - Restart the Spigot servers and proxy server.
 
+## Account Linking
+
+Floodgate supports account linking, allowing you to join as your Java account on the server. This is an option that can be enabled in the Floodgate config.
+
 ## Known Issues/Caveats
 
 ## Skins
