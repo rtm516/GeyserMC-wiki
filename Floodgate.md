@@ -43,20 +43,24 @@ Floodgate supports account linking, allowing you to join as your Java account on
 
 ## Known Issues/Caveats
 
-## Skins
+### Skins
 Due to how Minecraft: Java Edition handles skins, all Bedrock players will appear as Steve or Alex to other Java players. 
 
-## Access token can not be null or empty
+### Access token can not be null or empty
 This may be because you forgot to set the auth-type in the config to `floodgate`. If that isn't it, check to make sure your config contains the line `floodgate-key-file: public-key.pem`. If not, just copy that in directly.
 
-## Invalid packet id: 27
+### Invalid packet id: 27
 This usually means one of two things:
 
 * You did not follow the Floodgate instructions properly. However, in an unlikely scenario, this could also be an error related to uploading through FTP. Using ascii will not work here, and you need to make sure you're on binary when uploading.
 * You're trying to log in without an Xbox account. Floodgate requires an Xbox account to authenticate the Bedrock player.
 
-## Whitelist command not working
+### Whitelist command not working
 See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
+
+### Prefix is not changing on the server after changing it in the config.
+
+Remove the `usercache.json` file from the server root directory and restart your server.
 
 ## Obtaining UUIDs for Floodgate players
 Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
