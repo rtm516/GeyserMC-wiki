@@ -15,6 +15,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
+* [Ferox Hosting](https://feroxhosting.nl) (Open a ticket to request a UDP port)
 * [FreeMcServer.net](https://freemcserver.net)
 * [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
 * [GGServers](https://ggservers.com/) (Requires a Bedrock node)
@@ -30,6 +31,8 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MineStrator](https://minestrator.com/) (Use the same port as your Java server)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
+* [PhoenixNodes](https://PhoenixNodes.com)
+(Open a ticket to request an additional port for Geyser)
 * [RamShard](https://ramshard.com/)
 * [Revivenode](https://revivenode.com/) (Use the same port as your Java server)
 * [Server.pro](https://server.pro) (Use the same port as your Java server)
@@ -47,9 +50,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [WinterNode](https://winternode.com) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server, request an additional port, or buy a dedicated IP address)
-* [Ferox Hosting](https://feroxhosting.nl) (Open a ticket to request a UDP port)
-* [PhoenixNodes](https://PhoenixNodes.com)
-(Open a ticket to request an additional port for Geyser)
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
