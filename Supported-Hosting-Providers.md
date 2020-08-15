@@ -43,7 +43,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Only Geyser Standalone can be used
   - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
-* [SlothHost](https://slothhost.com/)
+* [SlothHost](https://slothhost.com/) **The SlothHost CEO has abandoned the company, so...**
 * [Sparked Host](https://sparkedhost.com) (Use the same port as your Java server)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server; note that this provider only provides service in China)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work, if not use the same port as your Java server)
