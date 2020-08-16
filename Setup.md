@@ -6,6 +6,12 @@ If you're still having problems with Geyser not working or giving you an "Unable
 For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [FAQ](FAQ) page.\
 And if you still have questions, feel free to join the [Discord](https://discord.geysermc.org) if you haven't already.
 
+## Prerequisites
+
+- The server you are connecting to has to support the latest version of Minecraft Java Edition (at this time this is Minecraft 1.16.2). The server itself does not have to be the latest version but does have to allow connections. If you're running the server, you can use the plugin [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/).
+- Your Bedrock client has to be a supported version - at this time that is any Bedrock 1.16 stable version.
+- If you are running the server, you need to have a UDP port opened. See below for more instructions.
+
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
