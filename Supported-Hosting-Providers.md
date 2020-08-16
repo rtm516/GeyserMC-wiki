@@ -17,7 +17,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [FalixNodes](https://falixnodes.net/) (Use the same port as your Java server)
 * [Ferox Hosting](https://feroxhosting.nl) (Open a ticket to request a UDP port)
-* [FreeMcServer.net](https://freemcserver.net)
+* [FreeMcServer.net](https://freemcserver.net) (Use the same port as your Java server)
 * [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server)
 * [GGServers](https://ggservers.com/) (Requires a Bedrock node)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
