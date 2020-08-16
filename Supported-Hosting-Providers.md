@@ -32,7 +32,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MineStrator](https://minestrator.com/) (Use the same port as your Java server)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server)
-* [PhoenixNodes](https://PhoenixNodes.com)
+* [PhoenixNodes](https://phoenixnodes.com)
 (Open a ticket to request an additional port for Geyser)
 * [RamShard](https://ramshard.com/)
 * [Revivenode](https://revivenode.com/) (Use the same port as your Java server)
