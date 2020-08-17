@@ -46,7 +46,7 @@ You're using an outdated build of Geyser; please remove that Geyser-Bukkit jarfi
 
 _This only affects people trying to join Geyser from Windows 10 Edition with Geyser hosted on the same computer._
 
-This is an issue caused by Loopback restrictions not being lifted. By default, Microsoft Apps have this restriction on all their apps for local connections. You can lift it by typing the following in Windows PowerShell in administrator mode:
+This is an issue caused by Loopback restrictions not being lifted. By default, Microsoft Apps have this restriction on all their apps for local connections. You can lift it by typing the following in Windows PowerShell in administrator mode: (it should return `OK.` if it worked)
 ```powershell
 CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 ```
