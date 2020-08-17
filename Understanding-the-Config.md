@@ -64,7 +64,7 @@ Put two spaces before the username and four spaces before the email and password
 
 **`show-cooldown`**: Bedrock Edition currently does not have Java Edition 1.9+ combat mechanics. In order to get around this, Geyser sends a fake cooldown by sending a title message. This cooldown should not show if 1.8 combat mechanics are in use.
 
-**`default-locale`**: The default locale to send to players if their locale could not be found. Check this page https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support to find the code corresponding to your language.
+**`default-locale`**: The default locale to send to players if their locale could not be found. Check [this](https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support) page to find the code corresponding to your language.
 
 **`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option is always on for Bukkit as we can use the server's API to get block information at no expense.
 
