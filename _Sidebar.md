@@ -10,6 +10,7 @@ User Guide
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
 - [Understanding the Config](Understanding-the-Config)
+- [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
 
 Other
