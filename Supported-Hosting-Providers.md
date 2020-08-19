@@ -11,6 +11,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Need to listen on the Java IP, default port may not work)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and listen on the Java IP)
+* [BloomVPS](https://www.bloomvps.com/) (Can use 25565 port, or you can make a ticket to open a 19132 port)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server or buy a dedicated IP address to support different port)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
