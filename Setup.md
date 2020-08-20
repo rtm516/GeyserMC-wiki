@@ -16,7 +16,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
-3. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. In most scenarios, this file should not need to be touched unless you intend to use [Floodgate](Floodgate), or you're running your server on a port that is not 25565. This may be the case if you are using a server hosting provider. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page. *You should not need to configure the remote address as the plugin handles this for you.*
+3. If you are on a hosting provider, change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if needed.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up if the server is running in your local network. If it does not show up, just add its IPv4 as an external server.
@@ -29,6 +29,7 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 3. If you want to use the GUI, double-click the jar file and all the necessary files for Geyser will be created.
 3. If you want to use the console, create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
+5. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
 
