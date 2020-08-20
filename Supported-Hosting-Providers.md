@@ -27,6 +27,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
   - You also don't need an SSD, they're just trying to make you pay more
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
+* [Holo Hosting LLC](https://holohosting.cc/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [MChost](https://mchost.cc/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
