@@ -19,7 +19,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 3. If you are on a hosting provider, you will likely need to change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if needed.
 
-Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up if the server is running in your local network. If it does not show up, just add its IPv4 as an external server.
+Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up if the server is running in your local network. If it does not show up, just add the Java IPv4 address and Bedrock port as an external server.
 
 ## Standalone Setup
 Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux-android).
@@ -31,7 +31,7 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
 5. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
 
-Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add your IPv4 as an external server.
+Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add the Java IPv4 address and Bedrock port.
 
 ## Port Forwarding
 
