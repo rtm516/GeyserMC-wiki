@@ -16,7 +16,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 ## Plugin Setup
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on.
 2. Put Geyser in your plugins folder and start up the server.
-3. If you are on a hosting provider, change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
+3. If you are on a hosting provider, you will likely need to change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if needed.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up if the server is running in your local network. If it does not show up, just add its IPv4 as an external server.
