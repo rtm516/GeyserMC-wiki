@@ -72,7 +72,7 @@ If you get this error while using the Pterodactyl Panel, try editing the Geyser 
 
 Sometimes having a Bedrock port that is a lower number will cause issues. Setting it to 10000 or above seems safe.
 
-## I'm using a hosting provider.
+## I'm using a hosting provider or any sort of service to host the server.
 
 Please check our [Supporting Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page and ensure you're following any additional steps specific to your company.
 
