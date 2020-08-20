@@ -10,6 +10,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Need to set the Bedrock address in the config on the Java IP, default port may not work)
+* [Aquatis](https://aquatis.host/) (Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP)
 * [BloomVPS](https://www.bloomvps.com/) (Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port)
