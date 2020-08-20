@@ -46,6 +46,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
 * [SlothHost](https://slothhost.com/) **The SlothHost CEO has abandoned the company, so...**
+* [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Common-Issues#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server))
 * [Sparked Host](https://sparkedhost.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work as a Bedrock port, if not use the same port as your Java server for the Bedrock port in your config and connect with that port)
