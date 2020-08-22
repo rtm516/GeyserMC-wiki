@@ -47,6 +47,9 @@ Yes, we have an official egg for the standalone version, it supports auto-updati
 ## Can I use Geyser with Ngrok?
 Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok.
 
+## Can I connect Geyser to an older server?
+If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
+
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
 ### Steps to create a store to support both versions
