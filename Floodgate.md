@@ -19,7 +19,7 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 
 ### Standalone Setup (Geyser and Floodgate are in separate places)
 
-- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder.
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on one server - if you wish to use IP forwarding see below).
 - Run the server with Floodgate.
 - *Copy* the `public-key.pem` file in the Floodgate config folder to the same directory as Geyser (standalone) or Geyser's config folder (plugin versions). **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
 - Change the `auth-type` in the Geyser config to `floodgate`.
