@@ -110,9 +110,11 @@ Bedrock uses UDP instead of TCP, so you will have to update your DNS or port for
 ## Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
 If you have your configuration set up like this, put simply, it won't work. If authentication for the Java server is set to online, it is expected Geyser is configured the same way. The server requires a valid Minecraft: Java Edition account, and if you aren't logging into one with Geyser, then you will be unable to join the server. If your configuration is set up properly and you're still getting this issue, it could be that your credentials are invalid.
 
-## Connection Refused
+## Connection Refused: <INSERT IP AND/OR DOMAIN>
 
 Connection Refused usually means that a Java server could not be found on that port, or the server denied access to the connection on a network level. The latter can happen with anti-DDOS plugins such as TCPShield, but otherwise ensure that the server you're trying to connect to is spelled correctly in the config, is up and is port forwarded correctly.
+
+If you're updating from an old build of Geyser, set your remote address to `auto` and try again.
 
 ## Floodgate Misconfiguration
 See [this page](Floodgate) for more information.
