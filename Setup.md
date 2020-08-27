@@ -28,11 +28,15 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 2. Create a new folder for Geyser, and drop the jar in there.
 
 ### GUI Setup (Recommended)
+3. Double-click the jar file and all the necessary files for Geyser will be created.
+4. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
+5. Stop the current instance of Geyser and re-run it.
 
 ### Console Setup 
-3. If you want to use the console, create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
+3. Create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
 5. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
+6. Stop the current instance of Geyser and re-run it.
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add the Java IPv4 address and Bedrock port.
 
