@@ -26,7 +26,10 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 
 1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
-3. If you want to use the GUI, double-click the jar file and all the necessary files for Geyser will be created.
+
+### GUI Setup (Recommended)
+
+### Console Setup 
 3. If you want to use the console, create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
 5. Configure any needed options in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
