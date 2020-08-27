@@ -65,6 +65,18 @@ Your store is now setup to support Bedrock & Java players
 
 **(PLEASE NOTE, BEDROCK PLAYERS MUST INCLUDE THE PREFIX)**
 
+## Can I use CraftingStore with Geyser?
+As mentioned above bedrock players must include the prefix in their name
+### Steps to make the store work for Geyser
+1. Goto the [admin page](https://craftingstore.net/admin)
+2. Expand settings on the left
+3. Click webshop
+4. Make sure 'Require premium accounts' is Off
+5. Then if you are using floodgate in each package make sure it uses the player's name in any commands not their UUID
+
+![](https://i.imgur.com/PM7nNSm.png)
+
+
 ## What languages does Geyser support?
 We aim to support any of the bedrock languages, see [here](https://translate.geysermc.org/) for our Crowdin page and below is a list of all the language codes.
 |Name                        |Code |
