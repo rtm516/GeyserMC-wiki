@@ -2,6 +2,11 @@ Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts
 
 [Download](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/)
 
+## Prerequisites
+
+- You must own/manage the server in order to add Floodgate. *Floodgate does not allow you to bypass logging into Java servers that require a Mojang Java account*.
+- The CraftBukkit/Bukkit server software is not supported. Use `floodgate-bukkit` for installing on a Spigot/Paper server.
+
 ## Setting Up
 **NOTE: Floodgate does not replace the Geyser jar. If you are running a plugin version of Geyser, you still MUST have Geyser installed.**
 
