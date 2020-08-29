@@ -44,7 +44,13 @@ This is only needed when you want to use the Floodgate API on your Spigot server
 
 ## Account Linking
 
-Floodgate supports account linking, allowing you to join as your Java account on the server. This is an option that can be enabled in the Floodgate config.
+Floodgate supports account linking, allowing you to join as your Java account on the server. This is an option that can be enabled in the Floodgate config. Once enabled, the steps to link your account are as follows:
+
+- Log in on java and run /linkaccount <xbox gamertag>. 
+- You will get a message asking you to run the linkaccount command on Bedrock.
+- Run the command given to you, and you will be kicked on Bedrock. Upon relogging, you will be logged in as your java account.
+
+No credentials for either your Java or Bedrock account are needed nor stored in this process.
 
 ## Known Issues/Caveats
 
