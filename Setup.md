@@ -82,4 +82,9 @@ Setup tutorials in a variety of languages.
 
 ### Russian
 **ЗАШЕЛ НА ХАЙПИКСЕЛЬ С МКПЕ? ЧИТЕРСКИЙ КОНФИГ!** by [TOWUK](https://www.youtube.com/channel/UCK8v-rGsfCOkpbi0slIpAng)
+
 [![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
+
+**Кроссплатформенный сервер Minecraft | GeyserMC Installation** by [Plutonium](https://www.youtube.com/channel/UCxXjEZgHcjMIYoHoDKOCBOw)
+
+[![YouTube Video](https://img.youtube.com/vi/nOwowRFZE9M/0.jpg)](https://www.youtube.com/watch?v=nOwowRFZE9M)
