@@ -66,6 +66,10 @@ This usually means one of two things:
 * You did not follow the Floodgate instructions properly. However, in an unlikely scenario, this could also be an error related to uploading through FTP. Using ascii will not work here, and you need to make sure you're on binary when uploading.
 * You're trying to log in without an Xbox account. Floodgate requires an Xbox account to authenticate the Bedrock player.
 
+### java.lang.NumberFormatException: For input string: ""
+
+You're trying to log in without an Xbox account. Floodgate requires an Xbox account to authenticate the Bedrock player.
+
 ### Whitelist command not working
 See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 
