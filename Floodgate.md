@@ -4,7 +4,7 @@ Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts
 
 ## Prerequisites
 
-- You must own/manage the server in order to add Floodgate. *Floodgate does not allow you to bypass logging into Java servers that require a Mojang Java account*.
+- You must own/manage the server in order to add Floodgate. *If you do not own the server, Floodgate does not allow you to bypass logging into Java servers that require a Mojang Java account*.
 - The CraftBukkit/Bukkit server software is not supported. Use `floodgate-bukkit` for installing on a Spigot/Paper server.
 
 ## Setting Up
