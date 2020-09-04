@@ -52,6 +52,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Sparked Host](https://sparkedhost.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work as a Bedrock port, if not use the same port as your Java server for the Bedrock port in your config and connect with that port)
+* [Titan Nodes](https://titannodes.com/) (Use the Default server port and 0.0.0.0 as the host address.)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [WinterNode](https://winternode.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
