@@ -5,9 +5,8 @@
 4. Run `mvn clean install` and locate to the `bootstrap`, then your desired Geyser version, then `target` folder.
 
 ## Project layout
-* `bootstrap` is where we hold the specific platform code. So if you're porting Geyser to a new platform, you likely want to be in here.
-* `common` is where some data types are and other parts used in other plugins such as Floodgate.
-* `connector` is where connections are handled and the data conversion is done. If adding in some new packet conversions you likely want to be in here.
+* `bootstrap` is where we hold the specific platform code. So if you're porting Geyser to a new platform, or working with platform-specific code, you likely want to be in here.
+* `connector` is where connections are handled and the data conversion is done. The majority of Geyser work is held here.
 
 # Compiler Tools
 
