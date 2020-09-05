@@ -5,7 +5,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 **Warning: The below information is for the plugin versions of Geyser unless otherwise specified**
 
 ## Built-in Geyser
-* [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`)
+* [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`. **Please note: Minehut currently has a bug where any Bedrock player cannot interact with the world. The current workaround is to switch gamemodes when you log into your server.**)
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
