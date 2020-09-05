@@ -28,7 +28,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
   - You also don't need an SSD, they're just trying to make you pay more
-* [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address)
+* [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address. 19132 is blocked for DDOS reasons so your best bet is to use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Holo Hosting LLC](https://holohosting.xyz/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [HumbleServers](https://humbleservers.com/) (Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular ip address with numbers.)
 * [MChost](https://mchost.cc/) (**The things at MChost are not going great as of now, because of the owner change, so its not good to use it right now.** Use the same port as your Java server for the Bedrock port in your config and connect with that port)
