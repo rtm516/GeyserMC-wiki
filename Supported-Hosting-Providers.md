@@ -20,6 +20,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [FadeHost](https://fadehost.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port or buy a dedicated IP address to support different port)
 * [FalixNodes](https://falixnodes.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Ferox Hosting](https://feroxhosting.nl) (Open a ticket to request a UDP port)
+* [FreeMC.Host](https://freemc.host/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [FreeMcServer.net](https://freemcserver.net) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GameHosting](https://www.gamehosting.it/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GGServers](https://ggservers.com/) (Requires a Bedrock node)
@@ -61,6 +62,5 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/)
-* [FreeMC](https://freemc.host/)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly)
 * [PloudOS](https://ploudos.com/)
