@@ -1,6 +1,10 @@
 ## How Does it Work?
 Geyser works as a translator, translating both the incoming and outgoing packets to a format both the client and server can understand. With this being said, it emulates a Minecraft: Java Edition client, so the server actually thinks you're joining from Java Edition. Regardless of the server or what plugins it has installed, you can join it with Geyser (as long as the server supports the latest Minecraft version).
 
+## So how does redstone work?
+
+Redstone will work exactly like Java Edition, since we do not modify server behavior.
+
 ## What plugins don't work with Geyser?
 
 Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
