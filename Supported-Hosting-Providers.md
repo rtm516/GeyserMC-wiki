@@ -55,6 +55,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Common-Issues#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server))
 * [Sparked Host](https://sparkedhost.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [SpawnMC](https://spawnmc.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China)
+* [STIPE](https://stipe.com.au/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in Australia)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (19132 should work as a Bedrock port, if not use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Titan Nodes](https://titannodes.com/) (Use the Default server port and 0.0.0.0 as the host address.)
 * [TNAHosting](https://tnahosting.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
