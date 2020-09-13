@@ -42,7 +42,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [PhoenixNodes](https://phoenixnodes.com)
 (Open a ticket to request an additional port for Geyser)
-* [RamShard](https://ramshard.com/)
+* [RamShard](https://ramshard.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Revivenode](https://revivenode.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [ScalaCube](https://scalacube.com/) (Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port)
 * [Server.pro](https://server.pro) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP.)
