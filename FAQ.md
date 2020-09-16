@@ -3,7 +3,7 @@ Geyser works as a translator, translating both the incoming and outgoing packets
 
 ## So how does redstone work?
 
-Redstone will work exactly like Java Edition, since we do not modify server behavior.
+Redstone will work exactly like Java Edition, since you are joining a Java Edition server and Geyser does not modify server behavior.
 
 ## What plugins don't work with Geyser?
 
