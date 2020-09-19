@@ -122,6 +122,9 @@ See [this page](Floodgate) for more information.
 ## Mojang Resetting Account Credentials
 This is unfortunately something we have no control over, and is most likely the case when you're running Geyser as a plugin on a server host or joining a friend far away from your location. If you're running Geyser locally, this should not happen to you, but what we recommend for servers is a plugin we make called [Floodgate](https://github.com/GeyserMC/Floodgate), which allows for Bedrock clients to join your server without needing a Java Edition account. Take a look [here](Floodgate) for more information. 
 
+# "Invalid IP address!" from Bedrock
+It's currently unknown why this happens even for valid domains. Try using the IPv4 address.
+
 # Bedrock clients freeze when opening up commands for the first time
 Disable `command-suggestions` in your Geyser config. This will stop the freezing at the expense of removing command suggestions from Bedrock clients.
 
