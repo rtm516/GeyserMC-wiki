@@ -65,6 +65,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address)
 
 ## Does not support Geyser
-* [Aternos](https://aternos.org/) (You need Geyser Standalone to join)
+* [Aternos](https://aternos.org/) (as an alternative, you can run Geyser standalone separately)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly)
 * [PloudOS](https://ploudos.com/)
