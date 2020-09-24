@@ -70,6 +70,10 @@ This usually means one of two things:
 
 You're trying to log in without an Xbox account. Floodgate requires an Xbox account to authenticate the Bedrock player.
 
+### Geyser-Floodgate:51777 lost connection: Internal Exception: java.lang.NumberFormatException: For input string: "SfqdXv36" (or a similar error)
+
+Set `ip-forwarding` in your BungeeCord to `true`.
+
 ### Whitelist command not working
 See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 
