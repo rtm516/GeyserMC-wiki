@@ -121,3 +121,6 @@ We aim to support any of the bedrock languages, see [here](https://translate.gey
 |Ukrainian                   |uk_ua|
 |Chinese Simplified (China)  |zh_cn|
 |Chinese Traditional (Taiwan)|zh_tw|
+
+## How do I auto-update Geyser?
+Visit [Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) to learn more
