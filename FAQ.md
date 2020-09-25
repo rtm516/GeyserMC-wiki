@@ -61,6 +61,9 @@ Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngro
 ## Can I connect Geyser to an older server?
 If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
 
+## How can I auto-update Geyser?
+[Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) is one option at this time to auto-update Geyser through the command line. Note that this project is unaffiliated with Geyser.
+
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
 ### Steps to create a store to support both versions
@@ -121,6 +124,3 @@ We aim to support any of the bedrock languages, see [here](https://translate.gey
 |Ukrainian                   |uk_ua|
 |Chinese Simplified (China)  |zh_cn|
 |Chinese Traditional (Taiwan)|zh_tw|
-
-## How do I auto-update Geyser?
-Visit [Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) to learn more
