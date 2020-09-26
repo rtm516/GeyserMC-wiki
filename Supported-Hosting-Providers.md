@@ -66,5 +66,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Does not support Geyser
 * [Aternos](https://aternos.org/) (As an alternative, you can run Geyser standalone separately)
+* [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly)
 * [PloudOS](https://ploudos.com/)
