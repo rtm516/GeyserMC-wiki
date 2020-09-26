@@ -52,6 +52,12 @@ Floodgate supports account linking, allowing you to join as your Java account on
 
 No credentials for either your Java or Bedrock account are needed nor stored in this process.
 
+## Changing/disabling the prefix
+
+***Please note: we do not recommend removing the prefix unless you are certain there no one will share a username between Java and Bedrock players.***
+
+In your Floodgate config, change `username-prefix` to whichever prefix you desire - you can set it to `""` and there will be no prefix. On Spigot servers, you should also delete your `usercache.json` file located in the same folder as your server jar to prevent users who already joined from having the old prefix.
+
 ## Known Issues/Caveats
 
 ### Skins
@@ -79,7 +85,7 @@ See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 
 ### Prefix is not changing on the server after changing it in the config.
 
-Remove the `usercache.json` file from the server root directory and restart your server.
+Ensure that you removed the `usercache.json` file from the server root directory and restart your server.
 
 ## Obtaining UUIDs for Floodgate players
 Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
