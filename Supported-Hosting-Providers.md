@@ -6,6 +6,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Built-in Geyser
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`. **Please note: Minehut currently has a bug where any Bedrock player cannot interact with the world. The current workaround is to switch gamemodes when you log into your server.**)
+* [CreeperHost](https://www.creeperhost.net/). Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
