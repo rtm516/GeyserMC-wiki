@@ -43,6 +43,9 @@ You can add Bedrock resource packs to your Geyser installation in the `packs` fo
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, the prefix must be included in the name. If this does not work, put double-quotes around the name.
 
+## Can I remove the prefix of Floodgate players?
+While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have the same username, they have different UUID's which may cause a UUID conflict and possible data loss.
+
 ## How do I add players to the whitelist when using Floodgate?
 There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
@@ -62,7 +65,7 @@ Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngro
 If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
 
 ## How can I auto-update Geyser?
-[Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) is one option at this time to auto-update Geyser through the command line. Note that this project is unaffiliated with Geyser.
+[Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) is an option at this time to auto-update Geyser through the command line. Note that this project is unaffiliated with Geyser.
 
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
