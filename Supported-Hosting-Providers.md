@@ -16,6 +16,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP)
 * [BloomVPS](https://www.bloomvps.com/) (Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port)
+* [CentryHosting](https://century-hosting.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Craft-Hosting](https://craft-hosting.ru/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider appears to only provide service in Russia.)
 * [DedicatedMC](https://dedicatedmc.io/) (Need to ask to open the default bedrock port.)
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider)
@@ -28,7 +29,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [GameHosting.it](https://www.gamehosting.it/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GameHosting.gg](https://gamehosting.gg/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Gamers Hosting](https://gamershosting.ga/) (Open a ticket to request a UDP port or Use the same port as your Java server for the Bedrock port in your config and connect with that port)
-* [GGServers](https://ggservers.com/) (Requires a Bedrock node)
+* [GGServers](https://ggservers.com/) (Requires a Bedrock node [Unknown if you still need one])
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
