@@ -38,7 +38,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Heavynode](https://www.heavynode.com/) (Use default port and 0.0.0.0 as address. 19132 is blocked for DDOS reasons so your best bet is to use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Hetzner](https://hetzner.com) (Not a dedicated Minecraft provider)
 * [HumbleServers](https://humbleservers.com/) (Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular ip address with numbers.)
-* [MCProHosting](https://mcprohosting.com/) (Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
+* [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps, modded servers not supported)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [MineStrator](https://minestrator.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
