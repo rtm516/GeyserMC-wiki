@@ -16,4 +16,5 @@ User Guide
 Other
 - [Floodgate](Floodgate)
 - [GeyserConnect](GeyserConnect)
+- [Geyser-Fabric](Geyser-Fabric)
 - [Developer Guide](Developer-Guide)
