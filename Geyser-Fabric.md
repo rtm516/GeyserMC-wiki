@@ -7,6 +7,8 @@ For the most part, Geyser-Fabric operates the same as other Geyser platforms. Th
 - Floodgate is currently not supported on Fabric.
 - You must install the Fabric API mod from [here](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
 
+The source code can be found [here](https://github.com/GeyserMC/Geyser-Fabric).
+
 ### permissions.yml
 
 This file located in `config/Geyser-Fabric` controls what commands non-opped players (both Bedrock and Java) are able to run. Uncomment the commands you want any player to run.
