@@ -9,7 +9,7 @@ For the most part, Geyser-Fabric operates the same as other Geyser platforms. Th
 
 ### permissions.yml
 
-This file located in `config/Geyser-Fabric` controls what commands non-opped players (both Bedrock and Java) are able to run. Uncomment the desired commands.
+This file located in `config/Geyser-Fabric` controls what commands non-opped players (both Bedrock and Java) are able to run. Uncomment the commands you want any player to run.
 
 ### Why a separate repository?
 
