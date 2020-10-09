@@ -40,6 +40,10 @@ Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBuk
 
 You're using an outdated build of Geyser; please remove that Geyser-Bukkit jarfile.
 
+### Have you tried restarting?
+
+Especially on mobile devices, sometimes just restarting Minecraft fixes the issue.
+
 ## I am hosting Geyser on the same network.
 
 ### I'm using Windows 10 and trying to connect to Geyser on the same computer.
