@@ -71,5 +71,5 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
 * [MCPEhost](https://mcpehost.ru/)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly)
-* [NFOservers] (https://nfoservers.com/) (As an alternative, you can run Geyser standalone separately)
+* [NFOservers](https://nfoservers.com/) (As an alternative, you can run Geyser standalone separately)
 * [PloudOS](https://ploudos.com/)
