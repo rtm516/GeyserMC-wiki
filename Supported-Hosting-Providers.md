@@ -5,6 +5,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 **Warning: The below information is for the plugin versions of Geyser unless otherwise specified**
 
 ## Built-in Geyser
+* [Aternos](https://aternos.org/) (Select as a plugin in the Aternos plugin list and connect to your server with your Java IP and port)
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server)
 * [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. To host your own: Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
@@ -67,7 +68,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address)
 
 ## Does not support Geyser
-* [Aternos](https://aternos.org/) (As an alternative, you can run Geyser standalone separately)
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
 * [MCPEhost](https://mcpehost.ru/)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly)
