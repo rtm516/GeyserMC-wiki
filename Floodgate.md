@@ -22,7 +22,7 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 - Change the `auth-type` in the Geyser config to `floodgate`.
 - Restart/start up the server.
 
-### Standalone Setup (Geyser and Floodgate are in separate places)
+### Standalone Setup (Geyser and Floodgate are not on the same server)
 
 - Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
 - Run the server with Floodgate.
