@@ -34,7 +34,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Gamers Hosting](https://gamershosting.ga/) (Open a ticket to request a UDP port or Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GGServers](https://ggservers.com/) (Requires a Bedrock node. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
-  - 1 year/$300 free trial
+  - 90 day/$300 free trial
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
   - Note: You'll need to also allow port 19132 on UDP, use Paper instead of vanilla and put Geyser in the plugins folder
   - You also don't need an SSD, they're just trying to make you pay more
