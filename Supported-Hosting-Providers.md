@@ -32,7 +32,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [GameHosting.it](https://www.gamehosting.it/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GameHosting.gg](https://gamehosting.gg/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [Gamers Hosting](https://gamershosting.ga/) (Open a ticket to request a UDP port or Use the same port as your Java server for the Bedrock port in your config and connect with that port)
-* [GGServers](https://ggservers.com/) (Requires a Bedrock node. [Unknown if you still need one][soshimee - Still needed] Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port. [soshimee - This is needed as GGServers only opens ports 8000~9999 and the Java port, address also has to be same as the external IP for some reason])
+* [GGServers](https://ggservers.com/) (Requires a Bedrock node. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 1 year/$300 free trial
   - [Tutorial for a Minecraft server Google Cloud](https://cloud.google.com/solutions/gaming/minecraft-server)
