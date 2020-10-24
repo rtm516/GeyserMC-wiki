@@ -19,7 +19,7 @@ There are both [DNS](https://github.com/GeyserMC/GeyserConnect/tree/master/bind9
   * `port` - The port that will listen for connections.
   * `debug-mode` - If debug messages should be sent through the console, has to be enabled in both places to work.
   * `shutdown-time` - The time to wait after the last player disconnects to shutdown the proxy, in seconds. Set to -1 to disable.
-* `servers` - A list of servers to show for everyone build from `address`, `port`, `online` and `bedrock` all optional apart from address.
+* `servers` - A list of servers to show for everyone build from `address`, `port`, `name`, `online` and `bedrock` all optional apart from address.
 * `custom-servers`
   * `enabled` - Should custom servers be enabled for users.
   * `max` - Max amount of custom servers per user.
