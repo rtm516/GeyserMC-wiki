@@ -9,3 +9,4 @@
 | `geyser reload` | `geyser.command.reload` | Reloads the Geyser configurations. Kicks all players when used! |
 | `geyser shutdown` or `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser. |
 | `geyser version` | `geyser.command.version` | Shows the current Geyser version and checks for updates. |
+| `geyser statistics` | `geyser.command.statistics` | Shows the statistics of the player on the server. |
