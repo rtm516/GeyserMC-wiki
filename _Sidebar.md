@@ -12,6 +12,7 @@ User Guide
 - [Understanding the Config](Understanding-the-Config)
 - [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
+- [Using Geyser with Consoles](Using-Geyser-with-Consoles)
 
 Other
 - [Floodgate](Floodgate)
