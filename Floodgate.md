@@ -58,6 +58,10 @@ No credentials for either your Java or Bedrock account are needed nor stored in 
 
 In your Floodgate config, change `username-prefix` to whichever prefix you desire - you can set it to `""` and there will be no prefix. On Spigot servers, you should also shut down your server and delete your `usercache.json` file located in the same folder as your server jar to prevent users who already joined from having the old prefix.
 
+## Running commands
+
+In some instances, you may need to wrap the Bedrock player's username in quotes; for example: `/tp "*BedrockPlayer"`.
+
 ## Known Issues/Caveats
 
 ### Skins
