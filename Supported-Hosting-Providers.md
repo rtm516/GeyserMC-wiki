@@ -17,7 +17,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Aquatis](https://aquatis.host/) (Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port)
 * [Azure](https://azure.microsoft.com/) (Not a dedicated Minecraft provider; set your Bedrock address in your config to `127.0.0.1`.)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP)
-* [BloomVPS](https://www.bloomvps.com/) (Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port)
+* [Bloom.Host](https://www.bloom.host/) (Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port)
 * [Dashflo.net](https://dashflo.net/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port)
 * [Century-Hosting](https://century-hosting.com) (**The things at Century Hosting are not going so great, Untested basically.**)
 * [Craft-Hosting](https://craft-hosting.ru/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider appears to only provide service in Russia.)
