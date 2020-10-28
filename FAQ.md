@@ -96,6 +96,9 @@ As mentioned above bedrock players must include the prefix in their name
 
 ## What languages does Geyser support?
 We aim to support any of the bedrock languages, see [here](https://translate.geysermc.org/) for our Crowdin page and below is a list of all the language codes. We also can add support for more languages, please request them in the Discord server if you are willing to translate them. (Enabled clientside via https://www.curseforge.com/minecraft/mc-addons/translations-for-minecraft)
+
+### Bedrock languages
+
 |Name                        |Code |
 |----------------------------|-----|
 |Bulgarian                   |bg_bg|
@@ -110,7 +113,6 @@ We aim to support any of the bedrock languages, see [here](https://translate.gey
 |Finnish                     |fi_fi|
 |Canadian French             |fr_ca|
 |French                      |fr_fr|
-|Hindi                       |hi_in|
 |Hungarian                   |hu_hu|
 |Indonesian                  |id_id|
 |Italian                     |it_it|
@@ -128,3 +130,11 @@ We aim to support any of the bedrock languages, see [here](https://translate.gey
 |Ukrainian                   |uk_ua|
 |Chinese Simplified (China)  |zh_cn|
 |Chinese Traditional (Taiwan)|zh_tw|
+
+### Additional languages
+
+|Name                        |Code |
+|----------------------------|-----|
+|Afrikaans                   |af_za|
+|Hebrew                      |he_il|
+|Hindi                       |hi_in|
