@@ -22,4 +22,4 @@ If you have an Android device, you have several options:
 - [MC Lan Proxy (Trial)](https://discord.com/channels/613163671870242838/613194762249437245/770699493482037310)
 - [MC Lan Proxy (Paid)](https://play.google.com/store/apps/details?id=com.luzenna.mineproxydroid)
 
-If you have an iOS device, you can use [BedrockTogether](https://apps.apple.com/app/bedrocktogether/id1534593376).
+If you have an iOS 14+ device, you can use [BedrockTogether](https://apps.apple.com/app/bedrocktogether/id1534593376).
