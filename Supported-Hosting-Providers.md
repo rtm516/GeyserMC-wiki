@@ -43,6 +43,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [HumbleServers](https://humbleservers.com/) (Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular ip address with numbers.)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [MineStrator](https://minestrator.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
+* [NiCraft](https://www.ni-host.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [PhoenixNodes](https://phoenixnodes.com) (Open a ticket to request an additional port for Geyser)
@@ -66,7 +67,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [WinterNode](https://winternode.com) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address)
 * [Witherhosting](https://witherhosting.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [ZapHosting](https://zap-hosting.com/en/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address)
-* [NiCraft](https://www.ni-host.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
