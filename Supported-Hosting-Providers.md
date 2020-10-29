@@ -43,7 +43,8 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [HumbleServers](https://humbleservers.com/) (Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular ip address with numbers.)
 * [Meloncube](https://www.meloncube.net/) (Need to ask to open a UDP port)
 * [MineStrator](https://minestrator.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
-* [NiCraft](https://www.ni-host.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port
+* [NiCraft](https://www.ni-host.com/)
+  - Use the same port as your Java server for the Bedrock port in your config and connect with that port.
   - See [here](https://github.com/GeyserMC/Geyser/wiki/Common-Issues#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server)
   - So if your players encounter this issue, please ask them to try to connect (even if they don't have Minecraft) from Java Edition first while their Bedrock client is opened and after they should be able to join on Bedrock Edition.
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
