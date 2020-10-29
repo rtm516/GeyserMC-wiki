@@ -19,3 +19,4 @@ If you have a PC, use [Phantom](https://github.com/jhead/phantom). If you have a
 - [Work in progress Geyser Android app](https://github.com/rtm516/GeyserAndroid)
 - [MC Lan Proxy (Trial)](https://discord.com/channels/613163671870242838/613194762249437245/770699493482037310)
 - [MC Lan Proxy (Paid)](https://play.google.com/store/apps/details?id=com.luzenna.mineproxydroid)
+If you have an Iphone running IOS 14+ you can use: https://apps.apple.com/app/bedrocktogether/id1534593376
