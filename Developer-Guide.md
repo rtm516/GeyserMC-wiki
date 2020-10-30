@@ -35,5 +35,8 @@ NBTExplorer is a tool for viewing and editing NBT data for Java edition, this al
 ## pakkit
 pakkit is a GUI based tool for intercepting packets between a Java edition server and client developed by Geyser contributor [circuit10/Heath123](https://github.com/Heath123/) built using Electron. It also has experimental support for Bedrock Edition as a friendlier GUI wrapper for ProxyPass. You can download it from [here](https://github.com/Heath123/pakkit) under releases, or clone from GitHub for the latest version. It's currently WIP, so expect bugs.
 
+## debuginfo-be
+[debuginfo-be](https://github.com/Heath123/debuginfo-be) is a Spigot plugin that displays an overlay to Geyser clients with useful debug information, similar to the F3 screen in Java Edition.
+
 ## ProxyPass
 ProxyPass is a tool for intercepting packets between a Bedrock server and client developed by the Cloudburst team. It can be found [here](https://github.com/NukkitX/ProxyPass) and the vanilla Bedrock server can be found [here](https://www.minecraft.net/en-us/download/server/bedrock/).
