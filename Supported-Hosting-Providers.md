@@ -30,8 +30,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [FreeMC.Host](https://freemc.host/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [FreeMcServer.net](https://freemcserver.net) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GameHosting.it](https://www.gamehosting.it/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
-* [GameHosting.gg](https://gamehosting.gg/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
-* [Gamers Hosting](https://gamershosting.ga/) (Open a ticket to request a UDP port or Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [GGServers](https://ggservers.com/) (Requires a Bedrock node. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 90 day/$300 free trial
