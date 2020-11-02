@@ -14,5 +14,5 @@ If you have any questions or problems be sure to join our [Discord](https://disc
 |`/rtp`|Teleport ot a random location|
 |`/ll`|LandLord base command for managing land claims|
 |`/spawn`|Teleport to spawn|
-|`/home`|Set/goto a home|
+|`/home`|Set/go-to a home|
 |`/linkaccount`|Link your Java and Bedrock accounts|
