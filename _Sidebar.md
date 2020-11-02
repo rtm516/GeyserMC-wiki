@@ -18,4 +18,5 @@ Other
 - [Floodgate](Floodgate)
 - [GeyserConnect](GeyserConnect)
 - [Geyser-Fabric](Geyser-Fabric)
+- [Test Server](Test-Server)
 - [Developer Guide](Developer-Guide)
