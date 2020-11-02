@@ -1,5 +1,6 @@
-IP: `test.geysermc.org` (default ports on both Bedrock and Java)
-World size: 20k x 20k
+### Details
+- IP: `test.geysermc.org` (default ports on both Bedrock and Java)
+- World size: 20k x 20k
 
 ### Infomation
 Geyser has a test server for those who want to test how Java <-> Bedrock crossplay works on their device, and to see the limitations and restrictions. You can join from either Bedrock or Java, and the server has [Floodgate](Floodgate) installed so you don’t need a Java account to join from Bedrock.
