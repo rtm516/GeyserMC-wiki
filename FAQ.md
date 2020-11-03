@@ -138,3 +138,9 @@ We aim to support any of the bedrock languages, see [here](https://translate.gey
 |Afrikaans                   |af_za|
 |Hebrew                      |he_il|
 |Hindi                       |hi_in|
+
+# Questions not related to gameplay
+
+## What is the relationship between CubeCraft and Geyser?
+
+Geyser was started by Redned in July 2019. In May 2020, CubeCraft acquired the GeyserMC brand. This means that they govern the project (though at this time, they govern lightly). CubeCraft does not own the code of Geyser. 
