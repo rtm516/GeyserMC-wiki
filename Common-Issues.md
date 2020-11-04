@@ -135,6 +135,9 @@ Disable `command-suggestions` in your Geyser config. This will stop the freezing
 # BungeeCord freezes and crashes after bedrock player joins
 Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
 
+# Failed to load locale asset cache: Unrecognized token 'Cannot'
+This or anything else related to failing to download a locale file on startup is usually caused by java trying to connect using IPv6 and Mojang only use IPv4, so start Geyser or the server up with this flag `-Djava.net.preferIPv4Stack=true`, EG: `java -Xms1024M -Djava.net.preferIPv4Stack=true -jar Geyser.jar`
+
 # Floodgate
 For most floodgate issues see: [Floodgate: Known Issues/Caveats](Floodgate#known-issuescaveats).
 ## If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
