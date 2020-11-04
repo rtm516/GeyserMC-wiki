@@ -13,7 +13,7 @@ Geyser should generally work fine with plugins, as we emulate a Java client. The
 
 Floodgate can cause issues with plugins as it modifies the login process.
 
-* [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-the-ultimate-antiexploit-plugin.62842/) thinks that Floodgate users are UUID spoofing - disable the `uuidspoof` setting in the plugin's config.
+* [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-the-ultimate-antiexploit-plugin.62842/) thinks that Floodgate users are UUID spoofing - disable the `uuidspoof` setting in ExploitFixer's config.
 * [JPremium](https://www.spigotmc.org/resources/27766/) alters the UUID of a player causing Floodgate to not be able to get the Bedrock data from its map.
 * ~~[ProtocolSupport](https://www.spigotmc.org/resources/7201/) sometimes causes issues with Floodgate saying `Invalid packet id: 27`. Use [ViaVersion](https://www.spigotmc.org/resources/19254/) instead if this keeps occurring~~ ProtocolSupport now works with the latest Floodgate.
 * [ProtocolSupportBungee](https://www.spigotmc.org/resources/8733/) changes how the login process works and therefore breaks the floodgate injection code.
