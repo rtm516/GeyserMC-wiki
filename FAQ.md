@@ -11,7 +11,7 @@ Geyser should generally work fine with plugins, as we emulate a Java client. The
 
 * [TCPShield](https://tcpshield.com/) does not work at this time unless you disable `only-allow-proxy-connections`. 
 
-Floodgate can cause issues with plugins as it modifies the login process. *Please note that any offline mode authenticator plugins are only here for documentation; Geyser does not support the usage of offline mode*
+Floodgate can cause issues with plugins as it modifies the login process. *Please note that any offline mode authenticator plugins are only here for documentation; Geyser does not support the usage of offline mode.*
 
 * [DynamicBungeeAuth](https://www.spigotmc.org/resources/dynamicbungeeauth-premium-command-semi-premium-system-sessions.27480/) produces invalid credentials for Bedrock players
 * [ExploitFixer](https://www.spigotmc.org/resources/2ls-exploitfixer-the-ultimate-antiexploit-plugin.62842/) thinks that Floodgate users are UUID spoofing - disable the `uuidspoof` setting in ExploitFixer's config.
