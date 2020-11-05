@@ -9,6 +9,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server)
 * [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. To host your own: Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
+* [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
 
 ## Support for Geyser
@@ -47,7 +48,6 @@ It should also be noted that these providers may not be verified by the Geyser t
   - So if your players encounter this issue, please ask them to try to connect (even if they don't have Minecraft) from Java Edition first while their Bedrock client is opened and after they should be able to join on Bedrock Edition.
 * [Nodecraft](https://nodecraft.com) (Use the default server port and 0.0.0.0 or your server IP as the host address)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
-* [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [PhoenixNodes](https://phoenixnodes.com) (Open a ticket to request an additional port for Geyser)
 * [RamShard](https://ramshard.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
