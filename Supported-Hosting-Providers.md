@@ -47,7 +47,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - So if your players encounter this issue, please ask them to try to connect (even if they don't have Minecraft) from Java Edition first while their Bedrock client is opened and after they should be able to join on Bedrock Edition.
 * [Nodecraft](https://nodecraft.com) (Use the default server port and 0.0.0.0 or your server IP as the host address)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider)
-* [OMGServ](https://www.omgserv.com/en/) (Select Geyser in Install Menu, all is automatically installed. You can turn on/off floodgate in server properties on dashboard.)
+* [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [Pebblehost](https://pebblehost.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
 * [PhoenixNodes](https://phoenixnodes.com) (Open a ticket to request an additional port for Geyser)
 * [RamShard](https://ramshard.com/) (Use the same port as your Java server for the Bedrock port in your config and connect with that port)
