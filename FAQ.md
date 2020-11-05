@@ -32,7 +32,7 @@ This is a non-complete list of what platform each plugin version of Geyser is fo
   * [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)
   * [Waterfall](https://papermc.io/downloads#Waterfall)
   * Any other forks of the above
-* Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/) *1.1.0 or later*
+* Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/)
 * Geyser-Sponge works with [SpongeVanilla or SpongeForge](https://www.spongepowered.org/)
 
 ## If using BungeeCord or another fork, where do I need to put Geyser/Floodgate?
