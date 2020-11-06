@@ -1,5 +1,7 @@
 *Unable to Connect to World* is by far the most common error people get when attempting to set up Geyser. Here's some steps on how to solve that.
 
+**_If you are using a hosting provider: Many providers and remote hostings have additional steps you have to perform in order to be supported; see [Supporting Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers). If you're self-hosting from home, you don't need to worry about this._**
+
 # Before we start...
 
 ## ...Java players can't connect either!
@@ -50,10 +52,6 @@ In the SoYouStart control panel:
 Except for a few specific hosting providers, you generally do not need to change this part of the Geyser config. However, in rare instances, it does fix issues
 
 # Using a hosting provider or other location
-
-## Read me first!!!
-
-Many providers and remote hostings have additional steps you have to perform in order to be supported; see [Supporting Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers). If you're self-hosting from home, you don't need to worry about this.
 
 ## Pterodactyl
 
