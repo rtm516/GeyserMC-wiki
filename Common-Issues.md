@@ -4,9 +4,10 @@ Commonly, people may have issues with Geyser not showing up in their server list
 
 ## If the server doesn't show up in the friends list
 
-* *If using Windows 10, iOS, or Android*: try adding the server to your external server.
-* *If using Xbox One or PS4*: try connecting with BedrockConnect.
-* *If using Nintendo Switch*: there is currently no way for local servers to show up in the friends tab.
+* *If using Windows 10, iOS, or Android*: try adding the server to the Servers list in-game.
+* *If using Xbox One*: try connecting with [BedrockConnect](https://github.com/GeyserMC/Geyser/wiki/Using-Geyser-with-Consoles).
+* *If using PS4*: [try using a LAN proxy.](https://github.com/GeyserMC/Geyser/wiki/Using-Geyser-with-Consoles#playstation-4)
+* *If using Nintendo Switch*: there is currently no way for local servers to show up in the Friends tab, but you can still connect using [BedrockConnect](https://github.com/GeyserMC/Geyser/wiki/Using-Geyser-with-Consoles).
 
 *If the Geyser instance is locally hosted:* try using `localhost` or `0.0.0.0` as the IP address. 
 *If that doesn't work, or your Geyser instance is on another computer in the network*: use your **local** IPv4 address.
