@@ -20,9 +20,13 @@ Especially on mobile devices, sometimes just restarting Minecraft fixes the issu
 
 # General troubleshooting steps
 
+## Port forwarding
+
+Your server does need to be port forwarded. Generally, you can follow any Minecraft: Java Edition port forwarding guide; however, you need to replace any mention of TCP with UDP and, by default, any mention of 25565 with 19132.
+
 ## Using TCP in DNS options/port forwarding Instead of UDP
 
-Minecraft: Java Edition uses TCP for connecting; Minecraft: Bedrock Edition uses UDP. Specifying `TCP/UDP` should also work but is not recommended.
+Minecraft: Java Edition uses TCP for connecting; Minecraft: Bedrock Edition uses UDP. Port forwarding with only UDP will not work. Specifying `TCP/UDP` should also work but is not recommended.
 
 ## Bedrock port is less than 10000
 
