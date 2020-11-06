@@ -35,7 +35,7 @@ Update your Java at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
 
 ### Geyser Spigot plugin does not load with CraftBukkit/other error with CraftBukkit
 
-Geyser is not tested with CraftBukkit, and Floodgate will not load with CraftBukkit. We recommend you use the Paper or Spigot server software.
+Geyser and Floodgate will not operate correctly with CraftBukkit. We recommend you use the Paper or Spigot server software.
 
 ### Any error involving a "Geyser-Bukkit" plugin.
 
