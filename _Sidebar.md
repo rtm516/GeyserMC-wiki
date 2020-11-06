@@ -9,6 +9,7 @@ User Guide
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
+  - [Fixing "Unable to Connect to World"](Fixing-"Unable-to-Connect-to-World")
 - [Understanding the Config](Understanding-the-Config)
 - [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
