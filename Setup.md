@@ -14,7 +14,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 - If you are running the server, you need to have a UDP port opened. See below for more instructions.
 
 ## Plugin Setup
-1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on. Use Geyser-spigot.jar for Paper servers.
+1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on. See the [FAQ](https://github.com/GeyserMC/Geyser/wiki/FAQ) if you're confused about which build to download.
 2. Put the Geyser jar file in your plugins folder and start up the server.
 3. If you are on a hosting provider, you will likely need to change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if you edited your config.
