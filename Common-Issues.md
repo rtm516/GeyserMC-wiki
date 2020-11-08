@@ -12,19 +12,7 @@ Commonly, people may have issues with Geyser not showing up in their server list
 *If the Geyser instance is locally hosted:* try using `localhost` or `0.0.0.0` as the IP address. 
 *If that doesn't work, or your Geyser instance is on another computer in the network*: use your **local** IPv4 address.
 
-## That doesn't work, or I get "Unable to connect to world"
-
-This error means that the Bedrock client cannot find the server; more than likely, it is a connection problem and not directly a Geyser problem.
-
-*Common issues relating to Geyser in general can be found here. See below for options specific to locally hosting Geyser and externally hosting Geyser.*
-
-### Java players also cannot connect.
-
-This ***should not be*** a Geyser problem. Geyser does not modify server behavior. Floodgate does modify the login structure but only for Bedrock players. Contact your hosting provider or look elsewhere for fixing this connection issue.
-
-### I just updated and now it doesn't work!
-
-If this occurred after updating a plugin version of Geyser, ensure that you shut off your server, swapped the Geyser jar, and then started up your server.
+## See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22) for fixing "Unable to Connect to World" with no console errors
 
 ### `java.net.BindException: Address already in use: bind` on startup.
 This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. If you don't recall opening anything, usually restarting your computer fixes this. 
@@ -33,67 +21,6 @@ This means something (likely another instance of Geyser) is running on the port 
 
 Update your Java at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
 
-### Geyser Spigot plugin does not load with CraftBukkit/other error with CraftBukkit
-
-Geyser and Floodgate will not operate correctly with CraftBukkit. We recommend you use the Paper or Spigot server software.
-
-### Any error involving a "Geyser-Bukkit" plugin.
-
-You're using an outdated build of Geyser; please remove that Geyser-Bukkit jarfile.
-
-### Have you tried restarting?
-
-Especially on mobile devices, sometimes just restarting Minecraft fixes the issue.
-
-## I am hosting Geyser on the same network.
-
-### I'm using Windows 10 and trying to connect to Geyser on the same computer.
-
-_This only affects people trying to join Geyser from Windows 10 Edition with Geyser hosted on the same computer._
-
-This is an issue caused by Loopback restrictions not being lifted. By default, Microsoft Apps have this restriction on all their apps for local connections. You can lift it by typing the following in Windows PowerShell in administrator mode: (it should return `OK.` if it worked)
-```powershell
-CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
-```
-
-In most cases, Geyser should resolve this issue automatically, but in some events where you may not be an administrator, this will not automatically be resolved.
-
-### I can only connect from the same computer and not anywhere else!
-
-Your firewall is likely in the way. Try adding an exception to Java, or disable the firewall for testing purposes.
-
-## Geyser is not on the same network.
-
-*If you have tried all options down below*, set the Bedrock remote address to your external IP.
-
-### I'm trying to connect from Bedrock with an SRV record.
-
-Bedrock edition does not support SRV records, so this option won't work at all.
-
-### Pterodactyl
-If you get this error while using the Pterodactyl Panel, try editing the Geyser config and changing the port to something besides `19132` (e.g. `25566`).
-
-### Bedrock port is less than 10000
-
-Sometimes having a Bedrock port that is a lower number will cause issues. Setting it to 10000 or above seems safe.
-
-## I'm using a hosting provider or any sort of service to host the server.
-
-Please check our [Supporting Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page and ensure you're following any additional steps specific to your company.
-
-### Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server)
-
-This is likely a firewall issue on your server. 
-
-Here is how to prevent the issue on SoYouStart (a subsidiary of OVH):
-
-In the SoYouStart control panel:
-1. Click the IP tab.
-2. Click the gear at the right of the public IP address; select "Game mitigation".
-3. Pick "Add a rule".
-4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
-5. Save and wait a few seconds for the changes to come into effect.
-
 ### Hosting provider will not immediately open up UDP.
 
 These steps only apply for the standalone version of Geyser.
@@ -101,12 +28,6 @@ These steps only apply for the standalone version of Geyser.
 This usually has something to do on your host's end. Most commonly, it's because they do not open up ports over the UDP protocol, which is what Minecraft: Bedrock Edition uses, opposed to Minecraft: Java Edition using TCP. One way to get around this (if you're using an online host) is to shut down your server, and when asking for a server jar, select Nukkit (you won't actually be switching to Nukkit). Afterward, open up your FTP file manager and find the Nukkit jar. Then, replace this jar with the server software you're using. Upon starting up the server, it should open up ports over UDP whilst still allowing you to use the server jar you desire.
 
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
-
-## I'm hosting myself/I have control of the port forwarding or firewall
-
-### Using TCP in DNS options/port forwarding Instead of UDP
-
-Bedrock uses UDP instead of TCP, so you will have to update your DNS or port forward accordingly if you are using TCP. Specifying `TCP/UDP` should also work but is discouraged.
 
 # Login Failed
 
