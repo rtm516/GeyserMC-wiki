@@ -14,7 +14,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
-* [Apex Hosting](https://apexminecrafthosting.com/) (Need to set the Bedrock address in the config on the Java IP, default port may not work)
+* [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work)
 * [Aquatis](https://aquatis.host/) (Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port)
 * [Azure](https://azure.microsoft.com/) (Not a dedicated Minecraft provider; set your Bedrock address in your config to `127.0.0.1`.)
 * [BisectHosting](https://www.bisecthosting.com/) (Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP)
