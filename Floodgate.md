@@ -35,7 +35,7 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 This is only needed when you want to use the Floodgate API on your Spigot server(s) behind a proxy.
 
 - Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and install it as a plugin on both BungeeCord/Velocity and the Spigot server(s).
-- Enable `ip_forwarding` in your BungeeCord `config.yml` if using BungeeCord
+- Enable `ip_forward` in your BungeeCord `config.yml` if using BungeeCord
 - Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity
 - Set `bungeecord` to `true` in your `spigot.yml`
 - Start the proxy server.
