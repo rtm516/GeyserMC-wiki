@@ -9,7 +9,7 @@ Redstone will work exactly like Java Edition, since you are joining a Java Editi
 
 Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
 
-* [TCPShield](https://tcpshield.com/) does not work at this time unless you disable `only-allow-proxy-connections`. 
+* [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` without a paid plan. Any paid plan, however, will allow support of Geyser. 
 
 Floodgate can cause issues with plugins as it modifies the login process. *Please note that any offline mode authenticator plugins are only here for documentation; Geyser does not support the usage of offline mode.*
 
