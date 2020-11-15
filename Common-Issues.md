@@ -29,6 +29,12 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
+# Stuck on "Locating Server" with no errors
+
+Sometimes this happens in poor-network environments. There is a commented-out `mtu` option in the Geyser config; uncomment this and lower the number slowly (in batches of 100).
+
+This option will most likely not help if you are getting "Unable to Connect to World" with no console logs indicating a connection.
+
 # Login Failed
 
 ***If you are using a plugin version:*** in your Geyser config, set your remote address to `127.0.0.1`. If that does not work, check your startup log for a message about Docker, and use that address in the remote address
