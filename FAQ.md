@@ -70,6 +70,8 @@ If the server has ViaVersion and/or supports the latest Minecraft version, yes. 
 
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
+
+**(Currently, Buycraft does not support special symbols like `*` or `-`, so you'll have to change the Floodgate prefix to `_` or remove it entirely.)**
 ### Steps to create a store to support both versions
 - Buycraft-> Create Webstore
 - Select Game-> Minecraft Offline
@@ -81,7 +83,7 @@ You sure can! Buycraft supports Java & Bedrock players via the Offline store mod
 
 Your store is now setup to support Bedrock & Java players
 
-**(PLEASE NOTE, BEDROCK PLAYERS MUST INCLUDE THE PREFIX)**
+**(Please note, if you are using a prefix with Floodgate, Bedrock players will have to enter the prefix.)**
 
 ## Can I use CraftingStore with Geyser?
 As mentioned above bedrock players must include the prefix in their name
