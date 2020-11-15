@@ -18,9 +18,8 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 
 *If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` 
 
-- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below). If using Paper or Spigot, use Floodgate-bukkit.jar.
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
 - Change the `auth-type` in the Geyser config to `floodgate`.
-- Make sure `online-mode` is set to `true` in `server.properties` file.
 - Restart/start up the server.
 
 ### Standalone Setup (Geyser and Floodgate are not on the same server)
