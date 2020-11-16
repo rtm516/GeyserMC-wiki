@@ -11,6 +11,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
+* [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java)
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (They should have a port forwarding option that works)
