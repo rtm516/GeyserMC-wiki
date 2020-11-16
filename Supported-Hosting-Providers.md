@@ -21,7 +21,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [BisectHosting](https://www.bisecthosting.com/) (Get Geyser as a plugin. Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP.)
 * [Bloom.Host](https://www.bloom.host/) (Get Geyser as a plugin. Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
-* [Century-Hosting](https://century-hosting.com) (**The things at Century Hosting are not going so great, Untested basically.**)
 * [Craft-Hosting](https://craft-hosting.ru/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider appears to only provide service in Russia.)
 * [DedicatedMC](https://dedicatedmc.io/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider.)
