@@ -5,3 +5,5 @@
 | --- | --- |
 | Placeholders | Adds PlaceholderAPI support for Floodgate |
 | Skript | Adds Skript support for Floodgate |
+
+test ping <@!462785189706465281>
