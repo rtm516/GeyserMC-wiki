@@ -12,7 +12,7 @@ If you have any questions or problems be sure to join our [Discord](https://disc
 ### Commands:
 |Command|Desc|
 |--|--|
-|`/rtp`|Teleport ot a random location|
+|`/rtp`|Teleport to a random location|
 |`/ll`|LandLord base command for managing land claims|
 |`/spawn`|Teleport to spawn|
 |`/home`|Set/go-to a home|
