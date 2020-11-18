@@ -18,13 +18,13 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 
 *If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` 
 
-- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/master/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
 - Change the `auth-type` in the Geyser config to `floodgate`.
 - Restart/start up the server.
 
 ### Standalone Setup (Geyser and Floodgate are not on the same server)
 
-- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/master/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
 - Run the server with Floodgate.
 - *Copy* the `public-key.pem` file in the Floodgate config folder to the same directory as Geyser (standalone) or Geyser's config folder (plugin versions). **DO NOT DISTRIBUTE THIS KEY TO ANYBODY!** This key is what allows for Bedrock accounts to bypass the Java Edition authentication, and if anyone gets ahold of this, they can wreak havoc on your server.
 - Change the `auth-type` in the Geyser config to `floodgate`.
@@ -33,7 +33,7 @@ For multi-server setups: you only are required to install Floodgate on the Bunge
 
 This is only needed when you want to use the Floodgate API on your Spigot server(s) behind a proxy.
 
-- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/development/) and install it as a plugin on both BungeeCord/Velocity and the Spigot server(s).
+- Download the Floodgate plugin from [here](https://ci.nukkitx.com/job/GeyserMC/job/Floodgate/job/master/) and install it as a plugin on both BungeeCord/Velocity and the Spigot server(s).
 - Enable `ip_forward` in your BungeeCord `config.yml` if using BungeeCord
 - Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity
 - Set `bungeecord` to `true` in your `spigot.yml`
