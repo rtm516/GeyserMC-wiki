@@ -1,4 +1,4 @@
-# [Download here](https://ci.nukkitx.com/job/GeyserMC/job/Geyser-Fabric/job/java-1.16/lastSuccessfulBuild/artifact/build/libs/Geyser-Fabric-1.0-SNAPSHOT.jar)
+# [Download here](https://ci.nukkitx.com/job/GeyserMC/job/Geyser-Fabric/job/java-1.16/)
 
 For the most part, Geyser-Fabric operates the same as other Geyser platforms. There are a couple of exceptions:
 
