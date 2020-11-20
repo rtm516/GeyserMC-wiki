@@ -44,7 +44,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MineStrator](https://minestrator.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [NiCraft](https://www.ni-host.com/)
   - Use the same port as your Java server for the Bedrock port in your config and connect with that port.
-  - See [here](https://github.com/GeyserMC/Geyser/wiki/Common-Issues#hosting-provider-will-not-immediately-open-up-udp).
+  - See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).
   - So if your players encounter this issue, please ask them to try to connect (even if they don't have Minecraft) from Java Edition first while their Bedrock client is opened and after they should be able to join on Bedrock Edition.
 * [Nodecraft](https://nodecraft.com) (Get Geyser as a plugin. Use the default server port and 0.0.0.0 or your server IP as the host address.)
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider.)
@@ -60,7 +60,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Only Geyser Standalone can be used
   - You'll need to make a new server to host Geyser on
   - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
-* [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Common-Issues#hosting-provider-will-not-immediately-open-up-udp).)
+* [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).)
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
 * [STIPE](https://stipe.com.au/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in Australia.)
