@@ -1,3 +1,5 @@
+GeyserConnect is a version of Geyser that allows you to join multiple servers using a single GeyserMC proxy.
+
 ## Setup
 (For GeyserConnect to work you need 2 UDP ports open, by default these are `19132` and `19133`.)
 1. Download the latest build from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/GeyserConnect/job/master/)
