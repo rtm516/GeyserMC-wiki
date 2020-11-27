@@ -12,6 +12,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java.)
+* [ZapHosting](https://zap-hosting.com/en/) (Find the plugin in the control panel and restart your server. IP and port is the same as Java.)
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
@@ -69,7 +70,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [TNAHosting](https://tnahosting.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [Witherhosting](https://witherhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
-* [ZapHosting](https://zap-hosting.com/en/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
