@@ -42,6 +42,10 @@ You only need Geyser and/or Floodgate on the BungeeCord server, as long as not u
 
 You can add Bedrock resource packs to your Geyser installation in the `packs` folder of wherever the Geyser config is located, and Bedrock clients will automatically download and load those resource packs. There is currently no automatic Java-to-Bedrock resource pack conversion, but you can convert any Java resource pack using https://ozelot379.github.io/ConvertJavaTextureToBedrock/ and add that to your server.
 
+## How can Bedrock players hold items in their offhand?
+
+You can use the command `/geyser offhand`, which will swap the item in their mainhand and offhand. 
+
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, the prefix must be included in the name. If this does not work, put double-quotes around the name.
 
