@@ -29,6 +29,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [FadeHost](https://fadehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port or buy a dedicated IP address to support different port.)
 * [FalixNodes](https://falixnodes.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Ferox Hosting](https://feroxhosting.nl) (Get Geyser as a plugin. Open a ticket to request a UDP port.)
+* [Fluctis Hosting](https://fluctishosting.com) (Get the Geyser plugin. Use the same port as your Java Server for the Bedrock port in your config and connect with that port.) 
 * [FreeMC.Host](https://freemc.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [FreeMcServer.net](https://freemcserver.net) Get Geyser as a plugin. (Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [GameHosting.it](https://www.gamehosting.it/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
