@@ -7,16 +7,18 @@ The options for Geyser on the bedrock-facing end. Mostly contains options for ho
 
 **`port`**: The port Geyser will run on. By default, it is 19132 in bedrock.
 
+**`clone-remote-port`**: Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock/UDP connections. This option makes the Bedrock port the same as the Java port every time you start the server. This option does not do anything on the Standalone version of Geyser.
+
 **`motd1`**: The first line of the MOTD for Geyser. 
 
 **`motd2`**: The second line of the MOTD for Geyser. **Please keep in mind, this option will only work if Geyser is shown in the Friends tab!**
 
+**`server-name`**: The world name that is shown in the top-right area of the pause screen.
+
 ## Remote Section
 Options for the remote (java) server. 
 
-*The following two configuration options do not generally apply for plugin versions as the plugin handles connecting to the running server.*
-
-**`address`**: The address of the Minecraft: Java Edition server you want to join.
+**`address`**: The address of the Minecraft: Java Edition server you want to join. By default, this value is `auto`. By keeping it as `auto`, the address, port, and Floodgate support will be automatically configured. In standalone, keeping this as `auto` sets the remote address to 127.0.0.1.
 
 **`port`**: The port of the Minecraft: Java Edition server you specified in the `address` section.
 
@@ -42,9 +44,11 @@ userAuths:
 
 Put two spaces before the username and four spaces before the email and password.
 
-**`command-suggestions`**: Bedrock clients freeze or crash when opening up the command prompt for the first time with a large amount of command suggestions. This config option disables command suggestions being sent to prevent any freezing.
+**`command-suggestions`**: Bedrock clients freeze or crash when opening up the command prompt for the first time with a large amount of command suggestions. This config option disables command suggestions being sent to prevent any freezing. **Since 1.16.100:** command freezing and crashing has been largely reduced; you may no longer need this option enabled.
 
 **`passthrough-motd`**: If the MOTD should be relayed from the remote server. Causes the `motd1` and `motd2` options in the bedrock section to no longer have a use.
+
+**`passthrough-protocol-name`**: Relay the protocol name (e.g. BungeeCord [X.X], Paper 1.X) - this is only really useful when using a custom protocol name! This will also show up on sites like MCSrvStatus. <mcsrvstat.us>
 
 **`passthrough-players`**: If the current and max player counts should be relayed from the remote server.
 
@@ -52,7 +56,7 @@ Put two spaces before the username and four spaces before the email and password
 
 **`ping-passthrough-interval`**: How often the fake Minecraft client should attempt to ping the remote server to update information, in seconds (a setting of 1 will ping the server every second; a setting of 3 will ping the server every three seconds). Only relevant for standalone and legacy ping passthrough. Increase the number if you're getting timeout or BrokenPipe exceptions.
 
-**`max-players`**: The maximum amount of players that can join through Geyser.
+**`max-players`**: The maximum amount of players shown when pinging the server. This does not actually cap how many players can join the Geyser instance at this time. The number will visually increase when pinging if the amount of players is greater, as Bedrock clients will not even attempt to join a full server.
 
 **`debug-mode`**: If debug messages should be printed in console. Useful if you run into an error and need more context.
 
@@ -66,9 +70,27 @@ Put two spaces before the username and four spaces before the email and password
 
 **`default-locale`**: The default locale to send to players if their locale could not be found. Check [this](https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support) page to find the code corresponding to your language.
 
-**`chunk-caching`**: Cache chunks for each Bedrock player and adds support for additional sounds at the expense of more RAM usage. This option is always on for Bukkit as we can use the server's API to get block information at no expense.
+**`chunk-caching`**: Cache chunks for each Bedrock player, adds support for additional sounds and fixing movement issues at the expense of slightly more RAM usage. This option is always on for Spigot as we can use the server's API to get block information at no expense.
+
+**`cache-images`**: Specify how many days images will be cached to disk to save downloading them from the internet. A value of 0 is disabled. (Default: 0)
+
+**`allow-custom-skulls`**: Allows custom skulls to be displayed when placed. Keeping them enabled may cause a performance decrease on older/weaker devices.
 
 **`above-nether-bedrock-building`**: Bedrock prevents building and displaying blocks above Y127 in the Nether - enabling this config option works around that by changing the Nether dimension ID to the End ID. The main downside to this is that the sky will resemble that of the End sky in the Nether, but ultimately it's the only way for this feature to work.
+
+**`force-resource-packs`**: Force clients to load all resource packs if there are any. If set to false, it allows the user to disconnect from the server if they don't want to download the resource packs.
+
+**`xbox-achievements-enabled`**: Allows Xbox achievements to be unlocked. **This disables certain commands so the Bedrock client can't to "cheat" to get them; this cannot be worked around if you want to enable this**. Commands such as /gamemode and /give will not work from Bedrock with this enabled.
+
+## Advanced Options
+
+**`scoreboard-packet-threshold`**: Geyser updates the Scoreboard after every Scoreboard packet, but when Geyser tries to handle a lot of scoreboard packets per second can cause serious lag. This option allows you to specify after how many Scoreboard packets per seconds the Scoreboard updates will be then limited to four updates per second.
+
+**`enable-proxy-connections`**: Allow connections from ProxyPass and Waterdog. See https://www.spigotmc.org/wiki/firewall-guide/ for assistance - use UDP instead of TCP. **This option does not need to be enabled in instances like BungeeCord or Velocity**.
+
+**`mtu`**: https://en.wikipedia.org/wiki/Maximum_transmission_unit - The internet supports a maximum MTU of 1492 but could cause issues with packet fragmentation. 1400 is the default.
+
+**`use-adapters`**: Whether to use direct server methods to retrieve information such as block states. Turning this off for Spigot will stop NMS from being used but will have a performance impact.
 
 Default Geyser Config:
 ```yml
@@ -87,17 +109,22 @@ bedrock:
   address: 0.0.0.0
   # The port that will listen for connections
   port: 19132
-  # Some hosting services change your Java port everytime you open the server, and require the same port to be used for Bedrock.
+  # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
   # This option makes the Bedrock port the same as the Java port every time you start the server.
   # This option is for the plugin version only.
   clone-remote-port: false
-  # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. Irrelevant if "passthrough-motd" is set to true
+  # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   motd1: "GeyserMC"
   motd2: "Another GeyserMC forced host."
+  # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
+  server-name: "Geyser"
 remote:
   # The IP address of the remote (Java Edition) server
-  address: 127.0.0.1
+  # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
+  # for plugin versions, Geyser will attempt to find the best address to connect to.
+  address: auto
   # The port of the remote (Java Edition) server
+  # For plugin versions, if address has been set to "auto", the port will also follow the server's listening port.
   port: 25565
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   auth-type: online
@@ -107,26 +134,29 @@ remote:
 # You can ignore this when not using Floodgate.
 floodgate-key-file: public-key.pem
 
-## the Xbox/MCPE username is the key for the Java server auth-info
-## this allows automatic configuration/login to the remote Java server
-## if you are brave/stupid enough to put your Mojang account info into
-## a config file
+# The Xbox/Minecraft Bedrock username is the key for the Java server auth-info.
+# This allows automatic configuration/login to the remote Java server.
+# If you are brave enough to put your Mojang account info into a config file.
+# Uncomment the lines below to enable this feature.
 #userAuths:
-#  bluerkelp2: # MCPE/Xbox username
-#    email: not_really_my_email_address_mr_minecrafter53267@gmail.com # Mojang account email address
-#    password: "this isn't really my password"
+#  BedrockAccountUsername: # Your Minecraft: Bedrock Edition username
+#    email: javaccountemail@example.com # Your Minecraft: Java Edition email
+#    password: javaccountpassword123 # Your Minecraft: Java Edition password
 #
-#  herpderp40300499303040503030300500293858393589:
-#    email: herpderp@derpherp.com
-#    password: dooooo
+#  bluerkelp2: 
+#    email: not_really_my_email_address_mr_minecrafter53267@gmail.com 
+#    password: "this isn't really my password"
 
 # Bedrock clients can freeze when opening up the command prompt for the first time if given a lot of commands.
 # Disabling this will prevent command suggestions from being sent and solve freezing for Bedrock clients.
 command-suggestions: true
 
-# The following two options enable "ping passthrough" - the MOTD and/or player count gets retrieved from the Java server.
+# The following three options enable "ping passthrough" - the MOTD, player count and/or protocol name gets retrieved from the Java server.
 # Relay the MOTD from the remote server to Bedrock players.
 passthrough-motd: false
+# Relay the protocol name (e.g. BungeeCord [X.X], Paper 1.X) - only really useful when using a custom protocol name!
+# This will also show up on sites like MCSrvStatus. <mcsrvstat.us>
+passthrough-protocol-name: false
 # Relay the player count and max players from the remote server to Bedrock players.
 passthrough-player-counts: false
 # Enable LEGACY ping passthrough. There is no need to enable this unless your MOTD or player count does not appear properly.
@@ -160,19 +190,39 @@ show-cooldown: true
 # default-locale: en_us
 
 # Configures if chunk caching should be enabled or not. This keeps an individual
-# record of each block the client loads in. While this feature does allow for a few
-# things such as block break animations to show up in creative mode and among others,
-# it is HIGHLY recommended you disable this on a production environment as it can eat
-# up a lot of RAM. However, when using the Spigot version of Geyser, support for features
-# or implementations this allows is automatically enabled without the additional caching as
-# Geyser has direct access to the server itself.
-cache-chunks: false
+# record of each block the client loads in. This feature does allow for a few things
+# such as more accurate movement that causes less problems with anticheat (meaning
+# you're less likely to be banned) and allows block break animations to show up in
+# creative mode (and other features). Although this increases RAM usage, it likely
+# won't have much of an effect for the vast majority of people. However, if you're
+# running out of RAM or are in a RAM-sensitive environment, you may want to disable
+# this. When using the Spigot version of Geyser, support for features or
+# implementations this allows is automatically enabled without the additional caching
+# as Geyser has direct access to the server itself.
+cache-chunks: true
+
+# Specify how many days images will be cached to disk to save downloading them from the internet.
+# A value of 0 is disabled. (Default: 0)
+cache-images: 0
+
+# Allows custom skulls to be displayed. Keeping them enabled may cause a performance decrease on older/weaker devices.
+allow-custom-skulls: true
 
 # Bedrock prevents building and displaying blocks above Y127 in the Nether -
 # enabling this config option works around that by changing the Nether dimension ID
 # to the End ID. The main downside to this is that the sky will resemble that of
 # the end sky in the nether, but ultimately it's the only way for this feature to work.
 above-bedrock-nether-building: false
+
+# Force clients to load all resource packs if there are any.
+# If set to false it allows the user to disconnect from the server if they don't
+# want to download the resource packs
+force-resource-packs: true
+
+# Allows Xbox achievements to be unlocked.
+# This disables certain commands so the Bedrock client can't to "cheat" to get them.
+# Commands such as /gamemode and /give will not work from Bedrock with this enabled
+xbox-achievements-enabled: false
 
 # bStats is a stat tracker that is entirely anonymous and tracks only basic information
 # about Geyser, such as how many people are online, how many servers are using Geyser,
@@ -184,6 +234,25 @@ metrics:
   # UUID of server, don't change!
   uuid: generateduuid
 
-# DO NOT TOUCH!
-config-version: 3
+# ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
+
+# Geyser updates the Scoreboard after every Scoreboard packet, but when Geyser tries to handle
+# a lot of scoreboard packets per second can cause serious lag.
+# This option allows you to specify after how many Scoreboard packets per seconds
+# the Scoreboard updates will be limited to four updates per second.
+scoreboard-packet-threshold: 20
+
+# Allow connections from ProxyPass and Waterdog.
+# See https://www.spigotmc.org/wiki/firewall-guide/ for assistance - use UDP instead of TCP.
+enable-proxy-connections: false
+
+# The internet supports a maximum MTU of 1492 but could cause issues with packet fragmentation.
+# 1400 is the default.
+# mtu: 1400
+
+# Whether to use direct server methods to retrieve information such as block states.
+# Turning this off for Spigot will stop NMS from being used but will have a performance impact.
+use-adapters: true
+
+config-version: 4
 ```
