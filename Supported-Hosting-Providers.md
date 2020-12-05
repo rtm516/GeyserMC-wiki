@@ -55,7 +55,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [RamShard](https://ramshard.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Revivenode](https://revivenode.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [ScalaCube](https://scalacube.com/) (Get Geyser as a plugin. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
-* [Server.pro](https://server.pro) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP. Paid plans are unable to use Geyser because of DDOS protection)
+* [Server.pro](https://server.pro) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP. Paid gameserver plans are unable to use Geyser because of DDOS protection, however Geyser is supported on all VPS plans.)
 * [Shockbyte](https://shockbyte.com/) (Use the same IP and port as your Java server for the Bedrock address and port in your config and connect with that port. You can also see standalone installation instructions [here](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html).)
 * [Skynode.pro](https://skynode.pro/)
   - Use the port provided by Skynode
