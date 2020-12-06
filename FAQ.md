@@ -55,6 +55,9 @@ While yes, you can remove the prefix, it is generally recommended to not remove 
 ## How do I add players to the whitelist when using Floodgate?
 There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
+## Sometimes when I go really far out the world starts to experience very odd visual bugs...
+This is a Bedrock client issue caused by Bedrock being 32-bit and Java being 64-bit, for more information read [here](https://minecraft.gamepedia.com/Bedrock_Edition_distance_effects).
+
 ## How do I find a player's UUID without them joining when using Floodgate?
 Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work then try this method:
 <br><br>
