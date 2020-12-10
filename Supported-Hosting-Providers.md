@@ -71,6 +71,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [TNAHosting](https://tnahosting.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [Witherhosting](https://witherhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [HostMC4Free]{https://hostmc4free.com) (Order new service choose geyser in bedrock section open a ticket with support for UDP port) 
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
