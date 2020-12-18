@@ -48,6 +48,7 @@ You can use the command `/geyser offhand`, which will swap the item in their mai
 
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, the prefix must be included in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name. 
+
 Example: `/tp "*<bedrock_nickname>"`
 
 ## Can I remove the prefix of Floodgate players?
