@@ -63,6 +63,9 @@ Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't
 <br><br>
 First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal". You'll need to enter the player's Xbox gamertag, and once submitted it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. In order to turn the XUID into a UUID that Java Edition can recognize, you just need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
 
+## Can I use Geyser to allow Java players to connect to my Bedrock server?
+No, this is a translation tool to allow Bedrock players to connect to Java servers. It does not work the opposite way.
+
 ## Can I use Geyser with Pterodactyl Panel?
 Yes, we have an official egg for the standalone version, it supports auto-updating and has all config options easily editable. You can find it [here](https://github.com/GeyserMC/pterodactyl-stuff), just download the JSON egg and import it into your panel.
 
