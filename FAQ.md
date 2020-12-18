@@ -3,7 +3,7 @@ Geyser works as a translator, translating both the incoming and outgoing packets
 
 ## So how does redstone work?
 
-Redstone will work exactly like Java Edition, since you are joining a Java Edition server and Geyser does not modify server behavior.
+Redstone, alsong with any other mechanics like commands, farms, etc. will work exactly like Java Edition, since you are joining a Java Edition server and Geyser does not modify server behavior.
 
 ## What plugins don't work with Geyser?
 
@@ -47,7 +47,8 @@ You can add Bedrock resource packs to your Geyser installation in the `packs` fo
 You can use the command `/geyser offhand`, which will swap the item in their mainhand and offhand. 
 
 ## How do I include players in commands when using Floodgate?
-If there is a prefix on Floodgate players, the prefix must be included in the name. If this does not work, put double-quotes around the name.
+If there is a prefix on Floodgate players, the prefix must be included in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name.
+Example: `/tp "*<bedrock_nickname>"`
 
 ## Can I remove the prefix of Floodgate players?
 While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have the same username, they have different UUID's which may cause a UUID conflict and possible data loss.
@@ -67,10 +68,10 @@ First, you'll need to get the XUID of the player. There are several third-party 
 No, this is a translation tool to allow Bedrock players to connect to Java servers. It does not work the opposite way.
 
 ## Can I use Geyser with Pterodactyl Panel?
-Yes, we have an official egg for the standalone version, it supports auto-updating and has all config options easily editable. You can find it [here](https://github.com/GeyserMC/pterodactyl-stuff), just download the JSON egg and import it into your panel.
+Yes, you can use Geyser as a plugin or a mod for your Mineceaft server software running on Pterodactyl. There is also an official egg for the standalone version, it supports auto-updating and has all config options easily editable. You can find it [here](https://github.com/GeyserMC/pterodactyl-stuff), just download the JSON egg and import it into your panel.
 
 ## Can I use Geyser with Ngrok?
-Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok.
+Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok. As an alternative you can use Playit.gg, which supports both, TCP and UDP.
 
 ## Can I connect Geyser to an older server?
 If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
