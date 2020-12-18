@@ -36,7 +36,7 @@ This is a non-complete list of what platform each plugin version of Geyser is fo
 * Geyser-Sponge works with [SpongeVanilla or SpongeForge](https://www.spongepowered.org/)
 
 ## If using BungeeCord or another fork, where do I need to put Geyser/Floodgate?
-You only need Geyser and/or Floodgate on the BungeeCord server, as long as not using the Floodgate API. In this case, Floodgate is needed on the "backend" servers.
+You only need Geyser and/or Floodgate on the BungeeCord server, as long as not using the Floodgate API. In this case, Floodgate is needed on the "backend" servers aswell.
 
 ## How can I have Bedrock players load resource packs?
 
