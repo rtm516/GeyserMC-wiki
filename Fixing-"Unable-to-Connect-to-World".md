@@ -20,7 +20,15 @@ Please read through the [common issues page](https://github.com/GeyserMC/Geyser/
 
 Especially on mobile devices, sometimes just restarting Minecraft fixes the issue.
 
+# Is it the server or the client?
+
+Run your Java server IP and Bedrock address here: https://mcsrvstat.us/ . It's a great way of determining if the server is reachable in the first place.
+
 # General troubleshooting steps
+
+## Ensure you're connecting on the right IP
+
+You should be connecting with the Java server IP and the Bedrock port. If you port forwarded 19132, for example, you should specify port 19132 when connecting from Bedrock.
 
 ## Port forwarding
 
