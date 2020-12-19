@@ -47,6 +47,10 @@ In the SoYouStart control panel:
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
 
+If there is no similar firewall rule, try this workaround:
+
+Attempt to connect to the Bedrock IP and port through a web browser - for example, `http://test.geysermc.org:19132`. It won't work, but then try connecting through Bedrock, and it should work.
+
 ## Changing the `bedrock` `address` in the Geyser config.
 
 Except for a few specific hosting providers, you generally do not need to change this part of the Geyser config. However, in rare instances, it does fix issues
