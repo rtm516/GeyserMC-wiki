@@ -54,16 +54,16 @@ Example: `/tp "*<bedrock_nickname>"`
 ## How do I add players to the whitelist when using Floodgate?
 There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
+## How do I find a player's UUID without them joining when using Floodgate?
+Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work then try this method:
+<br><br>
+First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal". You'll need to enter the player's Xbox gamertag, and once submitted it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. In order to turn the XUID into a UUID that Java Edition can recognize, you just need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
+
 ## Can I remove the prefix of Floodgate players?
 While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have the same username, they have different UUID's which may cause a UUID conflict and possible data loss.
 
 ## Sometimes when I go really far out the world starts to experience very odd visual bugs...
 This is a Bedrock client issue caused by Bedrock being 32-bit and Java being 64-bit, for more information read [here](https://minecraft.gamepedia.com/Bedrock_Edition_distance_effects).
-
-## How do I find a player's UUID without them joining when using Floodgate?
-Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work then try this method:
-<br><br>
-First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal". You'll need to enter the player's Xbox gamertag, and once submitted it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. In order to turn the XUID into a UUID that Java Edition can recognize, you just need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
 
 ## Can I use Geyser to allow Java players to connect to my Bedrock server?
 No, this is a translation tool to allow Bedrock players to connect to Java servers. It does not work the opposite way.
