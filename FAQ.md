@@ -51,11 +51,11 @@ If there is a prefix on Floodgate players, the prefix must be included in the na
 
 Example: `/tp "*<bedrock_nickname>"`
 
-## Can I remove the prefix of Floodgate players?
-While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have the same username, they have different UUID's which may cause a UUID conflict and possible data loss.
-
 ## How do I add players to the whitelist when using Floodgate?
 There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
+
+## Can I remove the prefix of Floodgate players?
+While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have the same username, they have different UUID's which may cause a UUID conflict and possible data loss.
 
 ## Sometimes when I go really far out the world starts to experience very odd visual bugs...
 This is a Bedrock client issue caused by Bedrock being 32-bit and Java being 64-bit, for more information read [here](https://minecraft.gamepedia.com/Bedrock_Edition_distance_effects).
