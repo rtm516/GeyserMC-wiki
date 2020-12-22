@@ -14,7 +14,7 @@ And if you still have questions, feel free to join the [Discord](https://discord
 - If you are running the server, you need to have a UDP port opened. See below for more instructions.
 
 ## Plugin Setup
-1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/) depending on what platform your server runs on. See the [FAQ](https://github.com/GeyserMC/Geyser/wiki/FAQ) if you're confused about which build to download.
+1. Download a jar of Geyser from the [build server](https://ci.opencollab.dev/job/Geyser/job/master/) depending on what platform your server runs on. See the [FAQ](https://github.com/GeyserMC/Geyser/wiki/FAQ) if you're confused about which build to download.
 2. Put the Geyser jar file in your plugins folder and start up the server.
 3. If you are on a hosting provider, you will likely need to change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if you edited your config.
@@ -25,7 +25,7 @@ If you are trying to join from the same LAN, the server should show up in the fr
 ## Standalone Setup
 Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux-android).
 
-1. Download a jar of Geyser from the [build server](https://ci.nukkitx.com/job/Geyser/job/master/).
+1. Download a jar of Geyser from the [build server](https://ci.opencollab.dev/job/Geyser/job/master/).
 2. Create a new folder for Geyser, and drop the jar in there.
 
 ### GUI Setup (Recommended)
