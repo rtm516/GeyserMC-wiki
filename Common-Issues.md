@@ -74,6 +74,10 @@ The server is too new or Geyser is outdated. Make sure you're on the latest Geys
 
 Update the server or ask them to install ViaVersion.
 
+# Query: Incorrect Magic!
+
+See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-usage.159386/#post-2709057
+
 # Floodgate
 For most floodgate issues see: [Floodgate: Known Issues/Caveats](Floodgate#known-issuescaveats).
 ## If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
