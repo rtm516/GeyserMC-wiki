@@ -30,7 +30,7 @@ The Bedrock Edition protocol is documented [here](https://wiki.vg/Bedrock_Protoc
 [debuginfo-be](https://github.com/Heath123/debuginfo-be) is a Spigot plugin that displays an overlay to Geyser clients with useful debug information, similar to the F3 screen in Java Edition.
 
 ## pakkit
-pakkit is a GUI based tool for intercepting packets between a Java edition server and client developed by Geyser contributor [circuit10/Heath123](https://github.com/Heath123/) built using Electron. It also has experimental support for Bedrock Edition as a friendlier GUI wrapper for ProxyPass. You can download it from [here](https://github.com/Heath123/pakkit) under releases, or clone from GitHub for the latest version. It's currently WIP, so expect bugs.
+pakkit is a GUI-based tool for intercepting packets between a server and client developed by Geyser contributor [circuit10/Heath123](https://github.com/Heath123/) built using Electron. It work for both Java Edition (using node-minecraft-protocol) and Bedrock (as a GUI wrapper for ProxyPass). It supports features such as viewing packet data in JSON format, Edit and Resend and a hex view for raw packet data. You can download it from [here](https://github.com/Heath123/pakkit) under releases, or clone from GitHub for the latest version. It's currently WIP, so expect bugs.
 
 ## ProxyPass
 ProxyPass is a tool for intercepting packets between a Bedrock server and client developed by the Cloudburst team. It can be found [here](https://github.com/NukkitX/ProxyPass) and the vanilla Bedrock server can be found [here](https://www.minecraft.net/en-us/download/server/bedrock/).
