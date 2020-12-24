@@ -5,6 +5,10 @@ Geyser works as a translator, translating both the incoming and outgoing packets
 
 Redstone, alsong with any other mechanics like commands, farms, etc. will work exactly like Java Edition, since you are joining a Java Edition server and Geyser does not modify server behavior.
 
+## Is Geyser paid?
+
+No, Geyser and all related projects are completely free and open-source, licensed under the MIT license.
+
 ## What plugins don't work with Geyser?
 
 Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
