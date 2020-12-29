@@ -23,6 +23,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Bloom.Host](https://www.bloom.host/) (Get Geyser as a plugin. Can use 25565 port for Bedrock, or you can make a ticket to open a 19132 port.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
 * [Craft-Hosting](https://craft-hosting.ru/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider appears to only provide service in Russia.)
+* [Consulhosting](https://consulhosting.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [DedicatedMC](https://dedicatedmc.io/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider.)
 * [Easly](https://easlyhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
@@ -73,7 +74,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [TurboHost](https://turbohost.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [Witherhosting](https://witherhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
-* [Consulhosting](https://consulhosting.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
