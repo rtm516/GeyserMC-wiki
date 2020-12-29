@@ -72,6 +72,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Titan Nodes](https://titannodes.com/) (Get Geyser as a plugin. Use the Default server port and 0.0.0.0 as the host address.)
 * [TNAHosting](https://tnahosting.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [TurboHost](https://turbohost.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [Vultam](https://vultam.net/) (Get Geyser as a plugin. Use the same port as your Java server and 0.0.0.0 as the address for Bedrock, or request an additional port. The additional port can be 19132 if you buy a dedicated IP.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [Witherhosting](https://witherhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 
