@@ -26,6 +26,7 @@ If you have an Android device, you have several options:
 - [Work in progress Geyser Android app](https://github.com/rtm516/GeyserAndroid)
 - [MC Lan Proxy (Trial)](https://discord.com/channels/613163671870242838/613194762249437245/770699493482037310)
 - [MC Lan Proxy (Paid)](https://play.google.com/store/apps/details?id=com.luzenna.mineproxydroid)
+- [MC Server Connector](https://play.google.com/store/apps/details?id=com.smokiem.mcserverconnector)
 
 ### Using an iOS device with a PlayStation 4
 If you have an iOS 14+ device, you can use [BedrockTogether](https://apps.apple.com/app/bedrocktogether/id1534593376).
