@@ -86,3 +86,10 @@ This is an issue caused by Loopback restrictions not being lifted. By default, M
 CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 ```
 
+Should this not work, you can try this set of steps:
+
+1. Hold down Windows Key + R
+2. In the prompt, type `hdwwiz.exe`, then press Enter then Next
+3. Install the Hardware Manually
+4. Choose Network Adapter > Next > Microsoft > "Microsoft KM-TEST Loopback Adapter" then hit Next until it's done.
+
