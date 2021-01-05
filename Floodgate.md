@@ -91,6 +91,10 @@ See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 
 Ensure that you removed the `usercache.json` file from the server root directory and restart your server.
 
+### Error with Forge/Fabric
+
+At this time, there is no way to run Floodgate on a Forge or Fabric server - most Bukkit/Forge hybrids do not support the complicated procedures we need to do in order to allow Bedrock players to connect (for the technically minded: these server softwares typically don't support NMS). If you wish to use Floodgate in combination with Forge/Fabric, we recommend putting these servers behind BungeeCord or Velocity.
+
 ## Obtaining UUIDs for Floodgate players
 Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
 
