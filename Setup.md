@@ -42,9 +42,9 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add the Java IPv4 address and Bedrock port.
 
 ### Standalone Setup (Geyser and Floodgate are not on the same server)
-If you want to offload Geyser's processing you can host Geyser (Standalone) somewhere else and make it redirects to your server. 
-**Warning:** Do not forget to edit the remote section of your config in consequence.
-If you use floodgate, copy the floodgate key in your Geyser folder.
+If you want to offload Geyser's processing you can host Geyser (Standalone) somewhere else and make it redirect to your server. 
+**Warning:** Do not forget to edit the remote section of your Geyser config.
+See the [Floodgate](https://github.com/GeyserMC/Geyser/wiki/Floodgate) wiki page for more details.
 
 ## Port Forwarding
 
