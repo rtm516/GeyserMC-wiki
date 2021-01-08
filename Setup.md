@@ -41,6 +41,11 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 
 Once you're done, open up Minecraft: Bedrock Edition and in the **Friends** tab, Geyser should show up there. If it does not show up, just add the Java IPv4 address and Bedrock port.
 
+### Standalone Setup (Geyser and Floodgate are not on the same server)
+If you want to offload Geyser's processing you can host Geyser (Standalone) somewhere else and make it redirects to your server. 
+**Warning:** Do not forget to edit the remote section of your config in consequence.
+If you use floodgate, copy the floodgate key in your Geyser folder.
+
 ## Port Forwarding
 
 Unlike Minecraft Java Edition, Bedrock Edition runs on port 19132 on the UDP protocol. When port forwarding, make sure to allocate to 19132 UDP or another UDP port. For many server hosting providers, you will simply need to change your Bedrock listening port (see [here](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) for a list of supported providers).
