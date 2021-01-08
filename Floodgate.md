@@ -65,7 +65,7 @@ In some instances, you may need to wrap the Bedrock player's username in quotes;
 ## Known Issues/Caveats
 
 ### Skins
-Due to how Minecraft: Java Edition handles skins, all Bedrock players will appear as Steve or Alex to other Java players. 
+Due to how Minecraft: Java Edition handles skins, Bedrock players from some platforms will appear as Steve or Alex to other Java players. 
 
 ### Access token can not be null or empty
 This may be because you forgot to set the auth-type in the config to `floodgate`. If that isn't it, check to make sure your config contains the line `floodgate-key-file: public-key.pem`. If not, just copy that in directly.
