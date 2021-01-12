@@ -5,9 +5,9 @@ It should also be noted that these providers may not be verified by the Geyser t
 **Warning: The below information is for the plugin versions of Geyser unless otherwise specified**
 
 ## Built-in Geyser
-* [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
 * [Aternos](https://aternos.org/) (Select as a plugin in the Aternos plugin list and connect to your server with your Java IP and port. See [Aternos's article](https://support.aternos.org/hc/en-us/articles/360051047631) for more details.)
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.)
+* [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
 * [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. To host your own: Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port.)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
