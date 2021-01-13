@@ -53,10 +53,10 @@ You can use the command `/geyser offhand`, which will swap the item in their mai
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, the prefix must be included in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name. 
 
-Example: `/tp "*<bedrock_nickname>"`
+Example: `/tp "*<bedrock_username>"`
 
 ## How do I add players to the whitelist when using Floodgate?
-There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "username"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may simply link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
+There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "*<bedrock_username>"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may simply link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
 ## How do I find a player's UUID without them joining when using Floodgate?
 Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work then try this method:
@@ -64,7 +64,7 @@ Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't
 First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal". You'll need to enter the player's Xbox gamertag, and once submitted it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. In order to turn the XUID into a UUID that Java Edition can recognize, you just need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
 
 ## Can I remove the prefix of Floodgate players?
-While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a users java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have different UUID's, they have the same username which may cause conflicts with commands that involve a player name. If you want to remove the prefix to be able to use commands, Try adding "" around the name. Example: `/tp "*<bedrock_nickname>"`
+While yes, you can remove the prefix, it is generally recommended to not remove the prefix to prevent situations where a users java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe) While they have different UUID's, they have the same username which may cause conflicts with commands that involve a player name. If you want to remove the prefix to be able to use commands, Try adding "" around the name. Example: `/tp "*<bedrock_username>"`
 
 ## Sometimes when I go really far out the world starts to experience very odd visual bugs...
 This is a Bedrock client issue caused by Bedrock being 32-bit and Java being 64-bit, for more information read [here](https://minecraft.gamepedia.com/Bedrock_Edition_distance_effects).
