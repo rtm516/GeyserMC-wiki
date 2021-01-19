@@ -44,9 +44,13 @@ Historically, having a Bedrock port that is a lower number will cause issues. Se
 
 ## Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server)
 
-This is likely a firewall issue on your server. 
+This is likely a firewall issue on your server. Try the following workaround:
 
-Here is how to prevent the issue on SoYouStart (a subsidiary of OVH):
+Attempt to connect to the Bedrock IP and port through a web browser - for example, `http://test.geysermc.org:19132`. It won't work, but then try connecting through Bedrock, and it should work.
+
+Specific host fixes:
+
+SoYouStart (a subsidiary of OVH):
 
 In the SoYouStart control panel:
 1. Click the IP tab.
@@ -54,10 +58,6 @@ In the SoYouStart control panel:
 3. Pick "Add a rule".
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
-
-If there is no similar firewall rule, try this workaround:
-
-Attempt to connect to the Bedrock IP and port through a web browser - for example, `http://test.geysermc.org:19132`. It won't work, but then try connecting through Bedrock, and it should work.
 
 ## Changing the `bedrock` `address` in the Geyser config.
 
