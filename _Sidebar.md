@@ -11,6 +11,7 @@ User Guide
 - [Common Issues](Common-Issues)
   - [Fixing "Unable to Connect to World"](Fixing-"Unable-to-Connect-to-World")
 - [Understanding the Config](Understanding-the-Config)
+- [Standalone Command Line Arguments](Standalone-Command-Line-Arguments)
 - [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
 - [Using Geyser with Consoles](Using-Geyser-with-Consoles)
