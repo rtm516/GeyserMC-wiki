@@ -42,7 +42,7 @@ Minecraft: Java Edition uses TCP for connecting; Minecraft: Bedrock Edition uses
 
 Historically, having a Bedrock port that is a lower number will cause issues. Setting it to 10000 or above seems safe.
 
-## Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server)
+## Bedrock players can connect *after* hitting the server on a TCP port (e.g. on Java or a website on the same server), OR only people who also play on Java Edition can join from Geyser
 
 This is likely a firewall issue on your server. Try the following workaround:
 
