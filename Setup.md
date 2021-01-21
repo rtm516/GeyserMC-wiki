@@ -34,7 +34,7 @@ Please keep in mind, you need some sort of computer or host to run Geyser Standa
 5. Stop the current instance of Geyser and re-run it.
 
 ### Console Setup 
-3. Create a new bat or startup script, similar to the one you'd use for a Bukkit server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
+3. Create a new bat or startup script, similar to the one you'd use for a Spigot or Paper server, and take a look at [this](Creating-a-Startup-Script) page for what to put into it.
 4. Run the startup script/bat, and all the necessary files for Geyser will be created.
 5. Configure options such as the server you want to join in the Geyser config. A description of all options of the config can be found on the [Understanding the Config](https://github.com/GeyserMC/Geyser/wiki/Understanding-the-Config) page. 
 6. Stop the current instance of Geyser and re-run it.
