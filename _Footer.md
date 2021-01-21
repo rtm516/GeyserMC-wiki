@@ -1,1 +1,1 @@
-2019 - 2022 © GeyserMC
+2019 - 2021 © GeyserMC
