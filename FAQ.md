@@ -42,6 +42,10 @@ This is a non-complete list of what platform each plugin version of Geyser is fo
 ## If using BungeeCord or another fork, where do I need to put Geyser/Floodgate?
 You only need Geyser and/or Floodgate on the BungeeCord server, as long as not using the Floodgate API. In this case, Floodgate is needed on the "backend" servers aswell.
 
+## What IP do I need to give Bedrock players?
+
+Generally, the IP that Bedrock players will join with is your Java IP and the defined port in your Geyser config in the `bedrock` section under `port`. For example, if the IP address Java players join with is `test.geysermc.org`, and the `bedrock` `port` is set as 19132, then Bedrock players should join with the IP `test.geysermc.org` and port `19132`. 
+
 ## How can I have Bedrock players load resource packs?
 
 You can add Bedrock resource packs to your Geyser installation in the `packs` folder of wherever the Geyser config is located, and Bedrock clients will automatically download and load those resource packs. There is currently no automatic Java-to-Bedrock resource pack conversion, but you can convert any Java resource pack using https://ozelot379.github.io/ConvertJavaTextureToBedrock/ and add that to your server.
