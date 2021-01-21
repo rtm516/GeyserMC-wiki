@@ -13,7 +13,7 @@ No, Geyser and all related projects are completely free and open-source, license
 
 Geyser should generally work fine with plugins, as we emulate a Java client. There are exceptions, though:
 
-* [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` without a paid plan. Any paid plan, however, will allow support of Geyser. 
+* [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` disabled without a paid plan. Any paid plan, however, will allow support of Geyser - please contact their support for help setting this up. 
 
 Floodgate can cause issues with plugins as it modifies the login process. *Please note that any offline mode authenticator plugins are only here for documentation; Geyser does not support the usage of offline mode.*
 
