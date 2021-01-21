@@ -8,9 +8,9 @@ And if you still have questions, feel free to join the [Discord](https://discord
 
 ## Prerequisites
 
-- The server you are connecting to has to support the latest version of Minecraft Java Edition (at this time this is Minecraft 1.16.4). The server itself does not have to be the latest version but does have to allow connections. If you're running the server on an older version, you can use the plugin [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/).
+- The server you are connecting to has to support the latest version of Minecraft Java Edition (at this time this is Minecraft 1.16.5). The server itself does not have to be the latest version but does have to allow connections. If you're running the server on an older version, you can use the plugin [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/).
 - If you are connecting to an online mode Java server, a paid Java account is required. If you are running the server, you can bypass this requirement for your server with [Floodgate](https://github.com/GeyserMC/Geyser/wiki/Floodgate).
-- Your Bedrock client has to be a supported version - at this time that is any Bedrock 1.16 stable version.
+- Your Bedrock client has to be a supported version - at this time that is any Bedrock 1.16 stable version (1.16.100-1.16.201).
 - If you are running the server, you need to have a UDP port opened. See below for more instructions.
 
 ## Plugin Setup
