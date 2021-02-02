@@ -80,7 +80,7 @@ No, this is a translation tool to allow Bedrock players to connect to Java serve
 Yes, you can use Geyser as a plugin or a mod for your Mineceaft server software running on Pterodactyl. There is also an official egg for the standalone version, it supports auto-updating and has all config options easily editable. You can find it [here](https://github.com/GeyserMC/pterodactyl-stuff), just download the JSON egg and import it into your panel.
 
 ## Can I use Geyser with Ngrok?
-Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok. As an alternative you can use Playit.gg, which supports both, TCP and UDP.
+Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngrok. As an alternative you can use [playit.gg](playit.gg), which supports both, TCP and UDP.
 
 ## Can I connect Geyser to an older server?
 If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
