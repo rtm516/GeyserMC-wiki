@@ -68,7 +68,7 @@ Prevent Bedrock players from joining specific subservers on a proxy
 Creator: Camotoy
 
 ## GeyserUpdater
-This is a Spigot/BungeeCord plugin that can be used to automatically update Geyser. More info in [our README](https://github.com/YHDiamond/GeyserUpdater/blob/main/README.md).
+This is a Spigot/BungeeCord plugin that can be used to automatically update Geyser.
 
 [GitHub](https://github.com/YHDiamond/GeyserUpdater)
 
