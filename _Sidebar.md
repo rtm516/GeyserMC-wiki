@@ -22,4 +22,4 @@ Other
 - [Geyser-Fabric](Geyser-Fabric)
 - [Test Server](Test-Server)
 - [Developer Guide](Developer-Guide)
-- [Community-Geyser-Projects](Community-Geyser-Projects)
+- [Community Geyser Projects](Community-Geyser-Projects)
