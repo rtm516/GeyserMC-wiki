@@ -15,6 +15,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java.)
 * [ZapHosting](https://zap-hosting.com/en/) (Find the plugin in the control panel and restart your server. IP and port is the same as Java.)
 * [FreeMcServer.net](https://freemcserver.net) Can be selected from the version tab of the control panel
+
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work.)
