@@ -53,16 +53,16 @@ Plugin that blocks Java players from joining your Geyser server, so you can have
 
 Creator: [Camotoy](https://github.com/Camotoy)
 
-## GeyserSkinManager
-Spigot and Bungee plugin to make Bedrock skins work; requires Geyser to be installed on the server.
-* [GitHub](https://github.com/Camotoy/GeyserSkinManager)
-
-Creator: [Camotoy](https://github.com/Camotoy)
-
 ## GeyserPreventServerSwitch
 Prevent Bedrock players from joining specific sub-servers on a proxy
 
 * [GitHub](https://github.com/Camotoy/GeyserPreventServerSwitch)
+
+Creator: [Camotoy](https://github.com/Camotoy)
+
+## GeyserSkinManager
+Spigot and Bungee plugin to make Bedrock skins work; requires Geyser to be installed on the server.
+* [GitHub](https://github.com/Camotoy/GeyserSkinManager)
 
 Creator: [Camotoy](https://github.com/Camotoy)
 
