@@ -15,6 +15,13 @@ This is a Fabric mod that allows you to view Bedrock capes from Java.
 
 Creator: Camotoy
 
+## Bedrock Player Manager for Floodgate
+A Spigot plugin that is able to run certain commands when a Bedrock player joins, or have Bedrock players able to bypass the anticheat, etc. 
+
+[Spigot page](https://www.spigotmc.org/resources/bedrock-player-managment-for-floodgate-geyser.82278/)
+
+Creator: ofunny
+
 ## Floodgate-Skript
 Floodgate support for Skript.
 
