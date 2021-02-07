@@ -62,10 +62,9 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Server.pro](https://server.pro) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP. Paid gameserver plans are unable to use Geyser because of DDOS protection, however Geyser is supported on all VPS plans.)
 * [Shockbyte](https://shockbyte.com/) (Use the same IP and port as your Java server for the Bedrock address and port in your config and connect with that port. You can also see standalone installation instructions [here](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html).)
 * [Skynode.pro](https://skynode.pro/)
-  - Use the port provided by Skynode
-  - Only Geyser Standalone can be used
-  - You'll need to make a new server to host Geyser on
-  - Replace the server.jar with the Geyser.jar (from [Jenkins](https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/))
+  - Go to "Server Details" and add a new port.
+  - Change the port under the "bedrock" section to the new port you added.
+  - The address to connect to is the IP address of the primary port.
 * [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).)
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
