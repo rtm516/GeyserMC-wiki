@@ -56,6 +56,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [OVH](https://www.ovh.com/) (Not a dedicated Minecraft provider.)
 * [Pebblehost](https://pebblehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. See [this video](https://youtu.be/v9lC80UBZF4) for a PebbleHost-specific tutorial.)
 * [PhoenixNodes](https://phoenixnodes.com) (Get Geyser as a plugin. Open a ticket to request an additional port for Geyser.)
+* [PlanetNode](https://planetnode.net) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [RamShard](https://ramshard.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Revivenode](https://revivenode.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [ScalaCube](https://scalacube.com/) (Get Geyser as a plugin. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
