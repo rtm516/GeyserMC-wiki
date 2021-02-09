@@ -61,10 +61,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [ScalaCube](https://scalacube.com/) (Get Geyser as a plugin. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
 * [Server.pro](https://server.pro) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP. Paid gameserver plans are unable to use Geyser because of DDOS protection, however Geyser is supported on all VPS plans.)
 * [Shockbyte](https://shockbyte.com/) (Use the same IP and port as your Java server for the Bedrock address and port in your config and connect with that port. You can also see standalone installation instructions [here](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html).)
-* [Skynode.pro](https://skynode.pro/)
-  - Go to "Server Details" and add a new port.
-  - Change the port under the "bedrock" section of the config.yml to the new port you added.
-  - The address to connect to is the IP address of the primary port.
+* [Skynode.pro](https://skynode.pro/) (Get Geyser as a plugin. Go to "Server Details", add a new port, and change the port in your config. Connect with that, using the address from your main port.)
 * [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).)
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
