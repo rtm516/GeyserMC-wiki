@@ -63,6 +63,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Server.pro](https://server.pro) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; enable the `clone-remote-port` option if using the free plan; don't use the docker IP. Paid gameserver plans are unable to use Geyser because of DDOS protection, however Geyser is supported on all VPS plans.)
 * [Shockbyte](https://shockbyte.com/) (Use the same IP and port as your Java server for the Bedrock address and port in your config and connect with that port. You can also see standalone installation instructions [here](https://shockbyte.com/billing/knowledgebase/173/Introduction-to-GeyserMCorDragonProxy-How-GeyserMC-Works.html).)
 * [Skynode.pro](https://skynode.pro/) (Get Geyser as a plugin. Go to "Server Details", add a new port, and change the port in your config. Connect with that, using the address from your main port.)
+* [SoulNode](https://soulnode.net/) (Get Geyser as a plugin. If you have two ports use your main port in the config and connect with that port from bedrock)
 * [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).)
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
@@ -74,7 +75,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Vultam](https://vultam.net/) (Get Geyser as a plugin. Use the same port as your Java server and 0.0.0.0 as the address for Bedrock, or request an additional port. The additional port can be 19132 if you buy a dedicated IP.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [Witherhosting](https://witherhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
-* [SoulNode](https://soulnode.net/) (Get Geyser as a plugin. If you have two ports use your main port in the config and connect with that port from bedrock)
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
