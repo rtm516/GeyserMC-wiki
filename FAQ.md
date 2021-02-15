@@ -85,6 +85,11 @@ Unfortunately Ngrok is TCP-only, so you will not be able to use Geyser with Ngro
 ## Can I connect Geyser to an older server?
 If the server has ViaVersion and/or supports the latest Minecraft version, yes. However at this time we are unable to support older versions of Minecraft due to a limitation in our Java support library.
 
+## Can I connect Geyser to a modded (Forge/Fabric) server?
+The short answer: if a vanilla client can join the server, then so can Geyser.
+
+The long answer: currently there is no way for Geyser to translate the features that most mods add (blocks, items, etc). Therefore, servers that require mods to be installed clientside are unsupportable through Geyser.
+
 ## How can I auto-update Geyser?
 [Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) is an option at this time to auto-update Geyser through the command line. Note that this project is unaffiliated with Geyser.
 
