@@ -8,13 +8,13 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Aternos](https://aternos.org/) (Select as a plugin in the Aternos plugin list and connect to your server with your Java IP and port. See [Aternos's article](https://support.aternos.org/hc/en-us/articles/360051047631) for more details.)
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.)
 * [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
+* [FreeMcServer.net](https://freemcserver.net) (Can be selected from the version tab of the control panel)
 * [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. To host your own: Add 19132 UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port.)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java.)
 * [ZapHosting](https://zap-hosting.com/en/) (Find the plugin in the control panel and restart your server. IP and port is the same as Java.)
-* [FreeMcServer.net](https://freemcserver.net) Can be selected from the version tab of the control panel
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
