@@ -15,6 +15,7 @@ User Guide
 - [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
 - [Using Geyser with Consoles](Using-Geyser-with-Consoles)
+- [Adding Geyser/Floodgate as a dependency](Using-Geyser-or-Floodgate-as-a-dependency)
 
 Other
 - [Floodgate](Floodgate)
