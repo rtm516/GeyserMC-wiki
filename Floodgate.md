@@ -56,7 +56,9 @@ No credentials for either your Java or Bedrock account are needed nor stored in 
 
 ***Please note: we do not recommend removing the prefix unless you are certain that no one will share a username between a Java and Bedrock player.***
 
-In your Floodgate config, change `username-prefix` to whichever prefix you desire - you can set it to `""` and there will be no prefix. On Spigot servers, you should also shut down your server and delete your `usercache.json` file located in the same folder as your server jar to prevent users who already joined from having the old prefix.
+In your Floodgate config, change `username-prefix` to whichever prefix you desire - you can set it to `""` and there will be no prefix. 
+
+On some older Paper servers (or any forks that use them), you may need to also shut down your server and delete your `usercache.json` file located in the same folder as your server jar to prevent users who already joined from having the old prefix. See below if you qualify.
 
 ## Running commands
 
@@ -88,6 +90,8 @@ Set `ip-forwarding` in your BungeeCord to `true`.
 See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
 
 ### Prefix is not changing on the server after changing it in the config.
+
+Between the Paper builds of 1.15.2-355 and 1.16.5-505, there was a bug where Floodgate players who had already connected to the server would not have their prefixed changed. Paper builds 1.16.5-506 and later fix this issue.
 
 Ensure that you removed the `usercache.json` file from the server root directory and restart your server.
 
