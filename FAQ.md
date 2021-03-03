@@ -70,6 +70,9 @@ First, you'll need to get the XUID of the player. There are several third-party 
 ## Can I remove the prefix of Floodgate players?
 While yes, you can remove the prefix. It is generally recommended not to remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe). While they have different UUIDs, they have the same username, which may cause conflicts with commands that involve a player name. If you want to remove the prefix to use commands, Try adding quotation marks around the name. Example: `/tp "*<bedrock_username>"`
 
+## Do I need Floodgate in order to use Geyser?
+No; Floodgate is only required if you wish to allow Bedrock clients to join without authenticating to Java servers. Without the Floodgate plugin, Geyser can either authenticate to Mojang in online mode, or join without authentication in an offline mode server (though this is unsupportable and dangerous as anyone can join your server and is against Mojang's EULA).
+
 ## Sometimes, when I go really far out, the world starts to experience very odd visual bugs...
 This is a Bedrock client issue caused by Bedrock being 32-bit and Java being 64-bit. For more information read [here](https://minecraft.gamepedia.com/Bedrock_Edition_distance_effects).
 
