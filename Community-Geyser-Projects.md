@@ -73,3 +73,9 @@ This is a Spigot/BungeeCord plugin that can be used to automatically update Geys
 * [Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)
 
 Creators: [Jens](https://github.com/Jens-Co), [YHDiamond](https://github.com/YHDiamond)
+
+## SleepingServerStarter
+Small application that waits for a player to connect before launching actual minecraft server.
+* [GitHub](https://github.com/vincss/mcsleepingserverstarter)
+
+Creator: [Vincss](https://github.com/vincss)
