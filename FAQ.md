@@ -169,6 +169,7 @@ We aim to support any of the bedrock languages; see [here](https://translate.gey
 |Name                        |Code |
 |----------------------------|-----|
 |Afrikaans                   |af_za|
+|Belarusian                  |be_by|
 |Hebrew                      |he_il|
 |Hindi                       |hi_in|
 
