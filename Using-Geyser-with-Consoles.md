@@ -1,4 +1,6 @@
-All consoles can join third-party servers - including Geyser servers - with workarounds. Xbox One and Nintendo Switch systems can join third-party servers using a third-party program called BedrockConnect. For technical information about the program, including how to run your own setup, see [their GitHub repository](https://github.com/Pugmatt/BedrockConnect) (*This program is not affiliated with GeyserMC*). On PS4, other methods are available for use.
+All consoles can join third-party servers - including Geyser servers - with workarounds. Xbox One, Nintendo Switch, and PS4 systems can join third-party servers using a third-party program called BedrockConnect. For technical information about the program, including how to run your own setup, see [their GitHub repository](https://github.com/Pugmatt/BedrockConnect) (*This program is not affiliated with GeyserMC*). Other methods are also available for use.
+
+**NOTE: The main IP used for BedrockConnect is often blocked on consoles, if you run into issues with internet connection or joining servers after changing your DNS, consider using one of the other BedrockConnect servers on the [BedrockConnect Github Page](https://github.com/Pugmatt/BedrockConnect)**
 
 # Xbox One
 
@@ -13,20 +15,32 @@ All consoles can join third-party servers - including Geyser servers - with work
 [![Nintendo Switch BedrockConnect](https://img.youtube.com/vi/zalT_oR1nPM/0.jpg)](https://www.youtube.com/watch?v=zalT_oR1nPM)
 
 # PlayStation 4
+1. Go to your PS4 Home screen.
+2. Go to Settings.
+3. Go to Network.
+4. Select Set Up Internet connection.
+5. If you are using wired internet, select "Use LAN Cable", otherwise choose "Use Wi-Fi".
+6. Select the Custom network creation mode. 
+7. Select Automatic IP Address.
+8. For DHCP Host Name, make sure you select Do Not Specify.
+9. Under DNS Settings, select Manual.
+10. Enter the BedrockConnect IP for the preferred Primary DNS (Multiple options depending on region can be found on the [BedrockConnect Github Page](https://github.com/Pugmatt/BedrockConnect)) and something like Google or Cloudfare's IP for the Secondary DNS (8.8.8.8 or 1.1.1.1).
 
-Unfortunately at this time, PS4 does not have any external server support. However, there are ways around this by emulating a LAN game on your network on another device.
+
+## Alternative Methods
+PS4 now has external server support, but if you'd rather try emulating a LAN game on your network on another device, here's how you'd do that.
 
 *Note that this method will also work with any other Bedrock platform other than Nintendo Switch.*
 
-### Using a PC with a PlayStation 4
+### Using a PC
 If you have a PC, you can use [Phantom](https://github.com/jhead/phantom). 
 
-### Using an Android Device with a PlayStation 4
+### Using an Android Device
 If you have an Android device, you have several options: 
 - [Work in progress Geyser Android app](https://github.com/rtm516/GeyserAndroid)
 - [MC Lan Proxy (Trial)](https://discord.com/channels/613163671870242838/613194762249437245/770699493482037310)
 - [MC Lan Proxy (Paid)](https://play.google.com/store/apps/details?id=com.luzenna.mineproxydroid)
 - [MC Server Connector](https://play.google.com/store/apps/details?id=com.smokiem.mcserverconnector)
 
-### Using an iOS device with a PlayStation 4
+### Using an iOS device
 If you have an iOS 14+ device, you can use [BedrockTogether](https://apps.apple.com/app/bedrocktogether/id1534593376).
