@@ -1,1 +1,2 @@
 - [Example anticheat](https://geysermc.org) - this works great, or it doesn't, I don't know.
+- [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) - Not compatible.
