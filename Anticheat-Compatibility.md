@@ -1,6 +1,7 @@
 ### AntiCheat compatibility reports
 
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) - Not compatible. Players constantly lag back, or get stuck in blocks. Last updated on 2021/03/30.
+- [Matrix](https://matrix.rip/) - Fully compatible. Hooks into Geyser and changes checks for Bedrock players. Last update on 2021/03/30.
 
 ### Example 
 
