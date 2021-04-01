@@ -28,7 +28,7 @@ All consoles can join third-party servers - including Geyser servers - with work
 
 
 ## Alternative Methods
-PS4 now has external server support, but if you'd rather try emulating a LAN game on your network on another device, here's how you'd do that.
+If you'd rather try emulating a LAN game on your network on another device, here's how you'd do that.
 
 *Note that this method will also work with any other Bedrock platform other than Nintendo Switch.*
 
