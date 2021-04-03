@@ -64,8 +64,8 @@ In the SoYouStart control panel:
 If you're running into issues with some Bedrock players being unable to connect on OVH, navigate through the following settings:
 
 - Navigate to `Network interfaces` 
-- Click on the `...` button on the table for your IP -> then ... and Configure the GAME firewall -> Add rule -> Other protocol
-- Add your Geyser port into 'outgoing port'
+- Click on the `...` button on the table for your IP -> then `...` and `Configure the GAME firewall` -> `Add rule` -> `Other protocol`
+- Add your Geyser port into `outgoing port`
 
 ## Changing the `bedrock` `address` in the Geyser config.
 
