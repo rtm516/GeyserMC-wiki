@@ -44,6 +44,7 @@ userAuths:
   Notch: # MCPE/Xbox username
     email: foobar2000@gmail.com
     password: "hunter2"
+    microsoft-account: true
 ```
 
 Put two spaces before the username and four spaces before the email and password.
@@ -70,13 +71,13 @@ Put two spaces before the username and four spaces before the email and password
 
 **`allow-third-party-ears`**: If third party Deadmau5-style ears should be enabled. Currently only supports MinecraftCapes.
 
-**`show-cooldown`**: Bedrock Edition currently does not have Java Edition 1.9+ combat mechanics. In order to get around this, Geyser sends a fake cooldown by sending a title message. This cooldown should not show if 1.8 combat mechanics are in use.
+**`show-cooldown`**: Bedrock Edition currently does not have Java Edition 1.9+ combat mechanics. In order to get around this, Geyser sends a fake cooldown by sending a title message. This cooldown should not show if 1.8 combat mechanics are in use. The options available for this setting are `false` (no cooldown is sent), `title`/`true` (a cooldown indication is shown in the title), or `actionbar` (a cooldown indication is shown in the action bar). All other options default to `false`.
 
 **`show-coordinates`**: Bedrock Edition has an option to show coordinates in the top-left part of your screen. This setting enables or disables this.
 
 **`default-locale`**: The default locale to send to players if their locale could not be found. Check [this](https://github.com/GeyserMC/Geyser/wiki/FAQ#what-languages-does-geyser-support) page to find the code corresponding to your language.
 
-**`chunk-caching`**: Cache chunks for each Bedrock player, adds support for additional sounds and fixing movement issues at the expense of slightly more RAM usage. This option is always on for Spigot as we can use the server's API to get block information at no expense.
+**`chunk-caching`**: Cache chunks for each Bedrock player, adds support for additional sounds and fixing movement issues at the expense of slightly more RAM usage. This option is always on for Spigot as we can use the server's API to get block information at no expense. *Geyser does not recommend disabling this option.*
 
 **`cache-images`**: Specify how many days images will be cached to disk to save downloading them from the internet. A value of 0 is disabled. (Default: 0)
 
@@ -120,10 +121,19 @@ bedrock:
   # This option is for the plugin version only.
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
-  motd1: "GeyserMC"
-  motd2: "Another GeyserMC forced host."
+  # If either of these are empty, the respective string will default to "Geyser"
+  motd1: "Geyser"
+  motd2: "Another Geyser server."
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
   server-name: "Geyser"
+  # Whether to enable PROXY protocol or not for clients. You DO NOT WANT this feature unless you run UDP reverse proxy
+  # in front of your Geyser instance.
+  enable-proxy-protocol: false
+  # A list of allowed PROXY protocol speaking proxy IP addresses/subnets. Only effective when "enable-proxy-protocol" is enabled, and
+  # should really only be used when you are not able to use a proper firewall (usually true with shared hosting providers etc.).
+  # Keeping this list empty means there is no IP address whitelist.
+  # Both IP addresses and subnets are supported.
+  #proxy-protocol-whitelisted-ips: [ "127.0.0.1", "172.18.0.0/16" ]
 remote:
   # The IP address of the remote (Java Edition) server
   # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
@@ -134,10 +144,14 @@ remote:
   port: 25565
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   auth-type: online
+  # Allow for password-based authentication methods through Geyser. Only useful in online mode.
+  # If this is false, users must authenticate to Microsoft using a code provided by Geyser on their desktop.
+  allow-password-authentication: true
   # Whether to enable PROXY protocol or not while connecting to the server.
   # This is useful only when:
   # 1) Your server supports PROXY protocol (it probably doesn't)
-  # 2) You run Velocity or BungeeCord with respective option enabled.
+  # 2) You run Velocity or BungeeCord with the option enabled in the proxy's main config.
+  # IF YOU DON'T KNOW WHAT THIS IS, DON'T TOUCH IT!
   use-proxy-protocol: false
 
 # Floodgate uses encryption to ensure use from authorised sources.
@@ -153,10 +167,12 @@ floodgate-key-file: public-key.pem
 #  BedrockAccountUsername: # Your Minecraft: Bedrock Edition username
 #    email: javaccountemail@example.com # Your Minecraft: Java Edition email
 #    password: javaccountpassword123 # Your Minecraft: Java Edition password
+#    microsoft-account: true # Whether the account is a Mojang or Microsoft account.
 #
 #  bluerkelp2: 
 #    email: not_really_my_email_address_mr_minecrafter53267@gmail.com 
 #    password: "this isn't really my password"
+#    microsoft-account: false
 
 # Bedrock clients can freeze when opening up the command prompt for the first time if given a lot of commands.
 # Disabling this will prevent command suggestions from being sent and solve freezing for Bedrock clients.
@@ -177,7 +193,11 @@ legacy-ping-passthrough: false
 # Increase if you are getting BrokenPipe errors.
 ping-passthrough-interval: 3
 
-# Maximum amount of players that can connect
+# Whether to forward player ping to the server. While enabling this will allow Bedrock players to have more accurate
+# ping, it may also cause players to time out more easily.
+forward-player-ping: false
+
+# Maximum amount of players that can connect. This is only visual at this time and does not actually limit player count.
 max-players: 100
 
 # If debug messages should be sent through console
@@ -195,7 +215,8 @@ allow-third-party-capes: true
 allow-third-party-ears: false
 
 # Allow a fake cooldown indicator to be sent. Bedrock players do not see a cooldown as they still use 1.8 combat
-show-cooldown: true
+# Can be title, actionbar or false
+show-cooldown: title
 
 # Controls if coordinates are shown to players.
 show-coordinates: true
@@ -222,6 +243,12 @@ cache-images: 0
 # Allows custom skulls to be displayed. Keeping them enabled may cause a performance decrease on older/weaker devices.
 allow-custom-skulls: true
 
+# Whether to add (at this time, only) the furnace minecart as a separate item in the game, which normally does not exist in Bedrock Edition.
+# This should only need to be disabled if using a proxy that does not use the "transfer packet" style of server switching.
+# If this is disabled, furnace minecart items will be mapped to hopper minecart items.
+# This option requires a restart of Geyser in order to change its setting.
+add-non-bedrock-items: true
+
 # Bedrock prevents building and displaying blocks above Y127 in the Nether -
 # enabling this config option works around that by changing the Nether dimension ID
 # to the End ID. The main downside to this is that the sky will resemble that of
@@ -234,8 +261,7 @@ above-bedrock-nether-building: false
 force-resource-packs: true
 
 # Allows Xbox achievements to be unlocked.
-# This disables certain commands so the Bedrock client can't to "cheat" to get them.
-# Commands such as /gamemode and /give will not work from Bedrock with this enabled
+# THIS DISABLES ALL COMMANDS FROM SUCCESSFULLY RUNNING FOR BEDROCK IN-GAME, as otherwise Bedrock thinks you are cheating.
 xbox-achievements-enabled: false
 
 # bStats is a stat tracker that is entirely anonymous and tracks only basic information
