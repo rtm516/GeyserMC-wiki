@@ -59,7 +59,7 @@ In the SoYouStart control panel:
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
 
-## with OVH or a subsidiary
+## Issues connecting with OVH or a subsidiary
 
 If you're running into issues with some Bedrock players being unable to connect on OVH, navigate through the following settings:
 
