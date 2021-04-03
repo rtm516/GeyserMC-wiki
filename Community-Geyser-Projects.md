@@ -36,6 +36,7 @@ Creator: [Chew](https://github.com/Chew)
 Placeholders support for Floodgate.
 
 * [GitHub](https://github.com/rtm516/FloodgatePlaceholders)
+* [eCloud](https://api.extendedclip.com/expansions/floodgate/)
 
 Creator: [rtm516](https://github.com/rtm516)
 
