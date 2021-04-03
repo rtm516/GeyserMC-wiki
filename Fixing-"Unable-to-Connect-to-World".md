@@ -59,6 +59,14 @@ In the SoYouStart control panel:
 4. Select "minecraftPocketEdition" in the dropdown list and enter the target UDP ports.
 5. Save and wait a few seconds for the changes to come into effect.
 
+### Issues with OVH or a subsidiary
+
+If you're running into issues with some Bedrock players being unable to connect on OVH, navigate through the following settings:
+
+- Navigate to `Network interfaces` 
+- Click on the `...` button on the table for your IP -> then ... and Configure the GAME firewall -> Add rule -> Other protocol
+- Add your Geyser port into 'outgoing port'
+
 ## Changing the `bedrock` `address` in the Geyser config.
 
 Except for a few specific hosting providers, you generally do not need to change this part of the Geyser config. However, in rare instances, it does fix issues
