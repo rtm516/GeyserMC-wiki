@@ -1,6 +1,6 @@
 ### AntiCheat compatibility reports
 
-- [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-16-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/) - Fully Compatible Anticheat that is proven to work well with Geyser thanks to its seperate code for Bedrock Players resulting in much less false positives!
+- [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-16-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/) - Fully Compatible Anticheat that is proven to work well with Geyser thanks to its seperate code for Bedrock Players resulting in much less false positives! Last updated on 2021/04/09.
 - [Matrix](https://matrix.rip/) - Fully compatible. Hooks into Geyser and changes checks for Bedrock players. Last updated on 2021/03/30.
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) - Not compatible. Players constantly lag back, or get stuck in blocks. Last updated on 2021/03/30.
 
