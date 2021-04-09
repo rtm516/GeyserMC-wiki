@@ -1,7 +1,7 @@
 # Commands and Permissions
 
 | Command | Permission | Description |
-|:---|:---:|---|
+|:---:|:---:|:---:|
 | `geyser help` or `geyser ?` | `geyser.command.help` | Shows help for all registered commands. |
 | `geyser advancements` | `geyser.command.advancements` | Shows the advancements of the player on the server. |
 | `geyser dump` | `geyser.command.dump` | Dumps Geyser debug information for bug reports. |
