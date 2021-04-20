@@ -66,7 +66,7 @@ Run this to start the download/install:
 curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash
 ```
 
-## NewTerm 2 (iOS) (Jailbreak Required)
+## NewTerm 2 (iOS)
 **Note:** A jailbreak is required. You can find what jailbreak to use for your device [here](https://docs.google.com/spreadsheets/d/11DABHIIqwYQKj1L83AK9ywk_hYMjEkcaxpIg6phbTf0/edit?usp=sharing).
 1. Install [Filza File Manager](http://cydia.saurik.com/package/com.tigisoftware.filza/).
 2. Install [NewTerm 2](https://chariz.com/get/newterm).
