@@ -6,7 +6,7 @@ User Guide
   - [Standalone](Setup#Standalone-Setup)
   	- [Creating a Startup Script](Creating-a-Startup-Script)
   - [Termux (Android)](Setup#Termux-Android)
-  - [NewTerm 2 (iOS)](Setup#newterm-2-ios-jailbreak-required)
+  - [NewTerm 2 (iOS)](Setup#newterm-2-ios)
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
