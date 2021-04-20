@@ -69,6 +69,7 @@ curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/
 ## IOS (JAILBREAK REQUIRED)
 1. install [filza file manager](http://cydia.saurik.com/package/com.tigisoftware.filza/)
 2. install [NewTerm](https://chariz.com/get/newterm)
+4. Download jre-16 for ios using filza from [Here!](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v16-openjdk/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb)
 3. Download my modified java commands, and install it using Filza [Here!](https://cdn.discordapp.com/attachments/558829512633090048/834014323755319306/com.letschill.java_0.1_iphoneos-arm.deb)
 4. Open NewTerm and Run `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
 5. Run `java -jar Geyser.jar`
