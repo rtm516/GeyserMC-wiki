@@ -1,4 +1,4 @@
-[**Home**](pp)
+[**Home**](Geyser)
 
 User Guide
 - [Setup](Setup)
