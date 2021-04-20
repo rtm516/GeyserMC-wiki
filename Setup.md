@@ -78,6 +78,7 @@ curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/
 **Note:**
 Note that due to IOS environment, if your device has low species, you might encounter a crash “ios software kills NewTerm” while your playing, there is no fix for that becuase of how ios works.
 
+you might encounter some issues, run `su` then enter the password `alpine`, for root access, it will make you able to run the server *issues happen for some reasons*
 
 ## Setup Videos
 Setup tutorials in a variety of languages.
