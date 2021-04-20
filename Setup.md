@@ -66,19 +66,19 @@ Run this to start the download/install:
 curl https://gist.githubusercontent.com/rtm516/e3e07d6595ee41e05a38b03c0f4d7a80/raw/install.sh | bash
 ```
 
-## IOS (JAILBREAK REQUIRED)
-1. install [filza file manager](http://cydia.saurik.com/package/com.tigisoftware.filza/)
-2. install [NewTerm](https://chariz.com/get/newterm)
-4. Download jre-16 for ios using filza from [Here!](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v16-openjdk/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb)
-3. Download my modified java commands, and install it using Filza [Here!](https://cdn.discordapp.com/attachments/558829512633090048/834014323755319306/com.letschill.java_0.1_iphoneos-arm.deb)
-4. Open NewTerm and Run `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
-5. Run `java -jar Geyser.jar`
-6. you can find Geyser server running in mcpe!.
+## NewTerm 2 (iOS) (Jailbreak Required)
+1. Install [Filza File Manager](http://cydia.saurik.com/package/com.tigisoftware.filza/).
+2. Install [NewTerm 2](https://chariz.com/get/newterm).
+4. Download jre-16 for iOS and install it using Filza [here](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v16-openjdk/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb).
+3. Download my modified java commands, and install it using Filza [here](https://cdn.discordapp.com/attachments/558829512633090048/834014323755319306/com.letschill.java_0.1_iphoneos-arm.deb).
+4. Open NewTerm 2 and run `wget https://ci.nukkitx.com/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`.
+5. Run `java -jar Geyser.jar`.
+6. You can find Geyser server running in MCPE!
 
 **Note:**
-Note that due to IOS environment, if your device has low species, you might encounter a crash “ios software kills NewTerm” while your playing, there is no fix for that becuase of how ios works.
+Due to iOS's environment, if your device has low specs, iOS might end up killing NewTerm 2 while you're playing, stopping the server. There is no fix for that because of how iOS works.
 
-you might encounter some issues, run `su` then enter the password `alpine`, for root access, it will make you able to run the server *issues happen for some reasons*
+You may encounter some issues. If you do, run `su` then enter the root password (default is `alpine`) for root access. Then, run the server like you normally would, and it should work just fine.
 
 ## Setup Videos
 Setup tutorials in a variety of languages.
