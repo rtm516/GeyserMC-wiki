@@ -99,7 +99,7 @@ The long answer: currently, there is no way for Geyser to translate the features
 
 GeyserUpdater ([GitHub page](https://github.com/YHDiamond/GeyserUpdater)/[Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)) is a Spigot/BungeeCord plugin option for auto-updating. Please note that this plugin is also unaffiliated and unsupported by Geyser, and users should redirect support for the plugin to its Discord.
 
-## How can I make DiscordSRV skins work with Floodgate 2.0 or GeyserSkinManager?
+## How can I make DiscordSRV show Floodgate 2.0 or GeyserSkinManager skins?
 Replace the `AvatarUrl` line in your DiscordSRV config with this: `AvatarUrl: https://mc-heads.net/avatar/{texture}/{size}.png`
 Note: you need to be running DiscordSRV  v1.22.0 or newer.
 
