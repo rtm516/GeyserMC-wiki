@@ -1,3 +1,5 @@
+Do note that this is a community-compiled list and is incomplete! If you wish to update or add to this list, feel free.
+
 ### AntiCheat compatibility reports
 
 - [Matrix](https://matrix.rip/) - Fully compatible. Hooks into Geyser and changes checks for Bedrock players. Last updated on 2021/03/30.
