@@ -101,7 +101,8 @@ GeyserUpdater ([GitHub page](https://github.com/YHDiamond/GeyserUpdater)/[Spigot
 
 ## How can I make DiscordSRV show Floodgate 2.0 or GeyserSkinManager skins?
 Replace the `AvatarUrl` line in your DiscordSRV config with this: `AvatarUrl: https://mc-heads.net/avatar/{texture}/{size}.png`
-Note: you need to be running DiscordSRV  v1.22.0 or newer.
+
+Note: you need to be running DiscordSRV v1.22.0 or newer. Floodgate 2.0 or GeyserSkinRestorer is still required for skins to show up for Java players and for this to work.
 
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
