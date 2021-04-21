@@ -15,6 +15,7 @@ User Guide
 - [Standalone Command Line Arguments](Standalone-Command-Line-Arguments)
 - [Commands](Commands)
 - [Supported Hosting Providers](Supported-Hosting-Providers)
+- [Anticheat Compatibility](Anticheat-Compatibility)
 - [Using Geyser with Consoles](Using-Geyser-with-Consoles)
 - [Adding Geyser/Floodgate as a dependency](Using-Geyser-or-Floodgate-as-a-dependency)
 
