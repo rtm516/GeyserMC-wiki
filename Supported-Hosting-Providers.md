@@ -54,6 +54,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [HumbleServers](https://humbleservers.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular IP address with numbers.)
 * [Meloncube](https://www.meloncube.net/) (Get Geyser as a plugin. Need to ask to open a UDP port.)
 * [MineStrator](https://minestrator.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [Minecraft-Hosting.pro](https://www.minecraft-hosting.pro/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [NiCraft](https://www.ni-host.com/)
   - Use the same port as your Java server for the Bedrock port in your config and connect with that port.
   - See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).
