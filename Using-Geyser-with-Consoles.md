@@ -30,7 +30,7 @@ All consoles can join third-party servers - including Geyser servers - with work
 ## Alternative Methods
 If you'd rather try emulating a LAN game on your network on another device, here's how you'd do that.
 
-*Note that this method will also work with any other Bedrock platform other than Nintendo Switch.*
+*Note that this method will not work with the Nintendo Switch.*
 
 ### Using a PC
 If you have a PC, you can use [Phantom](https://github.com/jhead/phantom). 
