@@ -29,6 +29,7 @@ Creator: ofunny
 A Spigot plugin that allows users to enter commands starting with `.`, to work around Xbox achievements being disabled.
 
 * [Spigot page](https://www.spigotmc.org/resources/customcommandprefix.87224/)
+* [GitHub](https://github.com/ChewMC/CustomCommandPrefix)
 
 Creator: [Chew](https://github.com/Chew)
 
