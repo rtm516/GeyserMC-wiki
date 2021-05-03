@@ -1,1 +1,1 @@
-dqanarquia.xyz brazilian anarchy server ezzzzzzzz
+2019 - 2021 © GeyserMC
