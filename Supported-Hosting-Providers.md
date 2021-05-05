@@ -74,6 +74,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
 * [STIPE](https://stipe.com.au/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in Australia.)
+* [SyntexHosting](https://syntexhosting.com/) (Get Geyser as a plugin. Use the same port as your java server for the Bedrock port in the config and connect with that port, or request an (free) additional port for your bedrock clients.)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (Get Geyser as a plugin. 19132 should work as a Bedrock port, if not use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Titan Nodes](https://titannodes.com/) (Get Geyser as a plugin. Use the Default server port and 0.0.0.0 as the host address.)
 * [TNAHosting](https://tnahosting.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
