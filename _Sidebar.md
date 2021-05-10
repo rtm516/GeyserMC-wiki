@@ -21,6 +21,7 @@ User Guide
 
 Other
 - [Floodgate](Floodgate)
+- [GeyserOptionalPack](GeyserOptionalPack)
 - [GeyserConnect](GeyserConnect)
 - [Geyser-Fabric](Geyser-Fabric)
 - [Test Server](Test-Server)
