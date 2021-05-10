@@ -10,4 +10,4 @@ GeyserOptionalPack is a resource pack that adds more features to Geyser to bring
 
 A more complete list can be found on the optional pack's [README](https://github.com/GeyserMC/GeyserOptionalPack/blob/master/README.md). 
 
-It is not required to install the resource pack yourself - clients can install it themselves. Additionally, if you use a proxy like WaterdogPE, you can install the pack on the server without impacting gameplay on other Bedrock servers.
+While recommended, it is not required to install the resource pack on the server - clients can install it themselves. Additionally, if you use a proxy like WaterdogPE, you can install the pack on the server without impacting gameplay on other Bedrock servers.
