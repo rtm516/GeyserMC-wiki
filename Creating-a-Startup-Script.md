@@ -1,15 +1,15 @@
 **In order for this to work, you MUST have Java 8 installed!**
 
-Once you have downloaded and placed Rory into its own folder, you will need to create a startup script; similar to how you'd run a Bukkit server.
+Once you have downloaded and placed Geyser into its own folder, you will need to create a startup script; similar to how you'd run a Bukkit server.
 
 ### Windows
-* Create a new text file in the same location as the Rory jar file, and call it `run.bat`. Open this with a text editor (preferably Notepad++), and insert the text below:
+* Create a new text file in the same location as the Geyser jar file, and call it `run.bat`. Open this with a text editor (preferably Notepad++), and insert the text below:
 ```batch
 @echo off
-java -Xms1024M -jar Rory.jar
+java -Xms1024M -jar Geyser.jar
 pause
 ```
-* Double-click the **run.bat**, and Rory should start up. Rory will generate all the needed files.
+* Double-click the **run.bat**, and Geyser should start up. Geyser will generate all the needed files.
 
 
 ### macOS
@@ -17,10 +17,10 @@ pause
 ```sh
 #!/bin/bash 
 cd "$( dirname "$0" )" 
-java -Xms1024M -jar Rory.jar
+java -Xms1024M -jar Geyser.jar
 ```
 * Open Terminal, and type in `chmod a+x` **(Do NOT press return!)**, and drag your *run.command* file into the Terminal.
-* Press return on your keyboard, and Rory will start up. Rory will generate all the needed files.
+* Press return on your keyboard, and Geyser will start up. Geyser will generate all the needed files.
 
 
 ### Linux
@@ -28,7 +28,7 @@ java -Xms1024M -jar Rory.jar
 ```sh
 #!/bin/sh 
 cd "$( dirname "$0" )" 
-java -Xms1024M -jar Rory.jar
+java -Xms1024M -jar Geyser.jar
 ```
-* In your default terminal application, make the file executable by running `chmod +x ~(dir)/run.sh` where `dir` is the name of the folder Rory is in, or by changing the file permissions;
-* Open your default terminal application, and type `./run.sh` to run Rory. Rory will generate all the needed files.
+* In your default terminal application, make the file executable by running `chmod +x ~(dir)/run.sh` where `dir` is the name of the folder Geyser is in, or by changing the file permissions;
+* Open your default terminal application, and type `./run.sh` to run Geyser. Geyser will generate all the needed files.
