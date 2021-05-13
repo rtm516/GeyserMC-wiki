@@ -78,7 +78,7 @@ Creator: [Camotoy](https://github.com/Camotoy)
 ## GeyserUpdater
 This is a Spigot/BungeeCord plugin that can be used to automatically update Geyser.
 
-* [GitHub](https://github.com/YHDiamond/GeyserUpdater)
+* [GitHub](https://github.com/ProjectG-Plugins/GeyserUpdater)
 * [Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)
 
 Creators: [Jens](https://github.com/Jens-Co), [YHDiamond](https://github.com/YHDiamond)
