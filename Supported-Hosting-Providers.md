@@ -59,6 +59,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - Use the same port as your Java server for the Bedrock port in your config and connect with that port.
   - See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).
   - So if your players encounter this issue, please ask them to try to connect (even if they don't have Minecraft) from Java Edition first while their Bedrock client is opened and after they should be able to join on Bedrock Edition.
+* [NightNodes](https://nightnodes.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Nodecraft](https://nodecraft.com) (Get Geyser as a plugin. Use the default server port and 0.0.0.0 or your server IP as the host address.)
 * [OVH](https://www.ovh.com/) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#issues-connecting-with-ovh-or-a-subsidiary).)
 * [Pebblehost](https://pebblehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. See [this video](https://youtu.be/v9lC80UBZF4) for a PebbleHost-specific tutorial.)
