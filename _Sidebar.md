@@ -27,3 +27,4 @@ Other
 - [Test Server](Test-Server)
 - [Developer Guide](Developer-Guide)
 - [Community Geyser Projects](Community-Geyser-Projects)
+- [TydiumCraft Skin API](TydiumCraft-Skin-API)
