@@ -1,4 +1,3 @@
-# **TydiumCraft Skin API**
 ### `What does it do?`
 The API makes it easier for your Bedrock skin to be rendered and outputted! Usually, you would have to use api.geysermc.org to get your texture ID, then figure out a way to use it in your preferred skin API (we send it to mc-heads). The TydiumCraft Skin API does it automatically for you. It also works with Java skins!
 
