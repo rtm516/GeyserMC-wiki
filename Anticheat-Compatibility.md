@@ -6,6 +6,7 @@ Do note that this is a community-compiled list and is incomplete! If you wish to
 - [NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) - Not compatible. Players constantly lag back, or get stuck in blocks. Last updated on 2021/03/30.
 - [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-16-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/) - Fully Compatible Anticheat that is proven to work well with Geyser thanks to its seperate code for Bedrock Players resulting in much less false positives! Last updated on 2021/04/09.
 - [Vulcan](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-16-5.83626/) - Fully compatible. Hooks into Floodgate and disables checks for Bedrock players. (Requires a config change iirc) Last updated on 2021/05/14
+- [Spartan](https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-detection-hack-blocker-1-7-2-1-16-5.25638/) - Fully compatible if you buy the Syn version. Last updated on 2021/5/16. 
 
 ### Example 
 
