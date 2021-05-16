@@ -93,4 +93,4 @@ Creator: [Vincss](https://github.com/vincss)
 An API makes it easier for your Bedrock skin to be rendered and outputted!
 * [Website](https://tydiumcraft.tk/docs/skinapi)
 
-Creators: [Tydium](https://github.com/Tydium), [higbead](https://github.com/higbead), [Gibbon27](https://github.com/Gibbon27)
+Creators: [Tydium](https://github.com/Tydium), [higbead](https://github.com/higbead), [gibbon27](https://github.com/gibbon27)
