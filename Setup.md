@@ -101,6 +101,10 @@ Setup tutorials in a variety of languages.
 
 [![YouTube Video](https://img.youtube.com/vi/DHZHM1RBtfQ/0.jpg)](https://www.youtube.com/watch?v=DHZHM1RBtfQ)
 
+**How To Add Crossplay to Your Minecraft Server (Geyser Setup Guide).** by [The Breakdown](https://www.youtube.com/channel/UC6Ec5NXzcESo60F3UgtgQRA)
+
+[![YouTube Video](https://i.ytimg.com/vi/2HwqbDHWwu8/hqdefault.jpg)](https://youtu.be/2HwqbDHWwu8)
+
 ### Russian
 **ЗАШЕЛ НА ХАЙПИКСЕЛЬ С МКПЕ? ЧИТЕРСКИЙ КОНФИГ!** by [TOWUK](https://www.youtube.com/channel/UCK8v-rGsfCOkpbi0slIpAng)
 
