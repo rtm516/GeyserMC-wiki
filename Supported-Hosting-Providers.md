@@ -26,7 +26,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Azure](https://azure.microsoft.com/) (Get Geyser as a plugin. Not a dedicated Minecraft provider.)
 * [BisectHosting](https://www.bisecthosting.com/) (Get Geyser as a plugin. Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP.)
 * [Bloom.Host](https://www.bloom.host/) (Get Geyser as a plugin. They have a port forwarding option that works.)
-* [Daptap.net](https://daptap.net/)(Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address should not auto and your bedrock address is your server IP [free](https://discord.gg/RPm6rYYUjm)test server of 2gb unlimited cores lifetime.)
+* [Daptap.net](https://daptap.net/)(Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address should not auto and your bedrock address is your server IP.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
 * [Clovux](https://clovux.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address is 'auto' and your bedrock address is your server IP.)
 * [Consulhosting](https://consulhosting.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
