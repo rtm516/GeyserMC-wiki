@@ -18,6 +18,7 @@ User Guide
 - [Anticheat Compatibility](Anticheat-Compatibility)
 - [Using Geyser with Consoles](Using-Geyser-with-Consoles)
 - [Adding Geyser/Floodgate as a dependency](Using-Geyser-or-Floodgate-as-a-dependency)
+- [Current Limitations](https://github.com/GeyserMC/Geyser/wiki/Current-Limitations)
 
 Other
 - [Floodgate](Floodgate)
