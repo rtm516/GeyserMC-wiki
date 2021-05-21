@@ -5,6 +5,7 @@ The following things cannot be fixed without changes to Bedrock. As of now, they
 - Custom heads in inventories
 - Clickable links in chat
 - Glowing effect
+- Crafting in the 2x2 menu while in creative mode
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
