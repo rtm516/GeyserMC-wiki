@@ -1,6 +1,6 @@
 With Geyser being a protocol translator between two different games with two different codebases, there are a handful of limitations that Geyser is unfortunately unable to handle. Despite Minecraft Bedrock and Java being quite close in comparison, there are some vast differences in many areas.
 
-The following things cannot be fixed without changes to Bedrock. As of now, they are not fixable in Geyser.
+The following things cannot be fixed without changes to Bedrock or the Java protocol in general. As of now, they are not fixable in Geyser.
 
 - Custom heads in inventories
 - Clickable links in chat
