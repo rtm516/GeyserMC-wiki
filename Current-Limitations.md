@@ -11,6 +11,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - "Can be placed on/destroyed" tag for *some* blocks - for example, different colors of clay/wool that don't exist as separate blocks
 - Potion colors
 - Various command arguments
+- Unable to see banner layers past 6
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
