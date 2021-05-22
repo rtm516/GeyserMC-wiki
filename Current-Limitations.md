@@ -12,6 +12,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Potion colors implemented using NBT
 - Various command arguments for any command that doesn't use the Minecraft Brigadier library
 - Unable to see banner layers past 6
+- Movement issues around bamboo due to offset differences between Java and Bedrock
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
