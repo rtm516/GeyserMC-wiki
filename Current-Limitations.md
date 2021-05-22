@@ -6,6 +6,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Clickable links in chat
 - Glowing effect
 - Crafting in the 2x2 menu while in creative mode
+- Distinguishing between left and right clicks in containers
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
