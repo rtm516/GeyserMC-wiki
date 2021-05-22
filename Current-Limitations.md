@@ -9,6 +9,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Distinguishing between left and right clicks in containers
 - Redstone dot blockstates
 - "Can be placed on" tag for items
+- Potion colors
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
