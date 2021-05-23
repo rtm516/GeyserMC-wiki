@@ -41,6 +41,9 @@ This is a non-complete list of what platform each plugin version of Geyser is fo
 * Geyser-Velocity works with [Velocity](https://www.velocitypowered.com/)
 * Geyser-Sponge works with [SpongeVanilla or SpongeForge](https://www.spongepowered.org/)
 
+## What server versions does Geyser-Spigot support?
+The Geyser-Spigot plugin supports any Minecraft server version 1.12.2 or later. Any earlier version is not supported by the plugin - use a proxy version or the standalone build instead.
+
 ## If using BungeeCord or another fork, where do I need to put Geyser/Floodgate?
 You only need Geyser and/or Floodgate on the BungeeCord server, as long as not using the Floodgate API. In this case, Floodgate is needed on the "backend" servers as well.
 
@@ -54,7 +57,7 @@ You can add Bedrock resource packs to your Geyser installation in the `packs` fo
 
 ## How can Bedrock players hold items in their offhand?
 
-You can use the command `/geyser offhand`, which will swap the item in their main hand and offhand. 
+You can use the command `/geyser offhand`, which will swap the item in their main hand and offhand. There is also a setting you can enable in the config (`emote-offhand-workaround`) to allow Bedrock players to perform an emote in order to switch their main hand and off hand.
 
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, you must include the prefix in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name. 
