@@ -40,3 +40,6 @@ MCC Toolchest is a tool for viewing and editing NBT data for Bedrock edition, th
 
 ## NBTExplorer
 NBTExplorer is a tool for viewing and editing NBT data for Java edition, this allows you to see data as it is stored in Java edition. You can download it from [here](https://github.com/jaquadro/NBTExplorer/releases).
+
+## Windows 10 Multi-Version Launcher
+The Windows 10 Multi-Version launcher allows you to switch between release and beta versions of Minecraft Bedrock. Its GitHub repository can be viewed [here](https://github.com/MCMrARM/mc-w10-version-launcher/).
