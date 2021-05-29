@@ -85,10 +85,6 @@ You may encounter some issues. If you do, run `su` then enter the root password 
 Setup tutorials in a variety of languages.
 
 ### English
-**Join Minecraft Java Servers From Bedrock Edition by [TehPiggeh](https://www.youtube.com/channel/UC-JJdyImQzJoRi1pcy654lQ)**
-
-[![YouTube Video](https://img.youtube.com/vi/OmLxwl7_UzQ/0.jpg)](https://www.youtube.com/watch?v=OmLxwl7_UzQ)
-
 **Connect to Java servers from Bedrock Edition! | GeyserMC Proxy Tutorial by [raimuakuna](https://www.youtube.com/channel/UCIMZsNCD_-prDETwRypAqmQ)**
 
 [![YouTube Video](https://img.youtube.com/vi/7rwfScY66Jc/0.jpg)](https://www.youtube.com/watch?v=7rwfScY66Jc)
