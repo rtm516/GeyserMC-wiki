@@ -16,7 +16,7 @@ Floodgate is a hybrid mode plugin which allows for **Minecraft: Bedrock Accounts
 
 For multi-server setups: you only are required to install Floodgate on the BungeeCord or Velocity instance unless you want to use the Floodgate API on the other servers - see below for the installation process.
 
-*If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` 
+*If using Velocity*: Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml`. This will be unnecessary for 1.17.
 
 - Download the Floodgate plugin from [here](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/) and add it to your plugins folder on your server (BungeeCord only requires it on the proxy - if you wish to use IP forwarding see below).
 - Change the `auth-type` in the Geyser config to `floodgate`.
@@ -35,7 +35,7 @@ This is only needed when you want to use the Floodgate API on your Spigot server
 
 - Download the Floodgate plugin from [here](https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/) and install it as a plugin on both BungeeCord/Velocity and the Spigot server(s).
 - Enable `ip_forward` in your BungeeCord `config.yml` if using BungeeCord
-- Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity
+- Set `player-info-forwarding-mode` to `LEGACY` in `velocity.toml` if using Velocity. This will be unnecessary for 1.17.
 - Set `bungeecord` to `true` in your `spigot.yml`
 - Start the proxy server.
 - Edit the Floodgate config on your proxy server and set `send-floodgate-data` to `true`.
