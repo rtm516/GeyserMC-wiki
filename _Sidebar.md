@@ -10,7 +10,7 @@ User Guide
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
 - [Common Issues](Common-Issues)
-  - [Fixing "Unable to Connect to World"](Fixing-'Unable-to-Connect-to-World')
+  - [Fixing 'Unable to Connect to World'](Fixing-'Unable-to-Connect-to-World')
 - [Understanding the Config](Understanding-the-Config)
 - [Standalone Command Line Arguments](Standalone-Command-Line-Arguments)
 - [Commands](Commands)
