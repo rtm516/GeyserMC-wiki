@@ -12,7 +12,7 @@ Commonly, people may have issues with Geyser not showing up in their server list
 *If the Geyser instance is locally hosted:* try using `localhost` or `0.0.0.0` as the IP address. 
 *If that doesn't work, or your Geyser instance is on another computer in the network*: use your **local** IPv4 address.
 
-## See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22) for fixing "Unable to Connect to World" with no console errors
+## See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%27Unable-to-Connect-to-World%27) for fixing "Unable to Connect to World" with no console errors
 
 ### `java.net.BindException: Address already in use: bind` on startup.
 This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. If you don't recall opening anything, usually restarting your computer fixes this. 
