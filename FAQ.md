@@ -108,6 +108,8 @@ Replace the `AvatarUrl` line in your DiscordSRV config with this: `AvatarUrl: ht
 
 Note: you need to be running DiscordSRV v1.22.0 or newer. Floodgate 2.0 or GeyserSkinRestorer is still required for skins to show up for Java players and for this to work.
 
+Alternatively, if you cannot get the above AvatarUrl to work with DiscordSRV, or you'd like to use it with another plugin that does not support texture ids, you can use the [TydiumCraft Skin API.](https://tydiumcraft.net/docs/skinapi)
+
 ## Can I use Buycraft with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
 
