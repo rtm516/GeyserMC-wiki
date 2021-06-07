@@ -24,7 +24,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work.)
 * [Aquatis](https://aquatis.host/) (Get Geyser as a plugin. Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port.)
 * [Azure](https://azure.microsoft.com/) (Get Geyser as a plugin. Not a dedicated Minecraft provider.)
-* [BisectHosting](https://www.bisecthosting.com/) (Get Geyser as a plugin. Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP.)
+* [BisectHosting](https://www.bisecthosting.com/) (Get Geyser as a plugin. Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP. To open a UDP port, you need to have a dedicated IP.)
 * [Bloom.Host](https://www.bloom.host/) (Get Geyser as a plugin. They have a port forwarding option that works.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
 * [Clovux](https://clovux.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address is 'auto' and your bedrock address is your server IP.)
