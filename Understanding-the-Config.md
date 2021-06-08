@@ -26,7 +26,7 @@ Options for the remote (java) server.
 
 **`auth-type`**: The authentication type of the Minecraft: Java Edition server. Valid options are `online`, `offline`, and `floodgate`.
 
-**Please keep in mind, what you specify in the Geyser `auth-type` option MUST be the same as what the remote server has (with the exception of Geyser being in online mode and remote being in offline mode). You simply cannot join an online mode server without a genuine account. If you want to allow Minecraft: Bedrock Edition accounts to join without a Minecraft: Java Edition account, see the [Floodgate](Floodgate) page.**
+**Please keep in mind, what you specify in the Geyser `auth-type` option MUST be the same as what the remote server has (with the exception of Geyser being in online mode and remote being in offline mode). You simply cannot join an online mode server without a genuine account. If you want to allow Minecraft: Bedrock Edition accounts to join without a Minecraft: Java Edition account, see the [Floodgate](https://github.com/GeyserMC/Floodgate/wiki/) wiki page.**
 
 **`use-proxy-protocol`**: Whether to enable PROXY/HAProxy protocol or not while connecting to the server. This is useful only when:
 - Your server supports PROXY protocol (it probably doesn't)
@@ -37,7 +37,7 @@ Options for the remote (java) server.
 ## General Options
 General Geyser options that are mostly specific to Geyser itself.
 
-**`floodgate-key-file`**: The key file path for Floodgate. Requires that you have [Floodgate](https://github.com/GeyserMC/Floodgate) installed and the `auth-type` set to `floodgate`.
+**`floodgate-key-file`**: The key file path for Floodgate. Requires that you have [Floodgate](https://github.com/GeyserMC/Floodgate/wiki/) installed and the `auth-type` set to `floodgate`.
 
 **`userAuths`**: A section where you can put the authentication information for your Minecraft: Java Edition account for immediate login when joining Geyser. **It is advised you ONLY use this option if you are running Geyser locally and that ONLY you have access to the config as it requires you put your Minecraft: Java Edition credentials in plain text!**
 
@@ -154,7 +154,7 @@ remote:
   # The port of the remote (Java Edition) server
   # For plugin versions, if address has been set to "auto", the port will also follow the server's listening port.
   port: 25565
-  # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
+  # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Floodgate/wiki).
   auth-type: online
   # Allow for password-based authentication methods through Geyser. Only useful in online mode.
   # If this is false, users must authenticate to Microsoft using a code provided by Geyser on their desktop.
