@@ -9,6 +9,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.)
 * [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
 * [FreeMcServer.net](https://freemcserver.net) (Can be selected from the version tab of the control panel)
+* [GGServers](https://ggservers.com) (Can easily be installed to any server in just one click from our auto plugin setups! No strenuous configuration or wiki reading needed.)
 * [Labradorhost](https://labradorhost.com) (Go to their [Minecraft: Crossplay](https://labradorhost.com/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided after ordering.)
 * [MCProHosting](https://mcprohosting.com/) (Click "Enable Bedrock Support" on your OneControlCenter server dashboard [you may need to switch to legacy] and follow the steps. To host your own: Add Destination Port 19132 with Protocol UDP to the [port forward mapping](https://clients.mcprohosting.com/index.php?rp=/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port.)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
