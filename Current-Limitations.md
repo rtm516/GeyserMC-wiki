@@ -14,6 +14,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Unable to see banner layers past 6
 - Movement issues around bamboo due to offset differences between Java and Bedrock
 - Custom anvil recipes
+- Heights lower than 0 or above 256 on non-beta versions of Bedrock
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
