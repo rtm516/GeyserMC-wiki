@@ -84,6 +84,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Vultam](https://vultam.net/) (Get Geyser as a plugin. Use the same port as your Java server and 0.0.0.0 as the address for Bedrock, or request an additional port. The additional port can be 19132 if you buy a dedicated IP.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [WitherHosting](https://witherhosting.com/) (Get Geyser as a plugin. If you have a dedicated IP, connect with port 19132. If not, use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [MC-HOST24.de](https://mc-host24.de/) (Get Geyser as a plugin. Use the same address as your Java server for the Bedrock address in your config.)
 
 ## Does not support Geyser
 * [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
