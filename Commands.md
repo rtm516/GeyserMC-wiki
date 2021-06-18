@@ -11,3 +11,5 @@
 | `geyser shutdown` or `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser. |
 | `geyser statistics` | `geyser.command.statistics` | Shows the statistics of the player on the server. |
 | `geyser version` | `geyser.command.version` | Shows the current Geyser version and checks for updates. |
+
+For Floodgate commands, see [here](https://github.com/GeyserMC/Floodgate/wiki/Commands).
