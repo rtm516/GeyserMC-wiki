@@ -1,7 +1,7 @@
 # Geyser
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Build Status](https://ci.nukkitx.com/job/Geyser/job/master/badge/icon)](https://ci.nukkitx.com/job/Geyser/job/master/)
-[![Discord](https://img.shields.io/discord/613163671870242838.svg?color=%237289da&label=discord)](https://discord.geysermc.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?label=License)](LICENSE)
+[![Build Status](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fci.nukkitx.com%2Fjob%2FGeyser%2Fjob%2Fmaster%2F&label=Build)](https://ci.nukkitx.com/job/Geyser/job/master/)
+[![Discord](https://img.shields.io/discord/613163671870242838?color=cornflowerblue&label=Discord&logo=Discord&logoColor=white)](https://discord.geysermc.org)
 
 _A bridge between Minecraft: Bedrock Edition and Minecraft: Java Edition._
 
