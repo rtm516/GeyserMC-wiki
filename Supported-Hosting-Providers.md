@@ -53,6 +53,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Hetzner](https://hetzner.com) (Not a dedicated Minecraft provider.)
 * [HostMC4Free](https://hostmc4free.com) (Order new service, choose Geyser in Bedrock section, and open a ticket to request a second port all ports support UDP)
 * [HumbleServers](https://humbleservers.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular IP address with numbers.)
+* [Hexit](https://client.hexit.cc/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [MC-HOST24.de](https://mc-host24.de/) (Get Geyser as a plugin. Use the same address as your Java server for the Bedrock address in your config.)
 * [Meloncube](https://www.meloncube.net/) (Get Geyser as a plugin. Need to ask to open a UDP port.)
 * [MineStrator](https://minestrator.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
