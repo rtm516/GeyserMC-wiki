@@ -92,10 +92,10 @@ Make sure that enable-proxy-protocol is set to false.
 
 If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
 
-Bungee: Geyser and Floodgate
-Lobby: floodgate
-Server-1: floodgate
-Server-2: floodgate
+`## Bungee: Geyser and Floodgate`
+`## Lobby: floodgate`
+`## Server-1: floodgate`
+`## Server-2: floodgate`
 
 And so on.
 
