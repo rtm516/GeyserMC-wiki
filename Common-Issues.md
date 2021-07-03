@@ -98,4 +98,4 @@ If you use floodgate ensure that it is installed on all of your Spigot backend s
 `Server-2: floodgate`
 And so on.
 
-Please also make sure that you have the same ## key.pem and ## config.yml on all of your servers.
+Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
