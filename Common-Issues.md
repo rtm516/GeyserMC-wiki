@@ -86,7 +86,7 @@ See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-us
 # Common Issues for "Unable to connect to world".
 
 * Please check first if your Geyser port (usually 19132) is open on [Portchecker](https://portchecker.co/).
-* Make sure that `enable-proxy-protocol` is set to false. 
+* If you don't use any reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
 
 ## Only for Bungeecord + Floodgate
 
