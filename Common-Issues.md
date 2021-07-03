@@ -83,9 +83,10 @@ Update the server or ask them to install [ViaVersion](https://viaversion.com/). 
 
 See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-usage.159386/#post-2709057
 
-**Common Issues for "Unable to connect to world".**
+# Common Issues for "Unable to connect to world".
 
 Please check first if your Geyser port (usually 19132) is open on [Portchecker](https://portchecker.co/).
+
 Make sure that `enable-proxy-protocol` is set to false. 
 
 # Only for Bungeecord + Floodgate
