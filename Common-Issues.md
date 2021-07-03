@@ -85,22 +85,21 @@ See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-us
 
 # Common Issues for "Unable to connect to world".
 
-Please check first if your Geyser port (usually 19132) is open on [Portchecker](https://portchecker.co/).
+* Please check first if your Geyser port (usually 19132) is open on [Portchecker](https://portchecker.co/).
+* Make sure that `enable-proxy-protocol` is set to false. 
 
-Make sure that `enable-proxy-protocol` is set to false. 
-
-# Only for Bungeecord + Floodgate
+## Only for Bungeecord + Floodgate
 
 If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
 
-`Bungee: Geyser and Floodgate`
-`Lobby: floodgate`
-`Server-1: floodgate`
-`Server-2: floodgate`
+1.  `Bungee: Geyser and Floodgate`
+2.  `Lobby: floodgate`
+3.  `Server-1: floodgate`
+4.  `Server-2: floodgate`
 And so on.
 
-Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
+* Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
 
 If your players can't connect from the lobby to another backend server, check console. 
 **Common plugins that cause issues**
-`HamsterAPI`
+* `HamsterAPI`
