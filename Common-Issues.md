@@ -30,6 +30,24 @@ These steps only apply for the standalone version of Geyser.
 
 This usually has something to do on your host's end. Most commonly, it's because they do not open up ports over the UDP protocol, which is what Minecraft: Bedrock Edition uses, opposed to Minecraft: Java Edition using TCP. One way to get around this (if you're using an online host) is to shut down your server, and when asking for a server jar, select Nukkit (you won't actually be switching to Nukkit). Afterward, open up your FTP file manager and find the Nukkit jar. Then, replace this jar with the server software you're using. Upon starting up the server, it should open up ports over UDP whilst still allowing you to use the server jar you desire.
 
+* If you don't use any reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
+
+## Only for Bungeecord + Floodgate
+
+If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
+
+1.  `Bungee: Geyser and Floodgate`
+2.  `Lobby: floodgate`
+3.  `Server-1: floodgate`
+4.  `Server-2: floodgate`
+And so on.
+
+* Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
+
+If your players can't connect from the lobby to another backend server, check console. 
+**Common plugins that cause issues**
+* `HamsterAPI`
+
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
 # Stuck on "Locating Server" with no errors
@@ -82,24 +100,3 @@ Update the server or ask them to install [ViaVersion](https://viaversion.com/). 
 # Query: Incorrect Magic!
 
 See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-usage.159386/#post-2709057
-
-# Common Issues for "Unable to connect to world".
-
-* Please check first if your Geyser port (usually 19132) is open on [Portchecker](https://portchecker.co/).
-* If you don't use any reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
-
-## Only for Bungeecord + Floodgate
-
-If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
-
-1.  `Bungee: Geyser and Floodgate`
-2.  `Lobby: floodgate`
-3.  `Server-1: floodgate`
-4.  `Server-2: floodgate`
-And so on.
-
-* Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
-
-If your players can't connect from the lobby to another backend server, check console. 
-**Common plugins that cause issues**
-* `HamsterAPI`
