@@ -100,3 +100,7 @@ If you use floodgate ensure that it is installed on all of your Spigot backend s
 And so on.
 
 Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
+
+If your players can't connect from the lobby to another backend server, check console. 
+**Common plugins that cause issues**
+`HamsterAPI`
