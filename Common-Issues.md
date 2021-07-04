@@ -34,7 +34,7 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 * If you don't use any reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
 
-## Only for Bungeecord + Floodgate
+## Only for BungeeCord + floodgate
 
 If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
 
