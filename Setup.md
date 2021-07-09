@@ -23,6 +23,13 @@ The server itself does not have to be the latest version but does have to allow 
 
 If you are trying to join from the same LAN, the server should show up in the friends tab.
 
+### BungeeCord/Velocity Setup
+If you are using a BungeeCord, Waterfall, or Velocity proxy, then you only need to install Geyser (and Floodgate, if you desire) on the proxy.
+
+You can install Floodgate (but not Geyser) on the back-end servers to improve skin functionality and to let other plugins access the Floodgate API.  If you do this, then you _must_ make sure that the same `key.pem` file is used between all instances of Floodgate; otherwise, Bedrock clients will not be able to join.
+
+The Bedrock clients, like Java clients, should connect to the proxy server, and should never directly connect to a back-end server.  You don't need to (and shouldn't) port-forward anything for the back-end servers!
+
 ## Standalone Setup
 Please keep in mind, you need some sort of computer or host to run Geyser Standalone on. Applications such as Termux on Android are capable of running Geyser, but this largely depends on how powerful your Android device is. Please do so at your own risk. Instructions to run Geyser on Termux can be found [here](Setup#termux-android).
 
