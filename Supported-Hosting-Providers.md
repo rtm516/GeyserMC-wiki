@@ -96,4 +96,4 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly.)
 * [NFOservers](https://nfoservers.com/) (As an alternative, you can run Geyser standalone separately. There has been one confirmed setup of Geyser with this host.)
 
-**Warning: Using a *”Free Host”* may not give you the best experience *at all*. If you want better support and more freedom to control your server, and learn how to run one, PLEASE pay for a server.
+**Warning: Using a *”Free Host”* may not give you the best experience *at all*. If you want better support and more freedom to control your server, and learn how to run one, PLEASE pay for a server.**
