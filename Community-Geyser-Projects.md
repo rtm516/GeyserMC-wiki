@@ -55,12 +55,19 @@ Plugin that blocks Java players from joining your Geyser server, so you can have
 
 Creator: [Camotoy](https://github.com/Camotoy)
 
+## GeyserHub
+A crossplay lobby plugin that provides server selector and command forms for both Bedrock Edition and Java Edition players. 
+
+* [Github](https://github.com/ProjectG-Plugins/GeyserHub)
+
+Creator:
+
 ## GeyserPlaceholders
 Placeholders support for Geyser.
 
 * [GitHub](https://github.com/ImDaBigBoss/GeyserPlaceholders)
 
-Creator: [ImDaBigBoss](https://github.com/ImDaBigBoss)
+Creators: [Jens](https://github.com/Jens-Co), [Konicai](https://github.com/Konicai)
 
 ## GeyserPreventServerSwitch
 Prevent Bedrock players from joining specific sub-servers on a proxy
@@ -87,7 +94,7 @@ This is a Spigot/BungeeCord plugin that can be used to automatically update Geys
 * [GitHub](https://github.com/ProjectG-Plugins/GeyserUpdater)
 * [Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)
 
-Creators: [Jens](https://github.com/Jens-Co), [YHDiamond](https://github.com/YHDiamond)
+Creators: [Jens](https://github.com/Jens-Co), [YHDiamond](https://github.com/YHDiamond), [Konicai](https://github.com/Konicai)
 
 ## SleepingServerStarter
 Small application that waits for a player to connect before launching actual minecraft server.
