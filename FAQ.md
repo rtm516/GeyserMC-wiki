@@ -62,10 +62,10 @@ You can use the command `/geyser offhand`, which will swap the item in their mai
 ## How do I include players in commands when using Floodgate?
 If there is a prefix on Floodgate players, you must include the prefix in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name. 
 
-Example: `/tp "*<bedrock_username>"`
+Example: `/tp ".<bedrock_username>"`
 
 ## How do I add players to the whitelist when using Floodgate?
-There are two ways you can do this. The first way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add "*<bedrock_username>"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
+There are three ways you can do this. The first way is to use FLoodgate's built in whitelist command. `/fwhitelist add .<bedrock_username>`. The second way is tp turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add ".<bedrock_username>"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
 ## How do I find a player's UUID without them joining when using Floodgate?
 Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work, then try this method:
@@ -73,7 +73,7 @@ Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't
 First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example, [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal." You'll need to enter the player's Xbox Gamertag, and, once submitted, and it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. To turn the XUID into a UUID that Java Edition can recognize, you need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
 
 ## Can I remove the prefix of Floodgate players?
-While yes, you can remove the prefix. It is generally recommended not to remove the prefix to prevent situations where a user's java and bedrock username are the same (ex: Bedrock Username: JohnDoe, Java Username: JohnDoe). While they have different UUIDs, they have the same username, which may cause conflicts with commands that involve a player name. If you want to remove the prefix to use commands, Try adding quotation marks around the name. Example: `/tp "*<bedrock_username>"`
+While yes, you can remove the prefix. It is generally recommended not to remove the prefix to prevent situations where a players username are the same on both editions (Ex: Bedrock Username: `JohnDoe`, Java Username: `JohnDoe`). While they have different UUIDs, they have the same username, which may cause conflicts with commands that involve a player name. If you want to remove the prefix to use commands, Try adding quotation marks around the name. Example: `/tp ".<bedrock_username>"` Otherwise, the prefix is located in the Floodgate `config.yml` under `username-prefix:`.
 
 ## Do I need Floodgate in order to use Geyser?
 No; Floodgate is only required if you wish to allow Bedrock clients to join without authenticating to Java servers. Without the Floodgate plugin, Geyser can either authenticate to Mojang in online mode, or join without authentication in an offline mode server (though this is unsupportable and dangerous as anyone can join your server and is against Mojang's EULA).
@@ -101,7 +101,7 @@ The long answer: currently, there is no way for Geyser to translate the features
 ## How can I auto-update Geyser?
 [Geyser MC Auto Updater](https://github.com/michaelwatne/geysermcupdater) is an option at this time to auto-update Geyser through the command line. Note that this project is unaffiliated with Geyser.
 
-GeyserUpdater ([GitHub page](https://github.com/YHDiamond/GeyserUpdater)/[Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)) is a Spigot/BungeeCord plugin option for auto-updating. Please note that this plugin is also unaffiliated and unsupported by Geyser, and users should redirect support for the plugin to its Discord.
+GeyserUpdater ([GitHub page](https://github.com/YHDiamond/GeyserUpdater)/[Spigot page](https://www.spigotmc.org/resources/geyserupdater.88555/)) is a Spigot/BungeeCord plugin option for auto-updating. Please note that this plugin is also unaffiliated and unsupported by Geyser, and users should redirect support for the plugin to its [Discord](https://discord.gg/U5MC2tcCz9).
 
 ## How can I make DiscordSRV show Floodgate 2.0 or GeyserSkinManager skins?
 Replace the `AvatarUrl` line in your DiscordSRV config with this: `AvatarUrl: https://mc-heads.net/avatar/{texture}/{size}.png`
@@ -110,7 +110,7 @@ Note: you need to be running DiscordSRV v1.22.0 or newer. Floodgate 2.0 or Geyse
 
 Alternatively, if you cannot get the above AvatarUrl to work with DiscordSRV, or you'd like to use it with another plugin that does not support texture ids, you can use the [TydiumCraft Skin API.](https://tydiumcraft.net/docs/skinapi)
 
-## Can I use Buycraft with Geyser?
+## Can I use Buycraft (Tebex) with Geyser?
 You sure can! Buycraft supports Java & Bedrock players via the Offline store mode **(Recommended to be used with Floodgate)**
 
 **(Currently, Buycraft does not support special symbols like `*` or `-`, so you'll have to change the Floodgate prefix to `_` or remove it entirely.)**
@@ -128,9 +128,9 @@ Your store is now set up to support Bedrock & Java players.
 **(Please note, if you are using a prefix with Floodgate, Bedrock players will have to enter the prefix.)**
 
 ## Can I use CraftingStore with Geyser?
-As mentioned above, bedrock players must include the prefix in their name
+As mentioned above, bedrock players must include the prefix in their name.
 ### Steps to make the store work for Geyser
-1. Goto the [admin page](https://craftingstore.net/admin)
+1. Go to the [admin page](https://craftingstore.net/admin)
 2. Expand settings on the left
 3. Click webshop
 4. Make sure 'Require premium accounts' is Off
