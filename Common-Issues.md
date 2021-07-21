@@ -62,7 +62,7 @@ This option will most likely not help if you are getting "Unable to Connect to W
 
 ***If you are using a plugin version:*** in your Geyser config, set your remote address to `127.0.0.1`. If that does not work, check your startup log for a message about Docker, and use that address in the remote address
 
-### Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty)
+### Server is in Online Mode while Geyser is in Offline Mode (Access token can not be null or empty / Cannot reply to EncryptionRequestPacket without profile and access token)
 If you have your configuration set up like this, put simply, it won't work. If authentication for the Java server is set to online, it is expected Geyser is configured the same way. The server requires a valid Minecraft: Java Edition account, and if you aren't logging into one with Geyser, then you will be unable to join the server. If your configuration is set up properly and you're still getting this issue, it could be that your credentials are invalid.
 
 ### Connection Refused: <INSERT IP AND/OR DOMAIN>
