@@ -2,14 +2,15 @@
 
 | Command | Permission | Description |
 |:---:|:---:|:---:|
-| `geyser help` or `geyser ?` | `geyser.command.help` | Shows help for all registered commands. |
-| `geyser advancements` | `geyser.command.advancements` | Shows the advancements of the player on the server. |
+| `geyser help` <br> `geyser ?` | `geyser.command.help` | Shows help for all registered commands. |
+| `geyser advancements` | `geyser.command.advancements` | Open the Java advancements menu. |
 | `geyser dump` | `geyser.command.dump` | Dumps Geyser debug information for bug reports. |
 | `geyser list` | `geyser.command.list` | List all players connected through Geyser. |
-| `geyser offhand` | `geyser.command.offhand` | Puts an items in your offhand. |
+| `geyser offhand` | `geyser.command.offhand` | Puts an item in your offhand. |
 | `geyser reload` | `geyser.command.reload` | Reloads the Geyser configurations. Kicks all players when used! |
-| `geyser shutdown` or `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser. |
-| `geyser statistics` | `geyser.command.statistics` | Shows the statistics of the player on the server. |
+| `geyser settings` | `geyser.command.settings` | Opens a settings menu allowing you to modify aspects of the world. |
+| `geyser shutdown` <br> `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser. |
+| `geyser statistics` | `geyser.command.statistics` | Open the Java statistics menu. |
 | `geyser version` | `geyser.command.version` | Shows the current Geyser version and checks for updates. |
 
 For Floodgate commands, see [here](https://github.com/GeyserMC/Floodgate/wiki/Commands).
