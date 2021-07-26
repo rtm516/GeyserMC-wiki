@@ -7,3 +7,5 @@ If a plugin you have is not listed, consider it compatible unless you discover o
 ## Incompatible
 
 ## Compatible with changes
+
+* [TCPShield](https://tcpshield.com/) requires `only-allow-proxy-connections` disabled without a paid plan. However, their "Premium" plan will allow the support of Geyser - please contact their support for help setting this up. 
