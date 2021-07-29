@@ -34,8 +34,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
 * [DedicatedMC](https://dedicatedmc.io/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
 * [ExtraVM](https://extravm.com/) (Not a dedicated Minecraft provider.)
-* [Easly](https://easlyhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
-* [Ectrix](https://ectrix.xyz/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [FadeHost](https://fadehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port or buy a dedicated IP address to support different port.)
 * [FakaHeda](https://fakaheda.eu/) (Get Geyser as a plugin. Use the same port as your Java server or use one of the available ports allocated for your server, for the Bedrock port in your config and connect with that port.)
 * [FalixNodes](https://falixnodes.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
