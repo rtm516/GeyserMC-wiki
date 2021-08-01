@@ -26,7 +26,7 @@ If you are trying to join from the same LAN, the server should show up in the fr
 ### BungeeCord/Velocity Setup
 If you are using a BungeeCord, Waterfall, or Velocity proxy, then you only need to install Geyser (and Floodgate, if you desire) on the proxy.
 
-You can install Floodgate (but not Geyser) on the back-end servers to improve skin functionality and to let other plugins access the Floodgate API.  If you do this, then you _must_ make sure that the same `key.pem` file is used between all instances of Floodgate; otherwise, Bedrock clients will not be able to join.
+You can install Floodgate (but not Geyser) on the back-end servers to improve skin functionality and to let other plugins access the Floodgate API.  If you do this, then you _must_ make sure that the same `key.pem` file is used between all instances of Floodgate; otherwise, Bedrock clients will not be able to join. Full instructions can be found on the [Floodgate Wiki](https://github.com/GeyserMC/Floodgate).
 
 The Bedrock clients, like Java clients, should connect to the proxy server, and should never directly connect to a back-end server.  You don't need to (and shouldn't) port-forward anything for the back-end servers!
 
