@@ -66,7 +66,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 * [NightNodes](https://nightnodes.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Nodecraft](https://nodecraft.com) (Get Geyser as a plugin. Use the default server port and 0.0.0.0 or your server IP as the host address.)
-* [OVH](https://www.ovh.com/) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#issues-connecting-with-ovh-or-a-subsidiary).)
+* [OVH](https://www.ovh.com/) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-'Unable-to-Connect-to-World'#issues-connecting-with-ovh-or-a-subsidiary).)
 * [Pebblehost](https://pebblehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. See [this video](https://youtu.be/v9lC80UBZF4) for a PebbleHost-specific tutorial.)
 * [PhoenixNodes](https://phoenixnodes.com) (Get Geyser as a plugin. Open a ticket to request an additional port for Geyser.)
 * [PlanetNode](https://planetnode.net) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
