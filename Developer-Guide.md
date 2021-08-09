@@ -11,7 +11,7 @@
 # Compiler Tools
 
 ## Lombok
-If you're using an IDE for editing any of the GeyserMC projects you will most likely need to install Project Lombok plugin as it is used to generate a bunch of handy functions. You can edit without it but you may get missing functions and or other issues displayed in your IDE. Please see the IDE section on their site for the supported plugins and install methods [https://projectlombok.org/setup/overview](https://projectlombok.org/setup/overview).
+If you're using an IDE for editing any of the GeyserMC projects you will most likely need to install the Project Lombok plugin as it is used to generate a bunch of handy functions. You can edit without it but you may get missing functions and or other issues displayed in your IDE. Please see the IDE section on their site for the supported plugins and install methods [https://projectlombok.org/setup/overview](https://projectlombok.org/setup/overview).
 
 # Protocol Information
 
