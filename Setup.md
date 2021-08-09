@@ -3,7 +3,7 @@ Bedrock clients will join through Geyser and it will handle all the packet trans
 If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version. If you use Pterodactyl Panel we have an egg for the standalone version, please see [here](FAQ#can-i-use-geyser-with-pterodactyl-panel) for more information.
 
 If you're still having problems with Geyser not working or giving you an "Unable to connect to world" error, see the [Common Issues](Common-Issues) page.\
-For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [FAQ](FAQ#which-plugin-version-of-geyser-do-i-need) page.\
+For more information, take a look at the [Understanding the Config](Understanding-the-Config) page, and the [FAQ](FAQ) page.\
 And if you still have questions, feel free to join the [Discord](https://discord.geysermc.org) if you haven't already.
 
 ## Prerequisites
@@ -15,7 +15,7 @@ The server itself does not have to be the latest version but does have to allow 
 - If you are running the server, you need to have a UDP port opened. See below for more instructions.
 
 ## Plugin Setup
-1. Download a jar of Geyser from the [build server](https://ci.opencollab.dev/job/Geyser/job/master/) depending on what platform your server runs on. See the [FAQ](https://github.com/GeyserMC/Geyser/wiki/FAQ) if you're confused about which build to download.
+1. Download a jar of Geyser from the [build server](https://ci.opencollab.dev/job/Geyser/job/master/) depending on what platform your server runs on. See the [FAQ](FAQ#which-plugin-version-of-geyser-do-i-need) if you're confused about which build to download.
 2. Put the Geyser jar file in your plugins folder and start up the server.
 3. If you are on a hosting provider, you will likely need to change your Bedrock port in `config.yml`. Information on your hosting provider might be available on the [Supported Hosting Providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) page.
 4. Restart your server if you edited your config.
