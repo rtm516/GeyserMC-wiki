@@ -32,24 +32,6 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 **PLEASE NOTE:** If your server automatically redownloads jars upon startup, such as with an autoupdate system, this workaround will not work. Please contact your host if this does not work for you as there is nothing we can do.
 
-* If you don't use any reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
-
-## Only for BungeeCord + floodgate
-
-If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
-
-1.  `Bungee: Geyser and Floodgate`
-2.  `Lobby: floodgate`
-3.  `Server-1: floodgate`
-4.  `Server-2: floodgate`
-And so on.
-
-* Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
-
-If your players can't connect from the lobby to another backend server, check console. 
-### Plugins that can cause issues
-* `HamsterAPI`
-
 # Stuck on "Locating Server" with no errors
 
 You may need to update your Java version. If so, update at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
