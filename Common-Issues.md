@@ -4,6 +4,7 @@ Commonly, people may have issues with Geyser not showing up in their server list
 For Floodgate issues see: [Floodgate: Known Issues/Caveats](https://github.com/GeyserMC/Floodgate/wiki/Issues).
 
 # I can't connect! (Either the server doesn't show up in the friends list or I get "Unable to connect to world")
+* If you don't use a reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
 
 ## If the server doesn't show up in the friends list
 
@@ -91,3 +92,21 @@ Update the server or ask them to install [ViaVersion](https://viaversion.com/). 
 # Query: Incorrect Magic!
 
 See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-usage.159386/#post-2709057
+
+* If you don't use a reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
+
+## Only for BungeeCord + floodgate
+
+If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
+
+1.  `Bungee: Geyser and Floodgate`
+2.  `Lobby: floodgate`
+3.  `Server-1: floodgate`
+4.  `Server-2: floodgate`
+And so on.
+
+* Please also make sure that you have the same `key.pem` and `config.yml` on all of your servers.
+
+If your players can't connect from the lobby to another backend server, check console. 
+### Plugins that can cause issues
+* `HamsterAPI`
