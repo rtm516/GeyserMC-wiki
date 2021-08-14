@@ -95,7 +95,7 @@ See here: https://www.spigotmc.org/threads/query-incorrect-magic-and-high-cpu-us
 
 * If you don't use a reverse proxy such as TCPShield make sure that `enable-proxy-protocol` is set to false. 
 
-## Only for BungeeCord + floodgate
+# Only for BungeeCord with floodgate
 
 If you use floodgate ensure that it is installed on all of your Spigot backend servers as following:
 
