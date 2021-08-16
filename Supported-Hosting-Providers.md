@@ -49,6 +49,7 @@ It should also be noted that these providers may not be verified by the Geyser t
   - You also don't need an SSD, they're just trying to make you pay more
 * [Heavynode](https://www.heavynode.com/) (Get Geyser as a plugin. Use default port and 0.0.0.0 as address. 19132 is blocked for DDOS reasons so your best bet is to use the same port as your Java server for the Bedrock port in your config and connect with that port. Also, see [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server))
 * [Hetzner](https://hetzner.com) (Not a dedicated Minecraft provider.)
+* [Hicoria](https://hicoria.com/en/) (Get Geyser as a plugin. Use the one of the available ports allocated for your server, for the Bedrock port in your config and connect with that port.)
 * [HostMC4Free](https://hostmc4free.com) (Order new service, choose Geyser in Bedrock section, and open a ticket to request a second port all ports support UDP)
 * [HumbleServers](https://humbleservers.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular IP address with numbers.)
 * [Hexit](https://client.hexit.cc/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
@@ -90,7 +91,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [WitherHosting](https://witherhosting.com/) (Get Geyser as a plugin. If you have a dedicated IP, connect with port 19132. If not, use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 
 ## Does not support Geyser
-* [Hicoria](https://hicoria.com/en/) (Only way to run Geyser is to buy VPS or "MC Ultimate" (thats VPS with easier way to run .jars) and run standalone version there.)
 * [MCPEhost](https://mcpehost.ru/)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly.)
 * [NFOservers](https://nfoservers.com/) (As an alternative, you can run Geyser standalone separately. There has been one confirmed setup of Geyser with this host.)
