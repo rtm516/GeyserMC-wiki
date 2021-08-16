@@ -88,7 +88,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [TurboHost](https://turbohost.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Vultam](https://vultam.net/) (Get Geyser as a plugin. Use the same port as your Java server and 0.0.0.0 as the address for Bedrock, or request an additional port. The additional port can be 19132 if you buy a dedicated IP.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
-* [WitherHosting](https://witherhosting.com/) (Get geyser as a plugin. Put the port provided by the host in your config.yml for the java and bedrock sections, and you will be able to connect! Refer to the hosts [support article](https://support.witherhosting.com/en/article/how-to-install-and-use-geysermc-1xn5l6v/) for more - )
+* [WitherHosting](https://witherhosting.com/) Get geyser as a plugin. Put the port provided by the host in your config.yml for the java and bedrock sections, and you will be able to connect! Refer to the hosts [support article](https://support.witherhosting.com/en/article/how-to-install-and-use-geysermc-1xn5l6v/) for more
 
 ## Does not support Geyser
 * [MCPEhost](https://mcpehost.ru/)
