@@ -2,10 +2,6 @@
 
 User Guide
 - [Setup](Setup)
-  - [Plugin](Setup#Plugin-Setup)
-  - [Standalone](Setup#Standalone-Setup)
-  	- [Creating a Startup Script](Creating-a-Startup-Script)
-  - [Termux (Android)](Setup#Termux-Android)
   - [NewTerm 2 (iOS)](Setup#newterm-2-ios)
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
