@@ -51,6 +51,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Hetzner](https://hetzner.com) (Not a dedicated Minecraft provider.)
 * [Hicoria](https://hicoria.com/en/) (Get Geyser as a plugin. Use the one of the available ports allocated for your server, for the Bedrock port in your config and connect with that port.)
 * [HostMC4Free](https://hostmc4free.com) (Order new service, choose Geyser in Bedrock section, and open a ticket to request a second port all ports support UDP)
+* [HostValues](https://hostvalues.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [HumbleServers](https://humbleservers.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular IP address with numbers.)
 * [Hexit](https://client.hexit.cc/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [KolakZ Network](https://kolakz.com/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
