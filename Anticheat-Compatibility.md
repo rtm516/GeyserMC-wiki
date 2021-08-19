@@ -8,7 +8,7 @@ Full Compatibility (Checks Bedrock Players)
 - [NESS Reloaded](https://www.spigotmc.org/resources/ness-anti-cheat-reloaded.75887/) - Last Updated on 8/19/21
 - [AntiAura](https://www.spigotmc.org/resources/antiaura-premium-anti-cheat-plugin.1368/) - Last Updated on 8/19/21
 
-Partially Compatible (Does not Check Bedrock Players)
+Partially Compatible (Does not Check/Ignores Bedrock Players)
 
 - [Matrix](https://matrix.rip/) - Last updated on 8/19/21
 - [Vulcan](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-16-5.83626/) - Last Updated on 8/19/21
