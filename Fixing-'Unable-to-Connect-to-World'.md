@@ -36,7 +36,7 @@ Your server does need to be port forwarded. Generally, you can follow any Minecr
 
 ## Using TCP in DNS options/port forwarding Instead of UDP
 
-Minecraft: Java Edition uses TCP for connecting; Minecraft: Bedrock Edition uses UDP. Port forwarding your Bedrock Edition port with only UDP will not work. Forwarding your Bedrock Edition port with `TCP/UDP` (both protocols) should also work but is not recommended.
+Minecraft: Java Edition uses TCP for connecting; Minecraft: Bedrock Edition uses UDP. Port forwarding your Bedrock Edition port with only TCP will not work, it has to be UDP. Forwarding your Bedrock Edition port with `TCP/UDP` (both protocols) should also work but is not recommended unless Java Edition and Bedrock Edition is sharing the same port.
 
 ## Bedrock port is less than 10000
 
