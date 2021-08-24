@@ -10,7 +10,7 @@ Full Compatibility (Checks Bedrock Players)
 
 Partially Compatible (Does not Check/Ignores Bedrock Players)
 
-- [Matrix](https://matrix.rip/) - Last updated on 8/22/21 (Performs basic checks on Bedrock players, config tweaking needed to minimize false positives, as defaults are Java.)
+- [Matrix](https://matrix.rip/) - Last updated on 8/24/21
 - [Vulcan](https://www.spigotmc.org/resources/vulcan-advanced-cheat-detection-1-7-1-16-5.83626/) - Last Updated on 8/19/21
 - [Spartan](https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-detection-hack-blocker-1-7-2-1-16-5.25638/) (Spartan Syn offers full Bedrock checks for an additional $43) - Last Updated on 8/19/21
 - [AAC](https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/) - Last Updated on 8/19/21
