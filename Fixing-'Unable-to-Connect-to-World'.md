@@ -30,6 +30,10 @@ Run your Java server IP and Bedrock address here: https://mcsrvstat.us/ . It's a
 
 You should be connecting with the Java server IP and the Bedrock port. If you port forwarded 19132, for example, you should specify port 19132 when connecting from Bedrock.
 
+## I'm using a hosting provider or VPS!
+
+Please read [this page on supporting hosting providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) to see if there are extra configuration steps required for your hosting or server provider.
+
 ## Port forwarding
 
 Your server does need to be port forwarded. Generally, you can follow any Minecraft: Java Edition port forwarding guide; however, you need to replace any mention of TCP with UDP and, by default, any mention of 25565 with 19132.
