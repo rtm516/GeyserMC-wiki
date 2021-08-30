@@ -10,7 +10,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
 * [FreeMcServer.net](https://freemcserver.net) (Can be selected from the reinstall tab of the control panel)
 * [GGServers](https://ggservers.com) (Can easily be installed to any server in just one click from our auto plugin setups! No strenuous configuration needed.)
-* [365Hosts](https://365hosts.com) (Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided.)
 * [MCProHosting](https://mcprohosting.com/) (Geyser-Spigot only: Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. For other versions: Add Destination Port 19132 with Protocol UDP to the [port forward mapping](https://mcprohosting.com/billing/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port.)
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
@@ -19,6 +18,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java.)
 * [ZapHosting](https://zap-hosting.com/en/) (Find the plugin in the control panel and restart your server. IP and port is the same as Java.)
+* [365Hosts](https://365hosts.com) (Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided.)
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
