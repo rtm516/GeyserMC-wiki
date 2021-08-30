@@ -32,7 +32,7 @@ You should be connecting with the Java server IP and the Bedrock port. If you po
 
 ## I'm using a hosting provider or VPS!
 
-Please read [this page on supporting hosting providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) to see if there are extra configuration steps required for your hosting or server provider.
+Please read [this page on supported hosting providers](https://github.com/GeyserMC/Geyser/wiki/Supported-Hosting-Providers) to see if there are extra configuration steps required for your hosting or server provider.
 
 ## Port forwarding
 
