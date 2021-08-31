@@ -2,7 +2,7 @@ Do note that this is a community-compiled list and is incomplete! If you wish to
 
 ### AntiCheat compatibility reports
 
-Full Compatibility (Checks Bedrock Players)
+Full Compatibility (Checks Bedrock Players Accurately)
 
 - [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-16-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/) - Last Updated on 8/19/21
 - [NESS Reloaded](https://www.spigotmc.org/resources/ness-anti-cheat-reloaded.75887/) - Last Updated on 8/19/21
