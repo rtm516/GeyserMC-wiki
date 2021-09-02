@@ -16,6 +16,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - Custom anvil recipes
 - Heights lower than -64 or higher than 320 in the overworld with extended height enabled, and heights lower than 0 or higher than 256 in other dimensions
 - Dolphin's Grace potion effect visuals (effects should still work correctly)
+- Invisible item frames
 
 The following changes **are supported** with the [GeyserOptionalPack](https://github.com/GeyserMC/Geyser/wiki/GeyserOptionalPack), which is a Bedrock resource pack you can install for additional functionality for features Bedrock does not natively support:
 - Custom armor stand poses
