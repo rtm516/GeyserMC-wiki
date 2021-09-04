@@ -17,7 +17,7 @@ Partially Compatible (Does not Check/Ignores Bedrock Players)
 
 Incompatible (False Positives on Bedrock Players, no Compatibility at All)
 
-- [NoCheatPlus](https://ci.codemc.io/job/Updated-NoCheatPlus/job/Updated-NoCheatPlus/) ([Compat NCP](https://github.com/Updated-NoCheatPlus/CompatNoCheatPlus/releases/download/6.6.7/cncp.jar) is an addon that enables Partial Compatibility) - Last Updated on 8/19/21
+- [NoCheatPlus](https://ci.codemc.io/job/Updated-NoCheatPlus/job/Updated-NoCheatPlus/) ([Compat NCP](https://github.com/Updated-NoCheatPlus/CompatNoCheatPlus/) is an addon that enables Partial Compatibility - [Download](https://github.com/Updated-NoCheatPlus/CompatNoCheatPlus/releases/download/6.6.7/cncp.jar)) - Last Updated on 8/19/21
 - [Flappy Anticheat](https://www.spigotmc.org/resources/flappy-anticheat-1-16-1-17.92180/) - Last Updated on 8/19/21
 - [AntiCheatReloaded](https://www.spigotmc.org/resources/anticheatreloaded.23799/) - Last Updated on 8/19/21
 - [SoaromaSAC](https://www.spigotmc.org/resources/soaromasac-lightweight-cheat-detection-system.87702/) - Last Updated on 8/19/21
