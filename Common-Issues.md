@@ -21,9 +21,9 @@ For Floodgate issues see: [Floodgate: Known Issues/Caveats](https://github.com/G
 ### `java.net.BindException: Address already in use: bind` on startup.
 This means something (likely another instance of Geyser) is running on the port you have specified in the config. Please make sure you close all applications running on this port. If you don't recall opening anything, usually restarting your computer fixes this. 
 
-### `java.lang.AssertionError: Expected AES to be available` when a user tries to connect
+### [...]` has been compiled by a more recent version of the Java Runtime (class file version 60.0)`
 
-Update your Java at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
+See this link for updating to Java 16: https://paper.readthedocs.io/en/latest/java-update/index.html.
 
 ### Hosting provider will not immediately open up UDP.
 
