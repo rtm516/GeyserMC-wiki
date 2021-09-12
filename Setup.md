@@ -10,8 +10,9 @@ And if you still have questions, feel free to join the [Discord](https://discord
 
 - The server you are connecting to has to support the latest version of Minecraft Java Edition (at this time this is Minecraft 1.17.1)
 The server itself does not have to be the latest version but does have to allow connections. If you're running the server on an older version, you can use the plugin [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/), but do note that only **1.12.2 and any version above is officially supported**.
+- The device running Geyser must support Java 16. If you need help installing or updating, please see https://paper.readthedocs.io/en/latest/java-update/index.html.
 - If you are connecting to an online mode Java server, a paid Java account is required. If you are running the server, you can bypass this requirement for your server with [Floodgate](https://github.com/GeyserMC/Floodgate/wiki).
-- Your Bedrock client has to be a supported version - at this time that is Bedrock version 1.17/1.17.1/1.17.2/1.17.10/1.17.11.
+- Your Bedrock client has to be a supported version - at this time that is Bedrock version 1.17.10/1.17.11.
 - If you are running the server, you need to have a UDP port opened. See below for more instructions.
 
 ## Plugin Setup
