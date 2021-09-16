@@ -11,6 +11,7 @@ The following things cannot be fixed without changes to Bedrock or the Java prot
 - "Can be placed on/destroyed" tag for *some* blocks - for example, different colors of clay/wool that don't exist as separate blocks
 - Potion colors implemented using NBT
 - Various command arguments for any command that doesn't use the Minecraft Brigadier library
+- Anything that relies on tab complete or typing in the chat UI (related to the above) - Bedrock sends no packet that indicates they are in this menu
 - Unable to see banner layers past 6
 - Movement issues around bamboo due to offset differences between Java and Bedrock
 - Custom anvil recipes
