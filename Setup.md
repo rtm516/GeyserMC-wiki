@@ -62,7 +62,7 @@ Unlike Minecraft Java Edition, Bedrock Edition runs on port 19132 on the UDP pro
 ## Termux (Android)
 Please read the disclaimer [here](Setup#standalone-setup) before continuing.
 1. Download and install [Termux](https://termux.com/)
-2. Run `apt install default-jre`
+2. Run `pkg install openjdk-17`
 3. Run `wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/standalone/target/Geyser.jar`
 4. Run `java -jar Geyser.jar`
 
