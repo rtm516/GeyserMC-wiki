@@ -37,7 +37,7 @@ This usually has something to do on your host's end. Most commonly, it's because
 
 You may need to update your Java version. If so, update at [AdoptOpenJDK.net](https://adoptopenjdk.net/).
 
-Sometimes this happens in poor-network environments. There is a commented-out `mtu` option in the Geyser config; uncomment this and lower the number slowly (in batches of 100).
+Sometimes this happens in poor-network environments. There is an `mtu` option in the Geyser config; lower this number slowly (in batches of 100), restart each time, and re-test joining.
 
 This option will most likely not help if you are getting "Unable to Connect to World" with no console logs indicating a connection.
 
