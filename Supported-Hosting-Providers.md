@@ -7,7 +7,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 ## Built-in Geyser
 * [Aternos](https://aternos.org/) (Select as a plugin in the Aternos plugin list and connect to your server with your Java IP and port. See [Aternos's article](https://support.aternos.org/hc/en-us/articles/360051047631) for more details.)
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.)
-* [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360014342897-Geyser) for more details.)
+* [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360019857918-Geyser) for more details.)
 * [FreeMcServer.net](https://freemcserver.net) (Can be selected from the reinstall tab of the control panel)
 * [GGServers](https://ggservers.com) (Can easily be installed to any server in just one click from our auto plugin setups! No strenuous configuration needed.)
 * [MCProHosting](https://mcprohosting.com/) (Geyser-Spigot only: Click "Enable Bedrock Support" on your OneControlCenter server dashboard and follow the steps. For other versions: Add Destination Port 19132 with Protocol UDP to the [port forward mapping](https://mcprohosting.com/billing/knowledgebase/379/Firewall-and-Port-Management.html) and connect to the given source port.)
