@@ -41,6 +41,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Fluctis Hosting](https://fluctishosting.com) (Get the Geyser plugin. Use the same port as your Java Server for the Bedrock port in your config and connect with that port.) 
 * [FreeMC.Host](https://freemc.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [FreeMcServer.net](https://freemcserver.net) Get Geyser as a plugin. (Create a UDP port in ports tab then type it in your config and connect with that port.)
+* [Futurehosting](https://futurehosting.org/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your `bedrock` `address` in your Geyser config is your server IP.)
 * [GameHosting.it](https://www.gamehosting.it/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Google Cloud](https://cloud.google.com/) (Not a dedicated Minecraft provider)
   - 90 day/$300 free trial
