@@ -14,6 +14,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Minehut](https://minehut.com/) (Connect via `bedrock.minehut.com` and do `/join <servername>`.)
 * [OMGServ](https://www.omgserv.com/en/) (Select Geyser in [Install Menu](https://i.imgur.com/Gewpsrq.png), all is automatically installed. You can turn on/off floodgate in [server properties on the dashboard](https://i.imgur.com/jg5mzNj.png).)
 * [PloudOS](https://ploudos.com/) (Connect via `geyser.ploudos.com` and enter the with your Java IP and port. See [PloudOS's article](https://ploudos.com/faq/#How-do-I-connect-from-Bedrock-to-a-Java-server) for more details.)
+* [Pufferfish Host](https://pufferfish.host/) (Geyser is installed and configured on all servers by default.)
 * [SoulNode](https://soulnode.net/) (Select [Plugin Pack](https://i.imgur.com/7e2QEKV.png) at checkout to auto install Geyser. No extra setup required. Will auto bind to your default port to connect.)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page, this feature is built-in and uses the given port by the host.)
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port is the same as Java.)
