@@ -9,7 +9,7 @@
 | `geyser offhand` | `geyser.command.offhand` | Puts an item in your offhand. |
 | `geyser reload` | `geyser.command.reload` | Reloads the Geyser configurations. Kicks all players when used! |
 | `geyser settings` | `geyser.command.settings` | Opens a settings menu allowing you to modify aspects of the world. |
-| `geyser shutdown` <br> `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser. |
+| `geyser shutdown` <br> `geyser stop` | `geyser.command.shutdown` | Shuts down Geyser.<br>*This command only works on Standalone.* |
 | `geyser statistics` | `geyser.command.statistics` | Open the Java statistics menu. |
 | `geyser version` | `geyser.command.version` | Shows the current Geyser version and checks for updates. |
 
