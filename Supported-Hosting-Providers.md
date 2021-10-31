@@ -62,6 +62,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [MineStrator](https://minestrator.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Minecraft-Hosting.pro](https://www.minecraft-hosting.pro/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Minehub](https://minehub.de/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support different port.)
+* [NFOservers](https://nfoservers.com/) (Get Geyser as a plugin. Make sure your remote address and your bedrock address is your server IP in the Geyser config file. As an alternative, you can run Geyser standalone separately on an Unmanaged VDS.)
 * [NiCraft](https://www.ni-host.com/)
   - Use the same port as your Java server for the Bedrock port in your config and connect with that port.
   - See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).
@@ -96,7 +97,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 ## Does not support Geyser
 * [MCPEhost](https://mcpehost.ru/)
 * [MyArena](https://www.myarena.ru/) (Does seem to be working, but the java version is too old in order for Geyser to run properly.)
-* [NFOservers](https://nfoservers.com/) (As an alternative, you can run Geyser standalone separately. There has been one confirmed setup of Geyser with this host.)
 
 ##
 **Warning: Using a *”Free Host”* may not give you the best experience *at all*. If you want better support, more freedom to control your server, and learn how to run one, PLEASE pay for a server.**
