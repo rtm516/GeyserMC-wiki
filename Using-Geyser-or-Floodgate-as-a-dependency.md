@@ -39,8 +39,9 @@ GeyserSession session = GeyserConnector.getInstance().getPlayerByUuid(uuid);
 
 ## Using Floodgate
 
-See https://github.com/Camotoy/floodgate-skript/blob/master/pom.xml as a reference for now; this documentation will later be updated for Floodgate 2.0.
-Add floodgate's API as a dependency:
+This page has a very simple primer for the Floodgate API. For a full breakdown, see [here](https://github.com/GeyserMC/Floodgate/wiki/FloodgateApi).
+
+Add Floodgate's API as a dependency:
 ```xml
 <dependency>
     <groupId>org.geysermc.floodgate</groupId>
@@ -50,9 +51,8 @@ Add floodgate's API as a dependency:
 </dependency>
 ```
 
-Get floodgate API using:
+Get the Floodgate API using:
 ```java
 FloodgateApi api = FloodgateApi.getInstance();
 api.isFloodgatePlayer(uuid);
 ```
-Floodgate API supports many more features, for complete documentation of floodgate api, see [this](https://github.com/GeyserMC/Floodgate/wiki/FloodgateApi).
