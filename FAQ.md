@@ -57,23 +57,23 @@ You can add Bedrock resource packs to your Geyser installation in the `packs` fo
 
 ## How can Bedrock players hold items in their offhand?
 
-You can use the command `/geyser offhand`, which will swap the item in their main hand and offhand. There is also a setting you can enable in the config (`emote-offhand-workaround`) to allow Bedrock players to perform an emote in order to switch their main hand and off hand.
+You can use the command `/geyser offhand`, which will swap the item in their main hand and offhand. There is also a setting you can enable in the config (`emote-offhand-workaround`) to allow Bedrock players to perform an emote in order to switch their main hand and offhand.
 
 ## How do I include players in commands when using Floodgate?
-If there is a prefix on Floodgate players, you must include the prefix in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double-quotes around the name. 
+If there is a prefix on Floodgate players, you must include the prefix in the name. Floodgate also replaces all spaces in names with underscores, so be sure to replace any spaces with underscores when executing the command. If this does not work, put double quotes around the name. 
 
 Example: `/tp ".<bedrock_username>"`
 
 ## How do I add players to the whitelist when using Floodgate?
-There are three ways you can do this. The first way is to use Floodgate's built in whitelist command. `/fwhitelist add .<bedrock_username>`. The second way is tp turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add ".<bedrock_username>"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
+There are three ways you can do this. The first way is to use Floodgate's built-in whitelist command, `/fwhitelist add .<bedrock_username>`. The second way is to turn off the whitelist using `/whitelist off`, then get the Geyser player to join, then run `/whitelist add ".<bedrock_username>"`, then turn the whitelist back on using `/whitelist on`. (If using this method for a Bedrock account linked to an existing, whitelisted Java account, there is no need to _also_ whitelist the Bedrock account; you may link the accounts then immediately turn the whitelist back on.) The second way is to add the player's UUID as given by Floodgate to the whitelist.json file and then run `/whitelist reload`.
 
 ## How do I find a player's UUID without them joining when using Floodgate?
 Use [this page.](https://floodgate-uuid.heathmitchell1.repl.co/) If this doesn't work, then try this method:
 <br><br>
-First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example, [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal." You'll need to enter the player's Xbox Gamertag, and, once submitted, and it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. To turn the XUID into a UUID that Java Edition can recognize, you need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
+First, you'll need to get the XUID of the player. There are several third-party websites to find this, for example, [this one](https://cxkes.me/xbox/xuid) (unaffiliated with Geyser). Make sure to choose "Hexidecimal." You'll need to enter the player's Xbox Gamertag, and, once submitted, it should display the XUID in the format of `xxxxxxxxxxxxxxxx`. To turn the XUID into a UUID that Java Edition can recognize, you need to put the XUID in this format: `00000000-0000-0000-xxxx-xxxxxxxxxxxx`. If formatted right, Java Edition should accept it as a UUID.
 
 ## Can I remove the prefix of Floodgate players?
-While yes, you can remove the prefix. It is generally recommended not to remove the prefix to prevent situations where a players username are the same on both editions (Ex: Bedrock Username: `JohnDoe`, Java Username: `JohnDoe`). While they have different UUIDs, they have the same username, which may cause conflicts with commands that involve a player name. If you want to remove the prefix to use commands, Try adding quotation marks around the name. Example: `/tp ".<bedrock_username>"` Otherwise, the prefix is located in the Floodgate `config.yml` under `username-prefix:`.
+While you can remove the prefix, it is generally recommended not to remove the prefix to prevent situations where player usernames are the same on both editions (Ex: Bedrock Username: `JohnDoe`, Java Username: `JohnDoe`). While they have different UUIDs, they have the same username, which may cause conflicts with commands that involve a player name. If you want to remove the prefix to use commands, Try adding quotation marks around the name. Example: `/tp ".<bedrock_username>"` Otherwise, the prefix is located in the Floodgate `config.yml` under `username-prefix:`.
 
 ## Do I need Floodgate in order to use Geyser?
 No; Floodgate is only required if you wish to allow Bedrock clients to join without authenticating to Java servers. Without the Floodgate plugin, Geyser can either authenticate to Mojang in online mode, or join without authentication in an offline mode server (though this is unsupportable and dangerous as anyone can join your server and is against Mojang's EULA).
