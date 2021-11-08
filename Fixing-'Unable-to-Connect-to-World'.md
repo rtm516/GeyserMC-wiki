@@ -22,7 +22,7 @@ Especially on mobile devices, sometimes just restarting Minecraft fixes the issu
 
 # Is it the server or the client?
 
-Run your Java server IP and Bedrock address here: https://mcsrvstat.us/ . It's a great way of determining if the server is reachable in the first place.
+Run your Java server IP and Bedrock address here: https://mcsrvstat.us/. It's a great way of determining if the server is reachable in the first place.
 
 # General troubleshooting steps
 
