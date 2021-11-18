@@ -2,6 +2,12 @@
 
 User Guide
 - [Setup](Setup)
+  - [Plugin Setup](#plugin-setup)
+    - [Bungee/Velocity](#bungeecordvelocity-setup)
+  - [Standalone Setup](#standalone-setup)
+    - [GUI (Recommended)](#gui-setup-recommended)
+    - [Console](#console-setup)
+  - [Termux (Android)](#termux-android)
   - [NewTerm 2 (iOS)](Setup#newterm-2-ios)
   - [Videos](Setup#Setup-Videos)
 - [FAQ](FAQ)
