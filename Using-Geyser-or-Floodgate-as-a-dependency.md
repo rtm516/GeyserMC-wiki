@@ -15,13 +15,15 @@ To start, add the Open Collaboration repository to your project:
 
 ## Using Geyser
 
+*Please note: this information will be updated with a new API at a later point, but the old API structure will continue to work.*
+
 Add Geyser's common codebase as a dependency:
 
 ```xml
 <dependency>
     <groupId>org.geysermc</groupId>
-    <artifactId>connector</artifactId>
-    <version>1.4.3-SNAPSHOT</version>
+    <artifactId>core</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
 ```
