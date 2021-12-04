@@ -7,6 +7,7 @@ Full Compatibility (Checks Bedrock Players Accurately)
 - [AntiAura](https://www.spigotmc.org/resources/antiaura-premium-anti-cheat-plugin.1368/) - Last Updated on 8/19/21
 - [NESS Reloaded](https://www.spigotmc.org/resources/ness-anti-cheat-reloaded.75887/) - Last Updated on 8/19/21
 - [Themis](https://www.spigotmc.org/resources/themis-anti-cheat-1-16-x-bedrock-support-paper-tuinity-compatibility-free-optimized.90766/) - Last Updated on 8/19/21
+- [LightAntiCheat](https://www.spigotmc.org/resources/lightanticheat.96341/) - Last Updated on 12/4/21
 
 Partially Compatible (Does not Check/Ignores Bedrock Players)
 
