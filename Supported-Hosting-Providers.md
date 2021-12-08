@@ -34,7 +34,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [CubedHost](https://cubedhost.com/) (Get Geyser a plugin. Use the same address as your Java server for the Bedrock address in your config. See [here](https://cubedhost.com/help/en/articles/4632618-how-can-bedrock-players-join-my-java-edition-server) for specific instructions.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support a different port.)
 * [DedicatedMC](https://dedicatedmc.io/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
-* [EnviroMC](https://enviromc.host/) ((Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [EnviroMC](https://enviromc.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [ExtraVM](https://extravm.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address and your bedrock address is your server IP.)
 * [FadeHost](https://fadehost.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port or buy a dedicated IP address to support a different port.)
 * [FakaHeda](https://fakaheda.eu/) (Get Geyser as a plugin. Use the same port as your Java server or use one of the available ports allocated for your server, for the Bedrock port in your config and connect with that port.)
