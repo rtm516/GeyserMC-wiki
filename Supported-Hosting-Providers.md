@@ -22,6 +22,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [365Hosts](https://365hosts.com) (Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided.)
 
 ## Support for Geyser
+* hokus https://hokus.me just add geyser plugin and change the port in the config.hokus is also a free but best hosting provider  
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work.)
 * [Aquatis](https://aquatis.host/) (Get Geyser as a plugin. Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port.)
