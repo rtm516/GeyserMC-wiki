@@ -22,7 +22,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [365Hosts](https://365hosts.com) (Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided.)
 
 ## Support for Geyser
-* hokus https://hokus.me just add geyser plugin and change the port in the config.hokus is also a free but best hosting provider  
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
 * [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work.)
 * [Aquatis](https://aquatis.host/) (Get Geyser as a plugin. Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port.)
@@ -54,6 +53,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Heavynode](https://www.heavynode.com/) (Get Geyser as a plugin. Use default port and 0.0.0.0 as the address. 19132 is blocked for DDOS reasons so your best bet is to use the same port as your Java server for the Bedrock port in your config and connect with that port. Also, see [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-%22Unable-to-Connect-to-World%22#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server))
 * [Hetzner](https://hetzner.com) (Not a dedicated Minecraft provider.)
 * [Hicoria](https://hicoria.com/en/) (Get Geyser as a plugin. Use the one of the available ports allocated for your server, for the Bedrock port in your config and connect with that port.)
+* [hokus](https://hokus.me) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [HostMC4Free](https://hostmc4free.com) (Order new service, choose Geyser in Bedrock section, and open a ticket to request a second port all ports support UDP)
 * [HostValues](https://hostvalues.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [HumbleServers](https://humbleservers.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config, or one of the two extra ports, and connect with that port. If the subdomain doesn't work, use your regular IP address with numbers.)
