@@ -112,7 +112,7 @@ Setup tutorials in a variety of languages.
 ### Russian
 **ПОДНИМАЕМ СЕРВЕР JAVA+BEDROCK MINECRAFT** by [UncleZak](https://www.youtube.com/watch?v=nrFQ6BlOsLc)
 
-[![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
+[![YouTube Video](https://img.youtube.com/vi/nrFQ6BlOsLc/0.jpg)](https://www.youtube.com/watch?v=nrFQ6BlOsLc)
 
 **Кроссплатформенный сервер Minecraft | GeyserMC Installation** by [Plutonium](https://www.youtube.com/channel/UCxXjEZgHcjMIYoHoDKOCBOw)
 
