@@ -110,7 +110,7 @@ Setup tutorials in a variety of languages.
 [![YouTube Video](https://i.ytimg.com/vi/2HwqbDHWwu8/hqdefault.jpg)](https://youtu.be/2HwqbDHWwu8)
 
 ### Russian
-**ЗАШЕЛ НА ХАЙПИКСЕЛЬ С МКПЕ? ЧИТЕРСКИЙ КОНФИГ!** by [TOWUK](https://www.youtube.com/channel/UCK8v-rGsfCOkpbi0slIpAng)
+**ПОДНИМАЕМ СЕРВЕР JAVA+BEDROCK MINECRAFT** by [UncleZak](https://www.youtube.com/watch?v=nrFQ6BlOsLc)
 
 [![YouTube Video](https://img.youtube.com/vi/KcZZp05EfVQ/0.jpg)](https://www.youtube.com/watch?v=KcZZp05EfVQ)
 
