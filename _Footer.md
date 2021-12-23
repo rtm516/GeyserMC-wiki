@@ -1,1 +1,1 @@
-2019 - 2021 © GeyserMC
+<font class="papago-parent"><font class="papago-source" style="display:none;">2019 - 2021 © GeyserMC</font>2019 - 2021년 © GeyserMC</font>
