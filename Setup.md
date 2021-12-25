@@ -1,3 +1,10 @@
+crmap.mc-srv.com
+crmap.ga
+mc.warpixel.tk
+
+Im FuckAdarsh
+
+
 Bedrock clients will join through Geyser and it will handle all the packet translations. There are six different versions of Geyser: Geyser for Spigot (works on derivatives such as Paper), Geyser for BungeeCord (also works on Waterfall), Geyser for Velocity, Geyser for Sponge, Geyser for Fabric (does not support client required mods, and more info about that can be found [here](https://github.com/GeyserMC/Geyser/wiki/Geyser-Fabric)) and Geyser Standalone. The first five versions run as plugins/mods and can be installed directly onto the server. The standalone version can be used in a similar way, except you run it separately. 
 
 If you are running a server, it is highly recommended you use one of the plugin versions, and if you want to join a server that does not have Geyser installed, you can run the standalone version. If you use Pterodactyl Panel we have an egg for the standalone version, please see [here](FAQ#can-i-use-geyser-with-pterodactyl-panel) for more information.
