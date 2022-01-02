@@ -85,7 +85,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [SoYouStart](https://www.soyoustart.com) (See [here](https://github.com/GeyserMC/Geyser/wiki/Fixing-'Unable-to-Connect-to-World'#bedrock-players-can-connect-after-hitting-the-server-on-a-tcp-port-eg-on-java-or-a-website-on-the-same-server).)
 * [Sparked Host](https://sparkedhost.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [SpawnMC](https://spawnmc.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in China.)
-* [StellaNode](https://stellanode.com/) (Get Geyser as a plugin. In your config, use the same port as your Java server for the Bedrock port and connect with that port.)
+* [StellaNode](https://stellanode.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [STIPE](https://stipe.com.au/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider only provides service in Australia.)
 * [SyntexHosting](https://syntexhosting.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in the config and connect with that port, or request a (free) additional port for your bedrock clients.)
 * [The Minecraft Hosting](https://theminecrafthosting.com/) (Get Geyser as a plugin. 19132 should work as a Bedrock port, if not use the same port as your Java server for the Bedrock port in your config and connect with that port.)
