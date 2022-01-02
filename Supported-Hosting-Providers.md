@@ -31,7 +31,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Clovux](https://clovux.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port. Make sure your remote address is 'auto' and your bedrock address is your server IP.)
 * [Consulhosting](https://consulhosting.nl/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [Craft-Hosting](https://craft-hosting.ru/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port; note that this provider appears to only provide service in Russia.)
-* [CubedHost](https://cubedhost.com/) (Get Geyser a plugin. Use the same address as your Java server for the Bedrock address in your config. See [here](https://cubedhost.com/help/en/articles/4632618-how-can-bedrock-players-join-my-java-edition-server) for specific instructions.)
 * [Dashflo.net](https://dashflo.net/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or buy a dedicated IP address to support a different port.)
 * [DedicatedMC](https://dedicatedmc.io/) (Get Geyser as a plugin. Need to ask to open the default bedrock port.)
 * [EnviroMC](https://enviromc.host/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
@@ -77,6 +76,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [PlanetNode](https://planetnode.net) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [PUBCS](https://pubcs.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, or upgrade to a plan that includes dedicated IP address to support a different port.)
 * [RamShard](https://ramshard.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
+* [ReviveHost](https://revivehost.com) (Get Geyser as a plugin. Request an additional port and put that port in your config.yml for the Bedrock server)
 * [Revivenode](https://revivenode.com/) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port.)
 * [ScalaCube](https://scalacube.com/) (Get Geyser as a plugin. Use the same address and port as your Java server for the Bedrock address and port in your config and connect with that port.)
 * [Server.pro](https://server.pro) (**Update as of December 21, 2021 - a VPS plan is recommended by server.pro; other plans will not work or be very unreliable. Geyser can't do anything about this. The following instructions are untouched from before this update**. Get Geyser as a plugin. If you are using a Premium or Free plan, use the same port as your Java server for the Bedrock port in the configuration file and connect with that same port; for the Free plan, also enable the `clone-remote-port` option; leave the IP values as default (`0.0.0.0` and `auto`). If you are using a Pro or VPS plan, you can use any port you'd like and it's recommended to leave it to the default or `19132`.)
@@ -94,7 +94,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Vultam](https://vultam.net/) (Get Geyser as a plugin. Use the same port as your Java server and 0.0.0.0 as the address for Bedrock, or request an additional port. The additional port can be 19132 if you buy a dedicated IP.)
 * [WinterNode](https://winternode.com) (Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config and connect with that port, request an additional port, or buy a dedicated IP address.)
 * [WitherHosting](https://witherhosting.com/) (Get Geyser as a plugin. Put the port provided by the host in your config.yml for the Java and bedrock sections, or create a port in the ports manager on the panel and use that for bedrock with the main one for Java, and you will be able to connect! Refer to the hosts [support article](https://support.witherhosting.com/en/article/how-to-install-and-use-geysermc-1xn5l6v/) for more)
-* [ReviveHost](https://revivehost.com) (Get Geyser as a plugin.  Request an additional port and put that port in your config.yml for the Bedrock server)
 
 ## Does not support Geyser
 * [MCPEhost](https://mcpehost.ru/)
