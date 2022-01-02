@@ -17,6 +17,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 * [Pufferfish Host](https://pufferfish.host/) (Geyser is installed and configured on all servers by default.)
 * [SoulNode](https://soulnode.net/) (Select [Plugin Pack](https://i.imgur.com/7e2QEKV.png) at checkout to auto-install Geyser. No extra setup required. Will auto bind to your default port to connect.)
 * [SRKHOST](https://www.srkhost.eu/) (You can enable Geyser at the Version changer page. This feature is built-in and uses the given port by the host.)
+* [StellaNode](https://stellanode.com/) (Install Geyser as a plugin. In your configuration, use the same port as your Java server for the Bedrock port and connect to that port. Make sure your remote address is set to 'auto,' and that your bedrock address is set to '0.0.0.0'.)
 * [Virtual Gladiators](https://virtualgladiators.com/) (Find the plugin in the control panel under the "VG Recommended" category and restart your server. IP and port are the same as Java.)
 * [ZapHosting](https://zap-hosting.com/en/) (Find the plugin in the control panel and restart your server. IP and port is the same as Java.)
 * [365Hosts](https://365hosts.com) (Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and simply order your server. Instructions on how to join are provided.)
