@@ -1,1 +1,0 @@
-Gayser is gay
