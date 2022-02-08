@@ -5,6 +5,7 @@ It should also be noted that these providers may not be verified by the Geyser t
 **Warning: The below information is for the plugin versions of Geyser unless otherwise specified**
 
 ## Built-in Geyser
+* [Apex Hosting](https://apexminecrafthosting.com/) (Full auto installation. Go to the `Customizations` tab in the panel and select `Enabled` under the `Geyser Auto Installer` option then restart and connect to your server with your Java IP and port. See [Apex's article](https://apexminecrafthosting.com/geysermc/) for more details.)
 * [Aternos](https://aternos.org/) (Select as a plugin in the Aternos plugin list and connect to your server with your Java IP and port. See [Aternos's article](https://support.aternos.org/hc/en-us/articles/360051047631) for more details.)
 * [CreeperHost](https://www.creeperhost.net/) (Has a toggle within the control panel to automatically enable Geyser. May not be enabled by default, so you may need to toggle it and restart the server.)
 * [exaroton](https://exaroton.com/) (Select as a plugin in the exaroton plugin list and connect to your server with your Java IP and port. See [exaroton's article](https://support.exaroton.com/hc/en-us/articles/360019857918-Geyser) for more details.)
@@ -23,7 +24,6 @@ It should also be noted that these providers may not be verified by the Geyser t
 
 ## Support for Geyser
 * [Akliz](https://www.akliz.net/) (Get Geyser as a plugin. They should have a port forwarding option that works.)
-* [Apex Hosting](https://apexminecrafthosting.com/) (Get Geyser as a plugin. Need to set the Bedrock address in the config on the Java IP, default port may not work.)
 * [Aquatis](https://aquatis.host/) (Get Geyser as a plugin. Need to open a support ticket to get UDP ports and then update the config to reflect your new Bedrock port.)
 * [Azure](https://azure.microsoft.com/) (Get Geyser as a plugin. Not a dedicated Minecraft service provider.)
 * [BisectHosting](https://www.bisecthosting.com/) (Get Geyser as a plugin. Need to ask to open a UDP port, and set the Bedrock address in the config to the Java IP. To open a UDP port, you need to have a dedicated IP.)
